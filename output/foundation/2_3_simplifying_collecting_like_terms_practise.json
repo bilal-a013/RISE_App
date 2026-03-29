@@ -1,0 +1,75 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Simplifying & Collecting Like Terms",
+  "lesson_type": "practise",
+  "recap": "Like terms share the same variable(s) and power — add or subtract their coefficients to simplify.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Simplify: 7x + 3x.",
+      "solution": {
+        "steps": ["Both terms are x terms. 7 + 3 = 10."],
+        "final_answer": "10x"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Simplify: 5m + 4n - 3m + 2n.",
+      "solution": {
+        "steps": [
+          "Group m terms: 5m - 3m = 2m.",
+          "Group n terms: 4n + 2n = 6n."
+        ],
+        "final_answer": "2m + 6n"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Simplify: 6a squared + 3a - 2a squared + a - 5.",
+      "solution": {
+        "steps": [
+          "Group a squared terms: 6a squared - 2a squared = 4a squared.",
+          "Group a terms: 3a + a = 4a.",
+          "Constant: -5."
+        ],
+        "final_answer": "4a squared + 4a - 5"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Simplify: 5x squared y x 2xy.",
+      "solution": {
+        "steps": [
+          "Multiply coefficients: 5 x 2 = 10.",
+          "Multiply x terms: x squared x x = x cubed.",
+          "Multiply y terms: y x y = y squared."
+        ],
+        "final_answer": "10x cubed y squared"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Simplify fully: (12p cubed q squared) / (4p squared q).",
+      "solution": {
+        "steps": [
+          "Divide coefficients: 12 / 4 = 3.",
+          "Divide p terms: p cubed / p squared = p to the power 1 = p.",
+          "Divide q terms: q squared / q = q to the power 1 = q.",
+          "Combine: 3pq."
+        ],
+        "final_answer": "3pq"
+      }
+    }
+  },
+  "summary": [
+    "Collect like terms by adding or subtracting their coefficients — keep the variable and power the same.",
+    "x squared and x are NOT like terms and cannot be simplified together.",
+    "When multiplying powers with the same base, add the indices.",
+    "When dividing powers with the same base, subtract the indices."
+  ]
+}
