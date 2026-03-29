@@ -1,0 +1,74 @@
+{
+  "topic": "Ratio, Proportion & Rates of Change (Higher)",
+  "subtopic": "Gradient as Rate of Change",
+  "lesson_type": "practise",
+  "recap": "Gradient = change in y / change in x. On a distance-time graph, gradient = speed. On a velocity-time graph, gradient = acceleration. For curves, draw a tangent to estimate the gradient.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A distance-time graph shows a straight line from (2, 10) to (6, 50). Calculate the speed.",
+      "solution": {
+        "steps": ["Gradient = (50 - 10) / (6 - 2) = 40 / 4 = 10 m/s."],
+        "final_answer": "Speed = 10 m/s"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A velocity-time graph shows a line from (0, 20) to (5, 0). Find the acceleration and describe the motion.",
+      "solution": {
+        "steps": [
+          "Gradient = (0 - 20) / (5 - 0) = -20 / 5 = -4.",
+          "Acceleration = -4 m/s squared. The object is decelerating (slowing down) at 4 m/s squared."
+        ],
+        "final_answer": "Acceleration = -4 m/s squared (decelerating)"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A velocity-time graph shows a trapezium with corners at (0, 0), (3, 12), (7, 12), and (10, 0). Calculate the total distance travelled.",
+      "solution": {
+        "steps": [
+          "Area under graph = distance. The shape is a trapezium.",
+          "Area = 1/2 x (sum of parallel sides) x height = 1/2 x (4 + 10) x 12.",
+          "Area = 1/2 x 14 x 12 = 84 m."
+        ],
+        "final_answer": "Total distance = 84 m"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Describe the motion shown by this distance-time graph: starts at (0, 0), goes to (3, 30), horizontal from (3, 30) to (5, 30), then goes to (8, 0).",
+      "solution": {
+        "steps": [
+          "Phase 1 (0 to 3 s): gradient = 30/3 = 10 m/s, moving away at constant speed.",
+          "Phase 2 (3 to 5 s): gradient = 0, stationary.",
+          "Phase 3 (5 to 8 s): gradient = (0 - 30) / (8 - 5) = -10 m/s, returning at 10 m/s."
+        ],
+        "final_answer": "Moves at 10 m/s for 3 s, stationary for 2 s, returns at 10 m/s for 3 s"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A curved distance-time graph passes through (2, 4) and (6, 36). A tangent at x = 4 passes through (1, 2) and (7, 26). Estimate the speed at x = 4 seconds.",
+      "solution": {
+        "steps": [
+          "The gradient of the tangent gives the instantaneous speed at x = 4.",
+          "Gradient = (26 - 2) / (7 - 1) = 24 / 6 = 4.",
+          "Speed at x = 4 s is approximately 4 m/s."
+        ],
+        "final_answer": "Speed ≈ 4 m/s at x = 4 s"
+      }
+    }
+  },
+  "summary": [
+    "Gradient = change in y / change in x. Always include units from the axis labels.",
+    "On a distance-time graph: steeper = faster, horizontal = stopped, negative = returning.",
+    "On a velocity-time graph: gradient = acceleration; area under graph = distance.",
+    "For a curve, draw a tangent at the point and use its gradient as the instantaneous rate of change."
+  ]
+}

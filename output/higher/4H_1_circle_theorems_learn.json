@@ -1,0 +1,23 @@
+{
+  "topic": "Geometry & Measures (Higher)",
+  "subtopic": "Circle Theorems",
+  "lesson_type": "learn",
+  "intro": "Circle theorems are rules about angles and lines in and around circles. Learning the eight key theorems with their names lets you justify your answers in exam questions — just giving a number without a reason will not earn full marks.",
+  "explanation": "The eight main circle theorems:\n\n1. Angle at the centre is twice the angle at the circumference.\nIf two lines go from the same two points on the circumference, the angle at the centre is double the angle at the circumference.\n\n2. Angle in a semicircle is 90 degrees.\nIf one side of the triangle is the diameter, the angle at the circumference is always 90 degrees.\n\n3. Angles in the same segment are equal.\nAngles created by the same chord, on the same side, are equal.\n\n4. Opposite angles in a cyclic quadrilateral add up to 180 degrees.\nA cyclic quadrilateral has all four vertices on the circle.\n\n5. The angle between a tangent and a radius is 90 degrees.\nA tangent touches the circle at exactly one point.\n\n6. Tangents from an external point are equal in length.\nTwo tangents drawn from the same point outside the circle are the same length.\n\n7. The perpendicular from the centre to a chord bisects the chord.\nA line from the centre that meets a chord at 90 degrees cuts it in half.\n\n8. Alternate segment theorem.\nThe angle between a tangent and a chord equals the angle in the alternate segment.\n\nTip for exam questions: always state the theorem name or a brief description as your reason.",
+  "worked_example": {
+    "question": "O is the centre of a circle. Points A, B, and C are on the circumference. Angle AOB = 136 degrees. Find angle ACB.",
+    "steps": [
+      "Angle ACB is the angle at the circumference subtended by arc AB.",
+      "Angle AOB = 136 degrees is the angle at the centre subtended by the same arc AB.",
+      "Angle at the centre = 2 x angle at the circumference.",
+      "Angle ACB = 136 / 2 = 68 degrees.",
+      "Reason: The angle at the centre is twice the angle at the circumference (same arc)."
+    ],
+    "final_answer": "Angle ACB = 68 degrees"
+  },
+  "common_mistakes": [
+    "Not stating the theorem as a reason — always write the theorem name or description to get the method mark.",
+    "Confusing 'angle at the centre = twice angle at circumference' with 'half' — the angle at the circumference is HALF the centre angle.",
+    "Forgetting that the alternate segment theorem involves the tangent-chord angle, not two chord-chord angles."
+  ]
+}

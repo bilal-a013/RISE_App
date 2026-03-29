@@ -1,0 +1,20 @@
+{
+  "topic": "Probability & Statistics (Higher)",
+  "subtopic": "Conditional Probability",
+  "lesson_type": "learn",
+  "intro": "Conditional probability is the probability of an event happening given that another event has already occurred. The condition changes which outcomes are possible.",
+  "explanation": "The conditional probability of A given B is written as P(A | B).\nIt is calculated as: P(A | B) = P(A and B) / P(B).\n\nThis formula means: of all the times B happens, what fraction of those times does A also happen?\n\nExample using a two-way table:\nImagine 100 students. 60 study French, 40 study Spanish. 25 study both.\nP(French | Spanish) = P(French and Spanish) / P(Spanish) = 25/100 / 40/100 = 25/40 = 5/8.\n\nConditional probability with tree diagrams:\nWhen events are dependent (the outcome of the first affects the second), the probabilities on the second set of branches change based on what happened first.\nExample: A bag has 3 red and 5 blue balls. Two are picked without replacement.\nP(red second | red first) = 2/7, because after taking one red ball there are 2 red and 5 blue remaining.\n\nKey language:\n'Without replacement' means each draw changes the probabilities — use conditional probability.\n'With replacement' means the probabilities stay the same each draw — events are independent.\n\nSometimes you fill in a Venn diagram or two-way table first, then read off the conditional probability from the relevant region only.",
+  "worked_example": {
+    "question": "A bag has 4 green and 6 yellow counters. Two are taken without replacement. Find the probability that the second counter is yellow given the first was yellow.",
+    "steps": [
+      "After taking one yellow counter, there are 3 yellow and 4 green left — 9 counters in total.",
+      "P(second yellow | first yellow) = 3/9 = 1/3."
+    ],
+    "final_answer": "1/3"
+  },
+  "common_mistakes": [
+    "Using the original totals instead of updating them — after each draw without replacement, adjust the denominator and the count of whatever was drawn.",
+    "Confusing P(A | B) with P(B | A) — these are generally not the same. The condition (the part after the vertical bar) tells you which event happened first.",
+    "Not reading 'given' in the question — always check whether a condition has been stated before calculating the probability."
+  ]
+}

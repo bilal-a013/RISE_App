@@ -1,0 +1,23 @@
+{
+  "topic": "Ratio, Proportion & Rates of Change (Higher)",
+  "subtopic": "Growth & Decay",
+  "lesson_type": "learn",
+  "intro": "Growth and decay describe situations where a quantity increases or decreases by a percentage repeatedly over time. Compound interest and population change are common examples.",
+  "explanation": "The multiplier method is the most efficient approach.\n\nFor a percentage increase of r %: multiplier = 1 + r/100.\nFor a percentage decrease of r %: multiplier = 1 - r/100.\n\nGeneral formula:\nFinal amount = Initial amount x multiplier to the power of n\nwhere n is the number of time periods.\n\nThis is often written as A = P x (1 + r/100) to the power n.\n\nCompound interest:\nMoney in a bank account earning 3% per year: multiply by 1.03 each year.\nAfter 4 years: A = P x 1.03 to the power 4.\n\nExponential decay:\nA car loses 15% of its value per year: multiplier = 0.85.\nAfter 5 years: Value = Initial x 0.85 to the power 5.\n\nDifference between simple and compound:\nSimple interest: add the same amount each year (percentage of original only).\nCompound interest: percentage applies to the growing total each time.\n\nFor time periods other than years — use the appropriate multiplier for each period (monthly, daily etc.).\n\nSolving for n (finding the time):\nIf you know the final amount and need to find how many periods, use trial and improvement, or logarithms if required.",
+  "worked_example": {
+    "question": "A car is bought for 12,000 pounds. It loses 18% of its value each year. What is its value after 3 years? Give your answer to the nearest pound.",
+    "steps": [
+      "Percentage decrease of 18%. Multiplier = 1 - 0.18 = 0.82.",
+      "After 3 years: Value = 12000 x 0.82 to the power 3.",
+      "0.82 cubed = 0.551368.",
+      "Value = 12000 x 0.551368 = 6616.42.",
+      "To the nearest pound: 6616 pounds."
+    ],
+    "final_answer": "6616 pounds"
+  },
+  "common_mistakes": [
+    "Using simple interest instead of compound — remember to apply the percentage to the updated total each time, not the original.",
+    "Using the wrong multiplier: for a 20% decrease the multiplier is 0.80, not 0.20.",
+    "Forgetting to raise the multiplier to the power of n — multiplying by the multiplier once only gives the result after one period."
+  ]
+}

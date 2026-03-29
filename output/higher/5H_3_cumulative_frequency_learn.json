@@ -1,0 +1,23 @@
+{
+  "topic": "Probability & Statistics (Higher)",
+  "subtopic": "Cumulative Frequency",
+  "lesson_type": "learn",
+  "intro": "Cumulative frequency shows the running total of frequencies up to each data value. Plotting these values creates a cumulative frequency curve that lets you estimate the median, quartiles, interquartile range, and draw box plots.",
+  "explanation": "Building cumulative frequency:\nAdd up the frequencies as you go through the table. Each cumulative frequency value is the total number of values up to and including that group.\n\nPlotting the curve:\nPlot each cumulative frequency against the upper class boundary of each group. Connect the points with a smooth S-shaped curve. Start the curve at the lower boundary of the first class with a cumulative frequency of zero.\n\nReading values from the curve:\nFor a data set with n values:\n- Median = value at n/2.\n- Lower quartile (Q1) = value at n/4.\n- Upper quartile (Q3) = value at 3n/4.\n- Interquartile range (IQR) = Q3 - Q1.\n\nTo read a value: go across from the frequency on the y-axis to the curve, then read down to the x-axis.\n\nBox plots:\nA box plot shows the minimum, Q1, median, Q3, and maximum.\nThe box spans from Q1 to Q3. A vertical line inside the box marks the median. Whiskers extend from the box to the minimum and maximum values.\n\nThe IQR measures the spread of the middle 50% of data. A smaller IQR means the data is more consistent.",
+  "worked_example": {
+    "question": "40 students sat a test. From the cumulative frequency curve, the values at n/4 = 10, n/2 = 20, and 3n/4 = 30 correspond to scores of 34, 48, and 57. Find the median, IQR, and describe the spread.",
+    "steps": [
+      "Median = value at n/2 = 20th value = 48 marks.",
+      "Lower quartile Q1 = value at n/4 = 10th value = 34 marks.",
+      "Upper quartile Q3 = value at 3n/4 = 30th value = 57 marks.",
+      "IQR = Q3 - Q1 = 57 - 34 = 23 marks.",
+      "The middle 50% of students scored within a range of 23 marks."
+    ],
+    "final_answer": "Median = 48, IQR = 23"
+  },
+  "common_mistakes": [
+    "Plotting cumulative frequencies against the midpoint of each class instead of the upper class boundary.",
+    "Reading median as n instead of n/2 — always halve the total to find which value the median is at.",
+    "Drawing straight lines between points instead of a smooth curve — a cumulative frequency graph should be a smooth S-shape."
+  ]
+}

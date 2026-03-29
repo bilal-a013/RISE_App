@@ -1,0 +1,73 @@
+{
+  "topic": "Probability & Statistics (Higher)",
+  "subtopic": "Cumulative Frequency",
+  "lesson_type": "practise",
+  "recap": "Plot cumulative frequencies against upper class boundaries. Median = value at n/2; Q1 = value at n/4; Q3 = value at 3n/4. IQR = Q3 - Q1. A box plot shows min, Q1, median, Q3, max.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A frequency table has groups 0-10, 10-20, 20-30 with frequencies 8, 15, 7. Write the cumulative frequencies.",
+      "solution": {
+        "steps": ["0-10: CF = 8. 10-20: CF = 8 + 15 = 23. 20-30: CF = 23 + 7 = 30."],
+        "final_answer": "8, 23, 30"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "From a cumulative frequency curve for 60 students, the median is at the 30th value = 52 marks, Q1 is at the 15th value = 42 marks, Q3 is at the 45th value = 61 marks. Find the IQR.",
+      "solution": {
+        "steps": [
+          "IQR = Q3 - Q1 = 61 - 42 = 19 marks."
+        ],
+        "final_answer": "IQR = 19 marks"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "80 people were surveyed on how long they waited. From the curve: Q1 = 12 mins, median = 20 mins, Q3 = 30 mins. The minimum was 2 mins and maximum was 45 mins. Describe the five number summary for a box plot.",
+      "solution": {
+        "steps": [
+          "Min = 2, Q1 = 12, Median = 20, Q3 = 30, Max = 45.",
+          "IQR = 30 - 12 = 18 mins.",
+          "The data is slightly positively skewed (median is closer to Q1 than Q3)."
+        ],
+        "final_answer": "Min=2, Q1=12, Median=20, Q3=30, Max=45; IQR=18"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "From the cumulative frequency curve for 100 values, estimate the number of values greater than 35 if the cumulative frequency at 35 is 72.",
+      "solution": {
+        "steps": [
+          "Cumulative frequency up to 35 = 72.",
+          "Number of values greater than 35 = 100 - 72 = 28."
+        ],
+        "final_answer": "28 values"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Class A (50 students): median 55, IQR 10. Class B (50 students): median 62, IQR 22. Compare the two distributions.",
+      "solution": {
+        "steps": [
+          "Class B has a higher median (62 vs 55), so Class B performed better on average.",
+          "Class A has a smaller IQR (10 vs 22), so Class A's results are more consistent.",
+          "Class B's larger IQR means scores are more spread out — a wider range of ability.",
+          "Overall: Class B achieved higher marks but with less consistency than Class A."
+        ],
+        "final_answer": "Class B scored higher on average (median 62 vs 55) but Class A was more consistent (IQR 10 vs 22)"
+      }
+    }
+  },
+  "summary": [
+    "Plot cumulative frequencies at upper class boundaries. Start the curve at zero at the lower boundary of the first class.",
+    "Median at n/2, Q1 at n/4, Q3 at 3n/4. IQR = Q3 - Q1 = spread of the middle 50%.",
+    "A box plot uses: minimum, Q1, median, Q3, maximum. The box covers Q1 to Q3.",
+    "When comparing two distributions, comment on both average (median) and spread (IQR)."
+  ]
+}

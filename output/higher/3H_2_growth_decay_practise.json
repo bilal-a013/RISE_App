@@ -1,0 +1,78 @@
+{
+  "topic": "Ratio, Proportion & Rates of Change (Higher)",
+  "subtopic": "Growth & Decay",
+  "lesson_type": "practise",
+  "recap": "Use A = P x multiplier to the power n. For r% increase, multiplier = 1 + r/100. For r% decrease, multiplier = 1 - r/100.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A population of 5000 increases by 4% each year. What is the population after 1 year?",
+      "solution": {
+        "steps": ["5000 x 1.04 = 5200."],
+        "final_answer": "5200"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "500 pounds is invested at 3% compound interest per year. How much is there after 4 years? Give your answer to the nearest penny.",
+      "solution": {
+        "steps": [
+          "Multiplier = 1.03. A = 500 x 1.03 to the power 4.",
+          "1.03 to the power 4 = 1.12551. A = 500 x 1.12551 = 562.75 pounds (to nearest penny)."
+        ],
+        "final_answer": "562.75 pounds"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A motorbike costs 8000 pounds. It depreciates at 12% per year. What is its value after 5 years? Give your answer to the nearest pound.",
+      "solution": {
+        "steps": [
+          "Multiplier = 0.88. A = 8000 x 0.88 to the power 5.",
+          "0.88 to the power 5 = 0.52773. A = 8000 x 0.52773 = 4221.86.",
+          "To the nearest pound: 4222 pounds."
+        ],
+        "final_answer": "4222 pounds"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A town had a population of 20,000 in 2010. By 2020 it had grown to 26,533. Assuming constant percentage growth each year, what was the annual growth rate? Give your answer to 1 d.p.",
+      "solution": {
+        "steps": [
+          "26533 = 20000 x r to the power 10. r to the power 10 = 26533 / 20000 = 1.32665.",
+          "r = 1.32665 to the power (1/10) = 1.02849...",
+          "Growth rate per year = 2.8% (to 1 d.p.)."
+        ],
+        "final_answer": "2.8% per year"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Amy puts 1000 pounds into an account at 2.5% compound interest per year. Ben puts 1200 pounds into an account losing 1% per year. After how many complete years will Amy's account have more money than Ben's? Show your working.",
+      "solution": {
+        "steps": [
+          "Amy: A(n) = 1000 x 1.025 to the power n. Ben: B(n) = 1200 x 0.99 to the power n.",
+          "Try n = 10: Amy = 1000 x 1.025^10 = 1280.08. Ben = 1200 x 0.99^10 = 1086.24. Amy > Ben.",
+          "Try n = 8: Amy = 1000 x 1.025^8 = 1218.40. Ben = 1200 x 0.99^8 = 1109.30. Amy > Ben.",
+          "Try n = 7: Amy = 1000 x 1.025^7 = 1188.69. Ben = 1200 x 0.99^7 = 1120.50. Amy > Ben.",
+          "Try n = 6: Amy = 1000 x 1.025^6 = 1159.69. Ben = 1200 x 0.99^6 = 1131.81. Amy > Ben.",
+          "Try n = 5: Amy = 1000 x 1.025^5 = 1131.41. Ben = 1200 x 0.99^5 = 1143.25. Amy < Ben.",
+          "After 6 complete years Amy has more."
+        ],
+        "final_answer": "After 6 complete years"
+      }
+    }
+  },
+  "summary": [
+    "Compound growth formula: A = P x (multiplier) to the power n, where multiplier = 1 + r/100 for growth or 1 - r/100 for decay.",
+    "Always identify the multiplier carefully before raising it to the power.",
+    "Compound interest grows faster than simple interest because each year's interest is added to the total before the next calculation.",
+    "To find the time period, substitute trial values of n or use logarithms."
+  ]
+}

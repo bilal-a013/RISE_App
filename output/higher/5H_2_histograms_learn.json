@@ -1,0 +1,20 @@
+{
+  "topic": "Probability & Statistics (Higher)",
+  "subtopic": "Histograms",
+  "lesson_type": "learn",
+  "intro": "Histograms look like bar charts but they are used for continuous data in groups of different widths. The key difference is that the height of each bar is the frequency density, not the frequency.",
+  "explanation": "Frequency density = frequency / class width.\nRearranging: frequency = frequency density x class width.\nThis means the area of each bar represents the frequency.\n\nReading a histogram:\nTo find the frequency for a class, multiply the frequency density (height) by the class width.\n\nDrawing a histogram:\n1. Calculate the class width for each group.\n2. Calculate the frequency density = frequency / class width.\n3. Draw bars with height equal to the frequency density.\n4. Label the y-axis 'Frequency density', not 'Frequency'.\n\nExample:\nClass: 10 to 20, frequency = 15. Class width = 10. Frequency density = 15 / 10 = 1.5.\nClass: 20 to 25, frequency = 10. Class width = 5. Frequency density = 10 / 5 = 2.\n\nNote: Bars in a histogram touch — there are no gaps.\n\nMissing frequencies:\nIf some bars are drawn and some frequency data is missing, use area = frequency density x class width to find the missing frequency from the graph.",
+  "worked_example": {
+    "question": "A histogram has a bar from 20 to 30 with frequency density 3.5, and a bar from 30 to 40 with frequency density 2.0. Find the frequencies for each class.",
+    "steps": [
+      "Class 20 to 30: class width = 10. Frequency = 3.5 x 10 = 35.",
+      "Class 30 to 40: class width = 10. Frequency = 2.0 x 10 = 20."
+    ],
+    "final_answer": "Frequency for 20-30 = 35; Frequency for 30-40 = 20"
+  },
+  "common_mistakes": [
+    "Reading the bar height as the frequency rather than the frequency density — always multiply by the class width to get the frequency.",
+    "Using a non-uniform scale when drawing — make sure bars representing wider classes are actually drawn wider.",
+    "Labelling the y-axis as 'Frequency' instead of 'Frequency density' — this is a key detail that earns marks."
+  ]
+}

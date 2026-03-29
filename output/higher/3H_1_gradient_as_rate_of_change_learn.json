@@ -1,0 +1,22 @@
+{
+  "topic": "Ratio, Proportion & Rates of Change (Higher)",
+  "subtopic": "Gradient as Rate of Change",
+  "lesson_type": "learn",
+  "intro": "The gradient of a graph tells you how fast one quantity is changing compared to another. In real-life graphs, the gradient has a specific meaning depending on what the axes represent.",
+  "explanation": "Gradient = change in y divided by change in x.\nAlways read the units from the axes to interpret what the gradient means.\n\nDistance-time graphs:\nGradient = change in distance / change in time = speed.\nA steeper line means greater speed. A horizontal line means the object is stationary. A negative gradient means the object is moving back towards the starting point.\n\nVelocity-time graphs:\nGradient = change in velocity / change in time = acceleration.\nPositive gradient = accelerating. Negative gradient = decelerating. Horizontal line = constant velocity. The area under a velocity-time graph = distance travelled.\n\nFor curves (non-linear graphs):\nThe gradient changes at different points. To find the gradient at a point, draw a tangent (a straight line that just touches the curve at that point) and calculate its gradient.\n\nEstimating the gradient of a curve:\nStep 1: Mark the point on the curve.\nStep 2: Draw a tangent at that point (using a ruler).\nStep 3: Choose two clear points on the tangent and calculate rise over run.\n\nOther examples: on a unit-price graph, gradient = cost per unit. On a temperature-time graph, gradient = rate of temperature change.",
+  "worked_example": {
+    "question": "A distance-time graph shows a straight line from (0, 0) to (4, 100). Calculate the speed and describe the motion.",
+    "steps": [
+      "Gradient = change in distance / change in time.",
+      "Change in distance = 100 - 0 = 100 m. Change in time = 4 - 0 = 4 s.",
+      "Gradient = 100 / 4 = 25.",
+      "Speed = 25 m/s. The object is moving at a constant speed of 25 m/s."
+    ],
+    "final_answer": "Speed = 25 m/s (constant)"
+  },
+  "common_mistakes": [
+    "Reading the gradient as change in x over change in y instead of change in y over change in x.",
+    "Forgetting to include units — always state the units of the gradient based on the axis labels.",
+    "When drawing a tangent on a curve, making it cross the curve instead of just touching it — a tangent only touches the curve at exactly one point."
+  ]
+}

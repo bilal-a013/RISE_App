@@ -1,0 +1,77 @@
+{
+  "topic": "Geometry & Measures (Higher)",
+  "subtopic": "Circle Theorems",
+  "lesson_type": "practise",
+  "recap": "Always name the theorem as a reason. Key theorems: angle at centre = twice angle at circumference; angle in semicircle = 90; opposite angles in cyclic quadrilateral = 180; tangent-radius = 90; alternate segment theorem.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "O is the centre. Angle at the centre AOB = 80 degrees. Find angle ACB where C is on the circumference on the major arc.",
+      "solution": {
+        "steps": ["Angle at circumference = angle at centre / 2 = 80 / 2 = 40 degrees. Reason: angle at the centre is twice the angle at the circumference."],
+        "final_answer": "Angle ACB = 40 degrees"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "ABCD is a cyclic quadrilateral. Angle A = 75 degrees and angle C = 105 degrees. Find angles B and D.",
+      "solution": {
+        "steps": [
+          "Opposite angles in a cyclic quadrilateral add up to 180 degrees.",
+          "Angle B + angle D = 360 - 75 - 105 = 180. Check: A + C = 75 + 105 = 180. Correct.",
+          "Angles B and D also sum to 180. Without more info, we know B + D = 180."
+        ],
+        "final_answer": "B + D = 180 degrees (opposite angles in a cyclic quadrilateral)"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "AB is the diameter of a circle. C is a point on the circumference. Angle BAC = 38 degrees. Find angle ABC.",
+      "solution": {
+        "steps": [
+          "Angle ACB = 90 degrees (angle in a semicircle).",
+          "Angles in a triangle sum to 180 degrees.",
+          "Angle ABC = 180 - 90 - 38 = 52 degrees."
+        ],
+        "final_answer": "Angle ABC = 52 degrees"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A tangent to a circle meets the circle at T. O is the centre. OT = 5 cm and the tangent length from the external point P to T is 12 cm. Find the distance OP.",
+      "solution": {
+        "steps": [
+          "The tangent meets the radius OT at 90 degrees (tangent-radius theorem).",
+          "Triangle OTP is right-angled at T. OT = 5 cm, PT = 12 cm.",
+          "OP = square root of (5 squared + 12 squared) = square root of (25 + 144) = square root of 169 = 13 cm."
+        ],
+        "final_answer": "OP = 13 cm"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "In a circle, chord PQ is drawn. A tangent at P makes an angle of 47 degrees with chord PQ. Point R is on the major arc. Find angle PRQ. State your reasons.",
+      "solution": {
+        "steps": [
+          "By the alternate segment theorem, the angle between a tangent and a chord equals the angle in the alternate (opposite) segment.",
+          "The tangent-chord angle at P = 47 degrees.",
+          "The angle in the alternate segment = angle PRQ (where R is on the major arc, which is the alternate segment to the minor arc).",
+          "Angle PRQ = 47 degrees.",
+          "Reason: Alternate segment theorem."
+        ],
+        "final_answer": "Angle PRQ = 47 degrees (alternate segment theorem)"
+      }
+    }
+  },
+  "summary": [
+    "Always write the theorem as a reason: e.g. 'angle at the centre is twice angle at circumference'.",
+    "Angle in semicircle = 90 degrees. Opposite angles in cyclic quadrilateral = 180 degrees.",
+    "Tangent meets radius at 90 degrees. Two tangents from an external point are equal.",
+    "Alternate segment theorem: angle between tangent and chord = angle in the alternate segment."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "topic": "Geometry & Measures (Higher)",
+  "subtopic": "Sine & Cosine Rules",
+  "lesson_type": "learn",
+  "intro": "The sine and cosine rules let you work with any triangle — not just right-angled ones. Use them when you know some sides and angles but need to find others that you cannot reach using basic trigonometry.",
+  "explanation": "Label a triangle so that side a is opposite angle A, side b is opposite angle B, and side c is opposite angle C.\n\nSine Rule:\na / sin A = b / sin B = c / sin C\n\nUse the sine rule when you know:\n- Two angles and one side (AAS or ASA), OR\n- Two sides and an angle opposite one of them (SSA).\n\nTo find a side: a = b x sin A / sin B.\nTo find an angle: sin A = a x sin B / b.\n\nCosine Rule:\na squared = b squared + c squared - 2bc cos A\n\nRearranged to find angle A:\ncos A = (b squared + c squared - a squared) / (2bc)\n\nUse the cosine rule when you know:\n- Two sides and the included angle (SAS), OR\n- All three sides (SSS).\n\nArea of any triangle:\nArea = 1/2 x a x b x sin C\nwhere C is the angle between sides a and b.\n\nDeciding which rule to use:\n- Have angle and opposite side pair available? Use sine rule.\n- Have two sides and included angle, or all three sides? Use cosine rule.",
+  "worked_example": {
+    "question": "In triangle ABC, a = 7 cm, b = 9 cm, and angle C = 64 degrees. Find side c and the area of the triangle.",
+    "steps": [
+      "Use the cosine rule: c squared = a squared + b squared - 2ab cos C.",
+      "c squared = 7 squared + 9 squared - 2 x 7 x 9 x cos 64.",
+      "c squared = 49 + 81 - 126 x 0.4384 = 130 - 55.24 = 74.76.",
+      "c = square root of 74.76 = 8.65 cm (3 s.f.).",
+      "Area = 1/2 x 7 x 9 x sin 64 = 1/2 x 63 x 0.8988 = 28.3 cm squared (3 s.f.)."
+    ],
+    "final_answer": "c = 8.65 cm, Area = 28.3 cm squared"
+  },
+  "common_mistakes": [
+    "Using the sine rule when you have two sides and the included angle — in that case you must use the cosine rule.",
+    "Forgetting to square root at the end of the cosine rule — c squared = ... gives c squared, not c.",
+    "Using degrees in calculations when the calculator is in radian mode — always check your calculator is set to degrees for GCSE questions."
+  ]
+}

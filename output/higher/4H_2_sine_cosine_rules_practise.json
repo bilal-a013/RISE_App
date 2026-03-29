@@ -1,0 +1,75 @@
+{
+  "topic": "Geometry & Measures (Higher)",
+  "subtopic": "Sine & Cosine Rules",
+  "lesson_type": "practise",
+  "recap": "Sine rule: a / sin A = b / sin B. Use for AAS, ASA, or SSA. Cosine rule: a squared = b squared + c squared - 2bc cos A. Use for SAS or SSS. Area = 1/2 ab sin C.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "In triangle ABC, angle A = 40 degrees, angle B = 75 degrees, and a = 8 cm. Find b using the sine rule.",
+      "solution": {
+        "steps": ["b / sin B = a / sin A. b = 8 x sin 75 / sin 40 = 8 x 0.9659 / 0.6428 = 12.03 cm (3 s.f.)."],
+        "final_answer": "b = 12.0 cm"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "In triangle PQR, p = 5 cm, r = 7 cm, angle Q = 50 degrees. Find side q using the cosine rule.",
+      "solution": {
+        "steps": [
+          "q squared = p squared + r squared - 2pr cos Q = 25 + 49 - 2 x 5 x 7 x cos 50.",
+          "q squared = 74 - 70 x 0.6428 = 74 - 44.996 = 29.004. q = square root of 29.004 = 5.39 cm (3 s.f.)."
+        ],
+        "final_answer": "q = 5.39 cm"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Triangle XYZ has sides x = 6 cm, y = 8 cm, z = 11 cm. Find angle Z.",
+      "solution": {
+        "steps": [
+          "cos Z = (x squared + y squared - z squared) / (2xy) = (36 + 64 - 121) / (2 x 6 x 8).",
+          "cos Z = (100 - 121) / 96 = -21 / 96 = -0.21875.",
+          "Z = inverse cos(-0.21875) = 102.6 degrees (1 d.p.)."
+        ],
+        "final_answer": "Angle Z = 102.6 degrees"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Find the area of triangle ABC where a = 9 cm, b = 12 cm, and angle C = 35 degrees.",
+      "solution": {
+        "steps": [
+          "Area = 1/2 x a x b x sin C = 1/2 x 9 x 12 x sin 35.",
+          "Area = 54 x 0.5736 = 30.97 cm squared.",
+          "Area = 31.0 cm squared (3 s.f.)."
+        ],
+        "final_answer": "Area = 31.0 cm squared"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A boat travels 12 km on a bearing of 060 degrees, then 9 km on a bearing of 160 degrees. Find the direct distance back to the start and the bearing to return.",
+      "solution": {
+        "steps": [
+          "The angle between the two legs of the journey: bearing changes from 060 to 160, a turn of 100 degrees. Interior angle of the triangle = 180 - 100 = 80 degrees (supplementary).",
+          "Use cosine rule: d squared = 12 squared + 9 squared - 2 x 12 x 9 x cos 80.",
+          "d squared = 144 + 81 - 216 x 0.1736 = 225 - 37.5 = 187.5. d = square root of 187.5 = 13.7 km (3 s.f.).",
+          "Use sine rule to find the angle at the end: sin(angle) / 12 = sin 80 / 13.7. sin(angle) = 12 x sin 80 / 13.7 = 0.8626. Angle = 59.7 degrees. Bearing to return can be calculated from this."
+        ],
+        "final_answer": "Distance ≈ 13.7 km"
+      }
+    }
+  },
+  "summary": [
+    "Sine rule: use when you have an angle-side pair and need another side or angle.",
+    "Cosine rule: use when you have two sides and the included angle (SAS) or all three sides (SSS).",
+    "Area of any triangle = 1/2 x a x b x sin C, where C is the angle between sides a and b.",
+    "In the cosine rule, always square root at the end to get the side, not the squared side."
+  ]
+}
