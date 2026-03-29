@@ -1,0 +1,82 @@
+{
+  "topic": "Number",
+  "subtopic": "Fractions",
+  "lesson_type": "practise",
+  "recap": "To add or subtract fractions use a common denominator; to divide, flip the second fraction and multiply; always simplify and convert mixed numbers to improper fractions first.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Simplify 18/24.",
+      "solution": {
+        "steps": [
+          "HCF of 18 and 24 is 6.",
+          "18/24 = 3/4."
+        ],
+        "final_answer": "3/4"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Work out 3/5 + 1/4.",
+      "solution": {
+        "steps": [
+          "LCD of 5 and 4 is 20. Convert: 3/5 = 12/20. 1/4 = 5/20.",
+          "12/20 + 5/20 = 17/20."
+        ],
+        "final_answer": "17/20"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out 3 and 1/2 - 1 and 3/4. Give your answer as a mixed number in its simplest form.",
+      "solution": {
+        "steps": [
+          "Convert to improper fractions: 3 and 1/2 = 7/2. 1 and 3/4 = 7/4.",
+          "LCD = 4. Convert: 7/2 = 14/4.",
+          "14/4 - 7/4 = 7/4 = 1 and 3/4."
+        ],
+        "final_answer": "1 and 3/4"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out 2 and 2/5 x 1 and 1/4.",
+      "solution": {
+        "steps": [
+          "Convert: 2 and 2/5 = 12/5. 1 and 1/4 = 5/4.",
+          "Multiply: 12/5 x 5/4 = 60/20.",
+          "Simplify: 60/20 = 3."
+        ],
+        "final_answer": "3"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Aisha spends 2/5 of her monthly salary on rent and 1/3 on food. She saves the rest. Her monthly salary is £1,800. How much does she save each month? Show all working.",
+      "solution": {
+        "steps": [
+          "Total fraction spent: 2/5 + 1/3. LCD = 15. 2/5 = 6/15. 1/3 = 5/15. Total = 11/15.",
+          "Fraction saved: 1 - 11/15 = 4/15.",
+          "Amount saved: 4/15 x 1,800 = 4 x 120 = 480."
+        ],
+        "final_answer": "£480"
+      }
+    }
+  ],
+  "summary": [
+    "To add or subtract fractions, find the lowest common denominator, convert, then add or subtract numerators only.",
+    "To multiply fractions, multiply numerators together and denominators together, then simplify.",
+    "To divide fractions, flip the second fraction (reciprocal) then multiply.",
+    "Always convert mixed numbers to improper fractions before multiplying or dividing."
+  ]
+}

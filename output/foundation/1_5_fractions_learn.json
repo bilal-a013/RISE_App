@@ -1,0 +1,23 @@
+{
+  "topic": "Number",
+  "subtopic": "Fractions",
+  "lesson_type": "learn",
+  "intro": "Fractions represent parts of a whole. You need to be able to add, subtract, multiply, divide, simplify, and convert fractions — these skills appear throughout the GCSE exam.",
+  "explanation": "A fraction has a numerator (top) and denominator (bottom). To simplify, divide both by their HCF.\n\nEquivalent fractions: multiply or divide top and bottom by the same number. E.g. 3/4 = 6/8 = 9/12.\n\nComparing fractions: find a common denominator, then compare numerators.\n\nAdding and subtracting fractions:\n1. Find the lowest common denominator (LCD).\n2. Convert both fractions to that denominator.\n3. Add or subtract the numerators. Keep the denominator.\n4. Simplify if possible.\n\nExample: 2/3 + 3/4. LCD = 12. 2/3 = 8/12. 3/4 = 9/12. Answer = 17/12 = 1 and 5/12.\n\nMultiplying fractions: multiply numerators together and denominators together. Simplify before or after.\nExample: 3/5 x 2/9 = 6/45 = 2/15.\n\nDividing fractions: flip the second fraction (find its reciprocal) then multiply.\nExample: 3/4 / 2/5 = 3/4 x 5/2 = 15/8 = 1 and 7/8.\n\nMixed numbers: convert to improper fractions before calculating.\nExample: 2 and 1/3 = 7/3.",
+  "worked_example": {
+    "question": "Work out 2 and 1/4 + 1 and 2/3. Give your answer as a mixed number in its simplest form.",
+    "steps": [
+      "Convert to improper fractions: 2 and 1/4 = 9/4. 1 and 2/3 = 5/3.",
+      "Find the LCD of 4 and 3: LCD = 12. Convert: 9/4 = 27/12. 5/3 = 20/12.",
+      "Add: 27/12 + 20/12 = 47/12.",
+      "Convert back to mixed number: 47 / 12 = 3 remainder 11. Answer = 3 and 11/12.",
+      "Check if 11/12 simplifies: HCF of 11 and 12 is 1, so it is already in simplest form."
+    ],
+    "final_answer": "3 and 11/12"
+  },
+  "common_mistakes": [
+    "Adding the denominators as well as the numerators — the denominator stays the same after finding a common denominator, only the numerators are added.",
+    "Forgetting to convert mixed numbers to improper fractions before multiplying or dividing.",
+    "Not simplifying the final answer — always check whether the numerator and denominator share a common factor."
+  ]
+}

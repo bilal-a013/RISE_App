@@ -1,0 +1,83 @@
+{
+  "topic": "Number",
+  "subtopic": "Place Value & Integers",
+  "lesson_type": "practise",
+  "recap": "Place value tells you what each digit is worth based on its position, and integers are whole numbers that can be positive, negative, or zero.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Write down the value of the digit 8 in the number 58,304.",
+      "solution": {
+        "steps": [
+          "The digit 8 is in the thousands column.",
+          "8 x 1,000 = 8,000."
+        ],
+        "final_answer": "8,000"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Write these numbers in order from smallest to largest: -7, 4, -1, -15, 2.",
+      "solution": {
+        "steps": [
+          "Place all values on a number line. Negatives are to the left of zero.",
+          "-15 is the furthest left, then -7, then -1, then 2, then 4."
+        ],
+        "final_answer": "-15, -7, -1, 2, 4"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "The number 2,4_6,100 has a missing digit. The value of the missing digit is 50,000. What is the missing digit, and what is the full number?",
+      "solution": {
+        "steps": [
+          "The digit is worth 50,000, so it is in the ten-thousands column.",
+          "50,000 / 10,000 = 5, so the missing digit is 5.",
+          "The full number is 2,456,100."
+        ],
+        "final_answer": "The missing digit is 5. The full number is 2,456,100."
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "The temperature at midday was 3°C. By midnight it had dropped by 11 degrees. What was the temperature at midnight? The next day it rose by 4 degrees from midnight. What was the new temperature?",
+      "solution": {
+        "steps": [
+          "Midnight temperature: 3 - 11 = -8°C.",
+          "New temperature: -8 + 4 = -4°C."
+        ],
+        "final_answer": "Midnight: -8°C. Next day: -4°C."
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A number has six digits. The digit in the hundred-thousands column is 3. The digit in the thousands column is twice the digit in the hundreds column. The remaining digits are all 1. The total value of the number is not a multiple of 10. Write down the smallest and largest possible values of this number.",
+      "solution": {
+        "steps": [
+          "The hundred-thousands digit is 3, so the number is 3_ _, _ _ _. The remaining columns are: ten-thousands, thousands, hundreds, tens, ones.",
+          "The remaining digits (not thousands/hundreds) are all 1: ten-thousands = 1, tens = 1, ones = 1.",
+          "The thousands digit is twice the hundreds digit. Possible pairs (thousands, hundreds): (2,1), (4,2), (6,3), (8,4).",
+          "The number must not be a multiple of 10, so ones digit ≠ 0 — already satisfied since ones = 1.",
+          "Smallest: use smallest pair (2,1) — number is 312,111. Largest: use largest pair (8,4) — number is 318,411."
+        ],
+        "final_answer": "Smallest: 312,111. Largest: 318,411."
+      }
+    }
+  ],
+  "summary": [
+    "Each digit's value depends on its position — count columns from the right (ones, tens, hundreds, thousands, ...).",
+    "Integers include positive whole numbers, negative whole numbers, and zero.",
+    "When ordering negative integers, the larger the digit, the smaller the value — use a number line to help.",
+    "In decimal numbers, the columns to the right of the decimal point are tenths, hundredths, thousandths."
+  ]
+}

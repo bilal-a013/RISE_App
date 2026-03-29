@@ -1,0 +1,22 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Substitution",
+  "lesson_type": "learn",
+  "intro": "Substitution means replacing a letter in an algebraic expression or formula with a number. It is used to find the value of an expression or to solve real-world problems using formulas.",
+  "explanation": "To substitute: write the expression, replace each letter with its value (using brackets to be safe), then calculate using BIDMAS.\n\nExample: find the value of 3a squared - 2b + 5 when a = 4 and b = -3.\n= 3(4) squared - 2(-3) + 5\n= 3 x 16 + 6 + 5\n= 48 + 6 + 5\n= 59\n\nBrackets are important — especially with negative numbers.\nIf a = -2, then a squared = (-2) squared = 4, not -4.\nIf b = -3, then -2b = -2 x (-3) = 6.\n\nSubstitution into formulas: the same method applies.\nExample: use the formula v = u + at to find v when u = 5, a = 3, t = 4.\nv = 5 + 3 x 4 = 5 + 12 = 17.\n\nKnow common formulas: area, perimeter, speed = distance / time, and others from the specification.",
+  "worked_example": {
+    "question": "Given that p = 2q squared - 3r, find the value of p when q = -3 and r = 5.",
+    "steps": [
+      "Substitute q = -3 and r = 5 into the expression: p = 2(-3) squared - 3(5).",
+      "Work out the index first: (-3) squared = 9.",
+      "p = 2 x 9 - 3 x 5 = 18 - 15.",
+      "p = 3."
+    ],
+    "final_answer": "p = 3"
+  },
+  "common_mistakes": [
+    "Forgetting brackets when substituting a negative number — writing -3 squared = -9 instead of (-3) squared = 9.",
+    "Applying BIDMAS incorrectly after substituting — always deal with indices before multiplication and addition.",
+    "Substituting the wrong value for the wrong letter when multiple variables are involved — take care to match each letter to its given value."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "topic": "Number",
+  "subtopic": "Prime Factorisation, HCF & LCM",
+  "lesson_type": "learn",
+  "intro": "Every integer greater than 1 can be broken down into a unique product of prime numbers — this is called prime factorisation. From it, you can find the Highest Common Factor (HCF) and Lowest Common Multiple (LCM) of any two numbers.",
+  "explanation": "A prime number has exactly two factors: 1 and itself. Examples: 2, 3, 5, 7, 11, 13.\n\nPrime factorisation: repeatedly divide a number by its smallest prime factor until you reach 1. Write the result as a product of primes.\n\nExample: 60 = 2 x 30 = 2 x 2 x 15 = 2 x 2 x 3 x 5 = 2 squared x 3 x 5.\n\nUse a factor tree or repeated division to find these.\n\nHCF (Highest Common Factor): the largest number that divides into both numbers exactly.\nMethod: write both as products of primes, then multiply the prime factors they share (using the lower power of each shared prime).\n\nExample: HCF of 60 and 84.\n60 = 2 squared x 3 x 5\n84 = 2 squared x 3 x 7\nShared primes: 2 squared and 3. HCF = 4 x 3 = 12.\n\nLCM (Lowest Common Multiple): the smallest number that both numbers divide into exactly.\nMethod: write both as products of primes, then multiply all prime factors using the highest power of each.\n\nExample: LCM of 60 and 84.\nPrimes needed: 2 squared, 3, 5, 7. LCM = 4 x 3 x 5 x 7 = 420.\n\nMemory tip: HCF = shared primes (lower powers). LCM = all primes (higher powers).",
+  "worked_example": {
+    "question": "Find the HCF and LCM of 72 and 120.",
+    "steps": [
+      "Prime factorise 72: 72 = 2 x 36 = 2 x 2 x 18 = 2 x 2 x 2 x 9 = 2 cubed x 3 squared.",
+      "Prime factorise 120: 120 = 2 x 60 = 2 x 2 x 30 = 2 x 2 x 2 x 15 = 2 cubed x 3 x 5.",
+      "HCF: shared primes with lower powers — 2 cubed and 3 to the power 1. HCF = 8 x 3 = 24.",
+      "LCM: all primes with higher powers — 2 cubed, 3 squared, 5. LCM = 8 x 9 x 5 = 360."
+    ],
+    "final_answer": "HCF = 24, LCM = 360"
+  },
+  "common_mistakes": [
+    "Using the higher power for HCF instead of the lower power — the HCF must divide into both numbers, so you need the smaller shared power.",
+    "Missing a prime factor in the factorisation by stopping too early — always check your final answer multiplies back to the original number.",
+    "Confusing HCF and LCM — HCF is smaller than (or equal to) both numbers; LCM is larger than (or equal to) both."
+  ]
+}

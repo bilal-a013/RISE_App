@@ -1,0 +1,21 @@
+{
+  "topic": "Number",
+  "subtopic": "Percentages",
+  "lesson_type": "learn",
+  "intro": "Percentages express a value as a fraction of 100. They appear in almost every real-world context — discounts, interest, tax, and data — and are heavily tested throughout GCSE Maths.",
+  "explanation": "Percentage of an amount: multiply the amount by the percentage divided by 100.\nExample: 35% of 240 = 0.35 x 240 = 84.\n\nIncreasing or decreasing by a percentage — use a multiplier:\n- Increase of 20%: multiplier = 1.20\n- Decrease of 15%: multiplier = 0.85\nExample: increase £350 by 20%: 350 x 1.20 = £420.\n\nFinding the original value after a percentage change (reverse percentage):\nDivide by the multiplier.\nExample: after a 25% increase, a price is £75. Original = 75 / 1.25 = £60.\n\nPercentage change:\nPercentage change = (change / original) x 100.\nExample: price rises from £80 to £100. Change = 20. Percentage change = (20/80) x 100 = 25%.\n\nExpressing one quantity as a percentage of another:\n(part / whole) x 100.\nExample: 36 out of 90 = (36/90) x 100 = 40%.\n\nSimple interest: interest = (principal x rate x time) / 100.",
+  "worked_example": {
+    "question": "A jacket costs £64 after a 20% reduction in a sale. What was the original price?",
+    "steps": [
+      "A 20% reduction means the sale price is 80% of the original.",
+      "So the multiplier is 0.80. Original price = 64 / 0.80.",
+      "64 / 0.80 = 80."
+    ],
+    "final_answer": "£80"
+  },
+  "common_mistakes": [
+    "Dividing by the percentage change instead of the multiplier in reverse percentage questions — always build the multiplier first (e.g. 20% reduction → multiply by 0.80, not divide by 0.20).",
+    "Using the new value as the original in percentage change questions — (change / original) x 100, not (change / new) x 100.",
+    "Writing 35% as 35 instead of 0.35 when multiplying — always convert the percentage to a decimal first."
+  ]
+}

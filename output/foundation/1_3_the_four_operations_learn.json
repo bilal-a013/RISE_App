@@ -1,0 +1,21 @@
+{
+  "topic": "Number",
+  "subtopic": "The Four Operations",
+  "lesson_type": "learn",
+  "intro": "The four operations — addition, subtraction, multiplication, and division — are the building blocks of all arithmetic. Being confident with these, including with negative numbers and larger values, is essential throughout GCSE Maths.",
+  "explanation": "Addition and subtraction with large numbers: line up digits by place value, carry or borrow as needed.\n\nMultiplying large numbers: use long multiplication. Multiply each digit of one number by each digit of the other, then add the results.\n\nDividing: use short or long division. Check your answer by multiplying back.\n\nNegative numbers:\n- Adding a negative is the same as subtracting: 5 + (-3) = 5 - 3 = 2\n- Subtracting a negative is the same as adding: 5 - (-3) = 5 + 3 = 8\n- Multiplying/dividing with negatives: same signs give a positive, different signs give a negative.\n  - (-3) x (-4) = 12\n  - (-3) x 4 = -12\n  - (-12) / (-3) = 4\n  - (-12) / 3 = -4\n\nOrder of operations (BIDMAS) always applies — see the BIDMAS lesson.\n\nDivision with remainders: when a number does not divide exactly, express the remainder as a fraction or decimal if required.",
+  "worked_example": {
+    "question": "Work out (a) 345 x 27  (b) (-4) x 3 + (-2) x (-5)",
+    "steps": [
+      "Part (a): Long multiplication. 345 x 7 = 2,415. Then 345 x 20 = 6,900. Add: 2,415 + 6,900 = 9,315.",
+      "Part (b): Work out each multiplication first (BIDMAS). (-4) x 3 = -12. (-2) x (-5) = 10.",
+      "Then add: -12 + 10 = -2."
+    ],
+    "final_answer": "(a) 9,315   (b) -2"
+  },
+  "common_mistakes": [
+    "Forgetting sign rules with negatives — multiplying two negatives gives a positive, not a negative.",
+    "In long multiplication, forgetting to add a zero when multiplying by the tens digit (e.g. treating 345 x 20 as 345 x 2 = 690 instead of 6,900).",
+    "Subtracting a negative incorrectly — writing 5 - (-3) = 2 instead of 8."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Algebraic Notation & Vocabulary",
+  "lesson_type": "learn",
+  "intro": "Algebra uses letters to represent unknown or changing values. Before you can solve or manipulate algebraic expressions, you need to understand how they are written and what each part means.",
+  "explanation": "Key vocabulary:\n- Expression: a collection of terms without an equals sign. E.g. 3x + 2y - 5.\n- Term: a single number, letter, or combination. E.g. 3x, -5, y squared.\n- Coefficient: the number multiplying the letter. In 3x, the coefficient is 3.\n- Constant: a term with just a number (no letter). E.g. -5.\n- Equation: two expressions set equal to each other. E.g. 3x + 2 = 11.\n- Formula: a rule connecting variables. E.g. A = lw.\n- Identity: true for all values of the variable. Uses the ≡ symbol. E.g. 2(x + 3) ≡ 2x + 6.\n- Function: a rule that maps an input to an output. E.g. f(x) = 2x + 1.\n\nAlgebraic notation rules:\n- 3 x a is written as 3a (no multiplication sign).\n- a x b is written as ab.\n- a x a is written as a squared.\n- 1 x a is written as a (not 1a).\n- a / b is written as a fraction a over b.\n- a squared means a x a, not a x 2.\n\nLike terms share exactly the same letter(s) and power(s). 3x and 5x are like terms. 3x and 3x squared are not.\n\nYou can only add or subtract like terms.",
+  "worked_example": {
+    "question": "Write an expression for the perimeter of a rectangle with length (3x + 2) and width (x - 1).",
+    "steps": [
+      "Perimeter = 2 x length + 2 x width.",
+      "= 2(3x + 2) + 2(x - 1).",
+      "= 6x + 4 + 2x - 2.",
+      "Collect like terms: 6x + 2x = 8x. 4 - 2 = 2.",
+      "= 8x + 2."
+    ],
+    "final_answer": "8x + 2"
+  },
+  "common_mistakes": [
+    "Writing a squared as 2a — a squared means a x a, not 2 x a.",
+    "Treating unlike terms as like terms — 3x and 3x squared cannot be added together.",
+    "Including the multiplication sign in algebraic notation — write 3a not 3 x a."
+  ]
+}

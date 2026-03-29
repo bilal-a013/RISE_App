@@ -1,0 +1,84 @@
+{
+  "topic": "Number",
+  "subtopic": "Prime Factorisation, HCF & LCM",
+  "lesson_type": "practise",
+  "recap": "Write numbers as products of prime factors, then use shared primes (lower powers) for HCF and all primes (higher powers) for LCM.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Write 36 as a product of its prime factors.",
+      "solution": {
+        "steps": [
+          "36 = 2 x 18 = 2 x 2 x 9 = 2 x 2 x 3 x 3.",
+          "Written in index form: 2 squared x 3 squared."
+        ],
+        "final_answer": "2 squared x 3 squared"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Find the HCF of 48 and 36.",
+      "solution": {
+        "steps": [
+          "48 = 2 to the power 4 x 3. 36 = 2 squared x 3 squared.",
+          "Shared primes with lower powers: 2 squared and 3 to the power 1.",
+          "HCF = 4 x 3 = 12."
+        ],
+        "final_answer": "12"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Find the LCM of 45 and 60.",
+      "solution": {
+        "steps": [
+          "45 = 3 squared x 5. 60 = 2 squared x 3 x 5.",
+          "All primes with highest powers: 2 squared, 3 squared, 5.",
+          "LCM = 4 x 9 x 5 = 180."
+        ],
+        "final_answer": "180"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Bus A leaves the station every 12 minutes. Bus B leaves every 18 minutes. They both leave at 9:00 am. At what time do they next leave at the same time?",
+      "solution": {
+        "steps": [
+          "Find LCM of 12 and 18. 12 = 2 squared x 3. 18 = 2 x 3 squared.",
+          "LCM = 2 squared x 3 squared = 4 x 9 = 36.",
+          "They next leave together 36 minutes after 9:00 am = 9:36 am."
+        ],
+        "final_answer": "9:36 am"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Two numbers have an HCF of 6 and an LCM of 180. One of the numbers is 12. Find the other number. Show your working.",
+      "solution": {
+        "steps": [
+          "Use the rule: HCF x LCM = product of the two numbers.",
+          "6 x 180 = 1,080.",
+          "1,080 / 12 = 90.",
+          "Check: 12 = 2 squared x 3. 90 = 2 x 3 squared x 5. HCF = 2 x 3 = 6. LCM = 2 squared x 3 squared x 5 = 180. Both check out."
+        ],
+        "final_answer": "90"
+      }
+    }
+  ],
+  "summary": [
+    "Prime factorisation: divide repeatedly by the smallest prime factor until you reach 1, then write as a product of primes in index form.",
+    "HCF: multiply the shared prime factors using the lower power of each.",
+    "LCM: multiply all prime factors that appear, using the higher power of each.",
+    "HCF x LCM = product of the two numbers — useful shortcut for checking answers."
+  ]
+}

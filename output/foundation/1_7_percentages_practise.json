@@ -1,0 +1,83 @@
+{
+  "topic": "Number",
+  "subtopic": "Percentages",
+  "lesson_type": "practise",
+  "recap": "Use multipliers for percentage increases and decreases, divide by the multiplier for reverse percentages, and use (change / original) x 100 for percentage change.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Find 45% of 320.",
+      "solution": {
+        "steps": [
+          "45% = 0.45.",
+          "0.45 x 320 = 144."
+        ],
+        "final_answer": "144"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A TV costs £480. It is reduced by 15% in a sale. Find the sale price.",
+      "solution": {
+        "steps": [
+          "15% decrease → multiplier = 1 - 0.15 = 0.85.",
+          "Sale price = 480 x 0.85 = £408."
+        ],
+        "final_answer": "£408"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A car was bought for £12,000 and sold for £9,300. Calculate the percentage loss.",
+      "solution": {
+        "steps": [
+          "Loss = 12,000 - 9,300 = 2,700.",
+          "Percentage loss = (2,700 / 12,000) x 100.",
+          "= 0.225 x 100 = 22.5%."
+        ],
+        "final_answer": "22.5%"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "After a 30% increase in price, a laptop costs £520. What was the original price?",
+      "solution": {
+        "steps": [
+          "30% increase → multiplier = 1.30.",
+          "Original price = 520 / 1.30.",
+          "520 / 1.30 = £400."
+        ],
+        "final_answer": "£400"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "In a school, 60% of students are girls. 40% of girls and 25% of boys study Music. There are 800 students in total. How many students study Music?",
+      "solution": {
+        "steps": [
+          "Number of girls = 60% of 800 = 480. Number of boys = 800 - 480 = 320.",
+          "Girls studying Music = 40% of 480 = 0.40 x 480 = 192.",
+          "Boys studying Music = 25% of 320 = 0.25 x 320 = 80.",
+          "Total = 192 + 80 = 272."
+        ],
+        "final_answer": "272 students"
+      }
+    }
+  ],
+  "summary": [
+    "To increase by x%: multiply by (1 + x/100). To decrease by x%: multiply by (1 - x/100).",
+    "For reverse percentage: divide by the multiplier to find the original value.",
+    "Percentage change = (change / original) x 100 — always use the original value as the denominator.",
+    "To express one value as a percentage of another: (part / whole) x 100."
+  ]
+}

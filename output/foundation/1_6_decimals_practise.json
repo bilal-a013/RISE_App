@@ -1,0 +1,82 @@
+{
+  "topic": "Number",
+  "subtopic": "Decimals",
+  "lesson_type": "practise",
+  "recap": "Line up decimal points for addition and subtraction; count total decimal places for multiplication; make the divisor a whole number when dividing decimals.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Work out 5.7 + 3.84.",
+      "solution": {
+        "steps": [
+          "Line up decimal points: 5.70 + 3.84.",
+          "Add column by column: 5.70 + 3.84 = 9.54."
+        ],
+        "final_answer": "9.54"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Work out 0.45 / 0.09.",
+      "solution": {
+        "steps": [
+          "Multiply both by 100 to remove decimals: 45 / 9.",
+          "45 / 9 = 5."
+        ],
+        "final_answer": "5"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out 4.7 x 3.8.",
+      "solution": {
+        "steps": [
+          "Ignore decimals: 47 x 38.",
+          "47 x 30 = 1,410. 47 x 8 = 376. Total = 1,786.",
+          "Two decimal places total (one in each), so answer = 17.86."
+        ],
+        "final_answer": "17.86"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Convert 0.36 to a fraction in its simplest form, then convert 7/8 to a decimal.",
+      "solution": {
+        "steps": [
+          "0.36 = 36/100. HCF of 36 and 100 is 4. 36/100 = 9/25.",
+          "7/8: divide 7 by 8. 7.000 / 8 = 0.875."
+        ],
+        "final_answer": "0.36 = 9/25. 7/8 = 0.875."
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A rectangular field is 12.6 m long and 8.75 m wide. A gardener charges £3.50 per square metre to turf the field. Work out the total cost.",
+      "solution": {
+        "steps": [
+          "Area = 12.6 x 8.75. Ignore decimals: 126 x 875.",
+          "126 x 800 = 100,800. 126 x 75 = 9,450. Total = 110,250.",
+          "Three decimal places total (one + two), so area = 110.250 = 110.25 m squared.",
+          "Cost = 110.25 x 3.50 = 110.25 x 3 + 110.25 x 0.5 = 330.75 + 55.125 = 385.875. Round to nearest penny: £385.88."
+        ],
+        "final_answer": "£385.88"
+      }
+    }
+  ],
+  "summary": [
+    "Always line up decimal points before adding or subtracting.",
+    "To multiply decimals: multiply as integers, then count total decimal places and insert the point.",
+    "To divide by a decimal: multiply both numbers by a power of 10 to make the divisor a whole number.",
+    "To convert a decimal to a fraction: write over the correct power of 10 then simplify."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "topic": "Number",
+  "subtopic": "Rounding (d.p. and s.f.)",
+  "lesson_type": "practise",
+  "recap": "For d.p., count digits after the decimal point; for s.f., count from the first non-zero digit — in both cases, look at the next digit and round up if it is 5 or more.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Round 8.4762 to 2 decimal places.",
+      "solution": {
+        "steps": [
+          "2 d.p. means we keep two digits after the decimal point: 8.47|62.",
+          "The digit after the 2nd d.p. is 6 — round up. The 7 becomes 8."
+        ],
+        "final_answer": "8.48"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Round 38,541 to (a) 1 s.f.  (b) 3 s.f.",
+      "solution": {
+        "steps": [
+          "(a) 1 s.f.: first digit is 3. Next digit is 8 — round up. 3 becomes 4, rest become zeros: 40,000.",
+          "(b) 3 s.f.: first three digits are 3, 8, 5. Next digit is 4 — round down. Answer: 38,500."
+        ],
+        "final_answer": "(a) 40,000   (b) 38,500"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A calculator gives the answer 0.079461. Round this to (a) 3 d.p.  (b) 2 s.f.",
+      "solution": {
+        "steps": [
+          "(a) 3 d.p.: 0.079|461. Third d.p. digit is 9. Next digit is 4 — round down. Answer: 0.079.",
+          "(b) 2 s.f.: first s.f. is 7 (the first non-zero digit), second is 9. Next digit is 4 — round down. Answer: 0.079."
+        ],
+        "final_answer": "(a) 0.079   (b) 0.079"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A length is measured as 3.996 m. Round this to 2 decimal places. Explain why this answer might cause confusion.",
+      "solution": {
+        "steps": [
+          "3.99|6: next digit is 6 — round up. 3.99 rounds up to 4.00.",
+          "The answer is 4.00 m.",
+          "This could cause confusion because it looks like the measurement is exactly 4 m, when in fact it was rounded — the trailing zeros show the precision."
+        ],
+        "final_answer": "4.00 m. The zeros indicate the value is given to 2 d.p., not that it is exactly 4 m."
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A number rounded to 3 significant figures is 4,720. Write down the smallest and largest values the number could have been before rounding.",
+      "solution": {
+        "steps": [
+          "4,720 to 3 s.f. means the 4th significant figure (the zero in the units column) was the digit that was looked at.",
+          "For rounding to give 4,720, the number before rounding was in the range from 4,715 up to (but not including) 4,725.",
+          "Smallest possible value: 4,715. Largest possible value: less than 4,725 (the upper bound is 4,725 but it would round up to 4,730)."
+        ],
+        "final_answer": "Smallest: 4,715. Largest value that rounds to 4,720: any value up to but not including 4,725 (upper bound = 4,725)."
+      }
+    }
+  ],
+  "summary": [
+    "Decimal places are counted from the decimal point. Significant figures are counted from the first non-zero digit.",
+    "Look one digit beyond the position you are rounding to: 5 or more rounds up, 4 or less rounds down.",
+    "Trailing zeros after a decimal point are significant and must be kept when a specific number of d.p. is required.",
+    "Leading zeros (before the first non-zero digit) are never significant."
+  ]
+}

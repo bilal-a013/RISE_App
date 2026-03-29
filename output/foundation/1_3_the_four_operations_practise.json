@@ -1,0 +1,82 @@
+{
+  "topic": "Number",
+  "subtopic": "The Four Operations",
+  "lesson_type": "practise",
+  "recap": "The four operations are addition, subtraction, multiplication, and division — with negative numbers, same signs multiply to a positive and different signs multiply to a negative.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Work out (-6) x (-4).",
+      "solution": {
+        "steps": [
+          "Same signs (both negative) give a positive.",
+          "6 x 4 = 24."
+        ],
+        "final_answer": "24"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Work out 486 / 9.",
+      "solution": {
+        "steps": [
+          "48 / 9 = 5 remainder 3. Bring down the 6 to get 36.",
+          "36 / 9 = 4.",
+          "Answer is 54."
+        ],
+        "final_answer": "54"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out 273 x 46.",
+      "solution": {
+        "steps": [
+          "273 x 6 = 1,638.",
+          "273 x 40 = 10,920.",
+          "Add: 1,638 + 10,920 = 12,558."
+        ],
+        "final_answer": "12,558"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out (-3) x 4 - (-5) x (-2).",
+      "solution": {
+        "steps": [
+          "(-3) x 4 = -12.",
+          "(-5) x (-2) = 10.",
+          "-12 - 10 = -22."
+        ],
+        "final_answer": "-22"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A submarine is at -240 m. It rises at 15 m per minute for 8 minutes, then descends at 20 m per minute for 5 minutes. What is its final depth?",
+      "solution": {
+        "steps": [
+          "Rise: 15 x 8 = 120 m upward. New depth: -240 + 120 = -120 m.",
+          "Descent: 20 x 5 = 100 m downward. New depth: -120 - 100 = -220 m."
+        ],
+        "final_answer": "-220 m (220 m below the surface)"
+      }
+    }
+  ],
+  "summary": [
+    "Same signs in multiplication or division give a positive result; different signs give a negative.",
+    "Subtracting a negative is the same as adding: a - (-b) = a + b.",
+    "Use long multiplication for large numbers: multiply by units, then by tens (add a zero), then add the results.",
+    "Always apply BIDMAS — do multiplications and divisions before additions and subtractions."
+  ]
+}

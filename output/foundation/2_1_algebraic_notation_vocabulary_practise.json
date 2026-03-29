@@ -1,0 +1,87 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Algebraic Notation & Vocabulary",
+  "lesson_type": "practise",
+  "recap": "Expressions, equations, identities, and formulas all have different meanings in algebra, and you can only add or subtract like terms — those with the same letter and power.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Write down the coefficient of x in the expression 7x squared - 4x + 9.",
+      "solution": {
+        "steps": [
+          "The term with just x (not x squared) is -4x.",
+          "The coefficient is -4."
+        ],
+        "final_answer": "-4"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "State whether each of the following is an expression, equation, or identity.\n(a) 3x + 5 = 14\n(b) 4(x + 2) = 4x + 8\n(c) 2x squared - x + 7",
+      "solution": {
+        "steps": [
+          "(a) Has an equals sign and is only true for one value of x — this is an equation.",
+          "(b) Has an equals sign and is true for all values of x — this is an identity.",
+          "(c) Has no equals sign — this is an expression."
+        ],
+        "final_answer": "(a) Equation  (b) Identity  (c) Expression"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A triangle has sides of length (2x + 3), (x + 5), and (4x - 1). Write a simplified expression for the perimeter.",
+      "solution": {
+        "steps": [
+          "Perimeter = (2x + 3) + (x + 5) + (4x - 1).",
+          "Collect x terms: 2x + x + 4x = 7x.",
+          "Collect constants: 3 + 5 - 1 = 7.",
+          "Perimeter = 7x + 7."
+        ],
+        "final_answer": "7x + 7"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Simplify: 5x squared + 3x - 2x squared + 7 - x.",
+      "solution": {
+        "steps": [
+          "Group like terms: (5x squared - 2x squared) + (3x - x) + 7.",
+          "x squared terms: 5 - 2 = 3, so 3x squared.",
+          "x terms: 3 - 1 = 2, so 2x.",
+          "Result: 3x squared + 2x + 7."
+        ],
+        "final_answer": "3x squared + 2x + 7"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A cuboid has a length of (3x - 1), a width of x, and a height of 2. Write a simplified expression for the total surface area. (Surface area of a cuboid = 2lw + 2lh + 2wh.)",
+      "solution": {
+        "steps": [
+          "l = (3x - 1), w = x, h = 2.",
+          "2lw = 2(3x - 1)(x) = 2x(3x - 1) = 6x squared - 2x.",
+          "2lh = 2(3x - 1)(2) = 4(3x - 1) = 12x - 4.",
+          "2wh = 2(x)(2) = 4x.",
+          "Total = 6x squared - 2x + 12x - 4 + 4x = 6x squared + 14x - 4."
+        ],
+        "final_answer": "6x squared + 14x - 4"
+      }
+    }
+  ],
+  "summary": [
+    "An expression has no equals sign; an equation has one and is true for specific values; an identity is true for all values.",
+    "The coefficient is the number multiplying the variable; the constant is the term with no variable.",
+    "Only like terms (same variable and same power) can be added or subtracted.",
+    "a squared means a x a — it is not the same as 2a."
+  ]
+}

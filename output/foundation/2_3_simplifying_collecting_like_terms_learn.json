@@ -1,0 +1,22 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Simplifying & Collecting Like Terms",
+  "lesson_type": "learn",
+  "intro": "Simplifying algebraic expressions makes them shorter and easier to work with. Collecting like terms is the main method — you group and combine terms that have the same variable and power.",
+  "explanation": "Like terms have the same letter(s) raised to the same power.\n- 3x and 7x are like terms (both are x terms).\n- 4x squared and -2x squared are like terms.\n- 3x and 3x squared are NOT like terms.\n- 5xy and -2xy are like terms (both have x and y).\n\nTo simplify by collecting like terms:\n1. Identify groups of like terms.\n2. Add or subtract their coefficients.\n3. Keep the variable and power.\n\nExample: 5x + 3y - 2x + 4y = (5x - 2x) + (3y + 4y) = 3x + 7y.\n\nSimplifying with multiplication:\nx x x = x squared.\n3x x 4x = 12x squared (multiply coefficients, add powers).\n2x squared x 5x = 10x cubed.\n\nSimplifying with division (index laws):\n6x cubed / 2x = 3x squared (divide coefficients, subtract powers).\n\nIndex laws summary:\n- x to the power m x x to the power n = x to the power (m+n)\n- x to the power m / x to the power n = x to the power (m-n)\n- (x to the power m) to the power n = x to the power (m x n)",
+  "worked_example": {
+    "question": "Simplify: (a) 4a + 3b - a + 5b - 2  (b) 3x squared y x 4xy squared",
+    "steps": [
+      "Part (a): Group like terms. a terms: 4a - a = 3a. b terms: 3b + 5b = 8b. Constants: -2.",
+      "Answer: 3a + 8b - 2.",
+      "Part (b): Multiply coefficients: 3 x 4 = 12. Multiply x terms: x squared x x = x cubed. Multiply y terms: y x y squared = y cubed.",
+      "Answer: 12x cubed y cubed."
+    ],
+    "final_answer": "(a) 3a + 8b - 2   (b) 12x cubed y cubed"
+  },
+  "common_mistakes": [
+    "Adding unlike terms — 3x and 4y cannot be combined into 7xy or 7x.",
+    "Forgetting to apply the negative sign when subtracting — in 4a - a, the coefficient of the second term is -1, not 1.",
+    "When multiplying powers, multiplying instead of adding the indices — x squared x x cubed = x to the power 5, not x to the power 6."
+  ]
+}

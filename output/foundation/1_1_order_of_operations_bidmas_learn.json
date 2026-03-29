@@ -1,0 +1,22 @@
+{
+  "topic": "Number",
+  "subtopic": "Order of Operations (BIDMAS)",
+  "lesson_type": "learn",
+  "intro": "BIDMAS tells you the fixed order in which to carry out operations in a calculation. Without this rule, the same sum could give different answers depending on where you start — so every mathematician follows it.",
+  "explanation": "BIDMAS stands for Brackets, Indices, Division, Multiplication, Addition, Subtraction. This is the order you must follow every time.\n\nStart with Brackets — work out anything inside them first. Then deal with Indices (powers and roots). Next, carry out Division and Multiplication — these have equal priority, so when both appear together, work left to right. Finally, do Addition and Subtraction — also equal priority, so work left to right.\n\nFor example: 3 + 4 x 2\nMultiplication comes before addition, so work out 4 x 2 = 8 first, then 3 + 8 = 11.\nThe answer is 11, not 14.\n\nAnother example: 12 / 4 x 3\nDivision and multiplication have equal priority, so work left to right: 12 / 4 = 3, then 3 x 3 = 9.",
+  "worked_example": {
+    "question": "Work out 5 + (3 squared - 1) x 2",
+    "steps": [
+      "Brackets first. Inside the bracket there is an index: 3 squared = 9.",
+      "Complete the bracket: 9 - 1 = 8. The expression is now 5 + 8 x 2.",
+      "Multiplication before addition: 8 x 2 = 16.",
+      "Finally, addition: 5 + 16 = 21."
+    ],
+    "final_answer": "21"
+  },
+  "common_mistakes": [
+    "Working left to right without following BIDMAS — for example, adding 5 + 8 before multiplying by 2, which gives the wrong answer of 26.",
+    "Forgetting that division and multiplication have equal priority. If you always divide before multiplying regardless of position, you can get wrong answers when the multiplication appears first.",
+    "Treating the index inside brackets as a multiplication — for example, reading 3 squared as 3 x 2 = 6 instead of 3 x 3 = 9."
+  ]
+}

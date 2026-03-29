@@ -1,0 +1,22 @@
+{
+  "topic": "Number",
+  "subtopic": "Error Intervals & Bounds (Foundation)",
+  "lesson_type": "learn",
+  "intro": "When a number has been rounded, the original value could be anywhere within a range. Error intervals describe that range precisely, and bounds are the smallest and largest possible values.",
+  "explanation": "If a number is rounded to a given degree of accuracy, the original value lies within an error interval.\n\nThe lower bound is the smallest value that would round to the given number.\nThe upper bound is the smallest value that would round up to the next value (not included in the interval).\n\nRule: the bound is half the degree of accuracy either side of the rounded value.\n\nExample: a length is 7.4 cm rounded to 1 d.p. (degree of accuracy = 0.1 cm).\nHalf of 0.1 = 0.05.\nLower bound = 7.4 - 0.05 = 7.35 cm.\nUpper bound = 7.4 + 0.05 = 7.45 cm.\nError interval: 7.35 cm <= length < 7.45 cm.\n\nNote: always use <= for the lower bound and < (strictly less than) for the upper bound, because a value of exactly 7.45 would round up to 7.5, not 7.4.\n\nExample for whole numbers: a mass is 300 g rounded to the nearest 100 g.\nDegree of accuracy = 100 g. Half = 50 g.\nLower bound = 300 - 50 = 250 g.\nUpper bound = 300 + 50 = 350 g.\nError interval: 250 g <= mass < 350 g.",
+  "worked_example": {
+    "question": "A distance, d, is measured as 85 m to the nearest 5 m. Write down the error interval for d.",
+    "steps": [
+      "The degree of accuracy is 5 m. Half of 5 = 2.5.",
+      "Lower bound = 85 - 2.5 = 82.5 m.",
+      "Upper bound = 85 + 2.5 = 87.5 m.",
+      "Write as an error interval using correct inequality signs: 82.5 <= d < 87.5."
+    ],
+    "final_answer": "82.5 m <= d < 87.5 m"
+  },
+  "common_mistakes": [
+    "Using <= for the upper bound instead of < — the upper bound is not included because a value exactly equal to it would round up to the next value.",
+    "Using the full degree of accuracy rather than half of it — the bounds are half the rounding unit either side, not a full unit.",
+    "Confusing which bound is lower and which is upper — lower bound is always the smaller value (original minus half the accuracy)."
+  ]
+}

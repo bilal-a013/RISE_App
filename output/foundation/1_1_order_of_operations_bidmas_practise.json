@@ -1,0 +1,88 @@
+{
+  "topic": "Number",
+  "subtopic": "Order of Operations (BIDMAS)",
+  "lesson_type": "practise",
+  "recap": "BIDMAS sets the order for calculations: Brackets first, then Indices, then Division and Multiplication (left to right), then Addition and Subtraction (left to right).",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Work out 8 + 2 x 3",
+      "solution": {
+        "steps": [
+          "Multiplication before addition: 2 x 3 = 6.",
+          "Then add: 8 + 6 = 14."
+        ],
+        "final_answer": "14"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Work out (4 + 6) x 2 - 5",
+      "solution": {
+        "steps": [
+          "Brackets first: 4 + 6 = 10.",
+          "Multiplication: 10 x 2 = 20.",
+          "Subtraction: 20 - 5 = 15."
+        ],
+        "final_answer": "15"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out 3 squared + (10 - 4) / 2",
+      "solution": {
+        "steps": [
+          "Brackets first: 10 - 4 = 6.",
+          "Index: 3 squared = 9.",
+          "Division: 6 / 2 = 3.",
+          "Addition: 9 + 3 = 12."
+        ],
+        "final_answer": "12"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Work out 20 / (2 squared + 1) x 3",
+      "solution": {
+        "steps": [
+          "Brackets first — deal with the index inside: 2 squared = 4.",
+          "Complete the bracket: 4 + 1 = 5.",
+          "Division and multiplication have equal priority, so work left to right. Divide first: 20 / 5 = 4.",
+          "Then multiply: 4 x 3 = 12."
+        ],
+        "final_answer": "12"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Work out (2 cubed - 3) squared / (1 + 4) - 1",
+      "solution": {
+        "steps": [
+          "Left bracket — deal with the index first: 2 cubed = 8.",
+          "Complete the left bracket: 8 - 3 = 5.",
+          "The result has an index applied to it: 5 squared = 25.",
+          "Right bracket: 1 + 4 = 5.",
+          "Division: 25 / 5 = 5.",
+          "Subtraction: 5 - 1 = 4."
+        ],
+        "final_answer": "4"
+      }
+    }
+  ],
+  "summary": [
+    "BIDMAS: Brackets, Indices, Division/Multiplication (left to right), Addition/Subtraction (left to right).",
+    "Always resolve brackets first, including any indices or operations inside them.",
+    "Division and multiplication have equal priority — when both appear, work left to right, not always division first.",
+    "Addition and subtraction also have equal priority — again, work left to right."
+  ]
+}

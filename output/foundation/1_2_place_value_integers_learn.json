@@ -1,0 +1,21 @@
+{
+  "topic": "Number",
+  "subtopic": "Place Value & Integers",
+  "lesson_type": "learn",
+  "intro": "Place value tells you what each digit in a number is worth depending on its position. Understanding place value is the foundation of reading, writing, and comparing any number, from decimals to millions.",
+  "explanation": "Every digit in a number has a value determined by its position. Starting from the right, the columns are: ones, tens, hundreds, thousands, ten thousands, hundred thousands, millions, and so on. Moving one place to the left multiplies the value by 10.\n\nFor example, in the number 4,736:\n- 6 is in the ones column: worth 6\n- 3 is in the tens column: worth 30\n- 7 is in the hundreds column: worth 700\n- 4 is in the thousands column: worth 4,000\n\nIntegers are whole numbers — they can be positive, negative, or zero. Negative integers sit to the left of zero on the number line. The further left, the smaller the value. So -8 is less than -3, because -8 is further from zero in the negative direction.\n\nOrdering integers: always compare using the number line. Positive integers increase to the right. Negative integers: the larger the digit, the smaller the value (e.g. -100 < -1).\n\nPlace value also applies to decimals. To the right of the decimal point: tenths, hundredths, thousandths. So in 3.725, the 7 is 7 tenths, 2 is 2 hundredths, 5 is 5 thousandths.",
+  "worked_example": {
+    "question": "Write the value of the digit 6 in the number 364,812. Then order these integers from smallest to largest: -5, 3, -12, 0, 7.",
+    "steps": [
+      "In 364,812 the digit 6 is in the ten-thousands column. Its value is 6 x 10,000 = 60,000.",
+      "To order the integers, place them on a number line. Negatives are to the left of zero, positives to the right.",
+      "Order: -12, -5, 0, 3, 7."
+    ],
+    "final_answer": "The digit 6 has a value of 60,000. The integers in order are: -12, -5, 0, 3, 7."
+  },
+  "common_mistakes": [
+    "Confusing the value of a digit with the digit itself — the digit 6 in 364,812 is worth 60,000, not 6.",
+    "Ordering negative numbers incorrectly by thinking -12 is greater than -5 because 12 > 5. On the number line, -12 is further left, so it is smaller.",
+    "Misidentifying place value columns in large numbers by miscounting from the right — always count columns carefully or use comma separators as a guide."
+  ]
+}

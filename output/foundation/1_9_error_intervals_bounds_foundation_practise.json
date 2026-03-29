@@ -1,0 +1,84 @@
+{
+  "topic": "Number",
+  "subtopic": "Error Intervals & Bounds (Foundation)",
+  "lesson_type": "practise",
+  "recap": "Error intervals show the range of values a rounded number could have been — lower bound uses <=, upper bound uses <, and each bound is half the rounding unit away from the rounded value.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A number, n, is rounded to the nearest 10 and gives 50. Write down the error interval for n.",
+      "solution": {
+        "steps": [
+          "Degree of accuracy = 10. Half = 5.",
+          "Lower bound = 50 - 5 = 45. Upper bound = 50 + 5 = 55."
+        ],
+        "final_answer": "45 <= n < 55"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A length, l, is measured as 3.6 cm to 1 decimal place. Write down the error interval for l.",
+      "solution": {
+        "steps": [
+          "Degree of accuracy = 0.1 cm. Half = 0.05.",
+          "Lower bound = 3.6 - 0.05 = 3.55. Upper bound = 3.6 + 0.05 = 3.65."
+        ],
+        "final_answer": "3.55 cm <= l < 3.65 cm"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A time, t, is recorded as 48 seconds to the nearest 2 seconds. Write down the error interval for t.",
+      "solution": {
+        "steps": [
+          "Degree of accuracy = 2 seconds. Half = 1 second.",
+          "Lower bound = 48 - 1 = 47 seconds.",
+          "Upper bound = 48 + 1 = 49 seconds."
+        ],
+        "final_answer": "47 s <= t < 49 s"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A number is rounded to 2 decimal places and gives 6.43. Write down the error interval. Then explain whether 6.425 could be the original number.",
+      "solution": {
+        "steps": [
+          "Degree of accuracy = 0.01. Half = 0.005.",
+          "Lower bound = 6.43 - 0.005 = 6.425. Upper bound = 6.43 + 0.005 = 6.435.",
+          "Error interval: 6.425 <= n < 6.435.",
+          "6.425 is exactly the lower bound — the interval uses <=, so 6.425 is included. Yes, it could be the original number."
+        ],
+        "final_answer": "6.425 <= n < 6.435. Yes, 6.425 could be the original value as the lower bound is included."
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A rectangle has length 8.5 cm and width 4.3 cm, both measured to 1 decimal place. Find the upper bound of the area of the rectangle.",
+      "solution": {
+        "steps": [
+          "Upper bound of length = 8.5 + 0.05 = 8.55 cm.",
+          "Upper bound of width = 4.3 + 0.05 = 4.35 cm.",
+          "Upper bound of area = 8.55 x 4.35.",
+          "8.55 x 4.35: 8.55 x 4 = 34.20. 8.55 x 0.35 = 2.9925. Total = 34.20 + 2.9925 = 37.1925 cm squared."
+        ],
+        "final_answer": "37.1925 cm squared"
+      }
+    }
+  ],
+  "summary": [
+    "Error interval: lower bound <= value < upper bound.",
+    "Each bound is half the rounding unit either side of the rounded value.",
+    "Use <= for the lower bound (included) and < for the upper bound (not included).",
+    "For compound calculations involving bounds, use upper bounds for both measurements to find the maximum result."
+  ]
+}

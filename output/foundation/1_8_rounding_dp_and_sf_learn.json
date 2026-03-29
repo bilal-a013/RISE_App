@@ -1,0 +1,20 @@
+{
+  "topic": "Number",
+  "subtopic": "Rounding (d.p. and s.f.)",
+  "lesson_type": "learn",
+  "intro": "Rounding gives an approximate value that is easier to work with. You need to round to a given number of decimal places (d.p.) or significant figures (s.f.) — both methods appear regularly in GCSE exams.",
+  "explanation": "Rounding to decimal places (d.p.):\n1. Count the required number of digits after the decimal point.\n2. Look at the next digit (the one immediately after).\n3. If it is 5 or more, round up. If it is 4 or less, round down (leave the last kept digit as it is).\n\nExample: round 7.3847 to 2 d.p.\nThe second decimal place digit is 8. The next digit is 4 — round down. Answer: 7.38.\n\nRounding to significant figures (s.f.):\nSignificant figures are counted from the first non-zero digit.\n1. Find the required significant figure.\n2. Look at the next digit — same rounding rule (5+ round up, 4 or less round down).\n3. Replace remaining digits before the decimal point with zeros.\n\nExample: round 48,370 to 2 s.f.\nFirst s.f. is 4, second is 8. Next digit is 3 — round down. Answer: 48,000.\n\nExample: round 0.006842 to 2 s.f.\nFirst s.f. is 6, second is 8. Next digit is 4 — round down. Answer: 0.0068.\n\nImportant: zeros used as placeholders after rounding are not significant. Zeros between significant figures or after the decimal point at the end are significant.",
+  "worked_example": {
+    "question": "(a) Round 5.8473 to 3 d.p.  (b) Round 0.054862 to 2 s.f.",
+    "steps": [
+      "Part (a): Count three decimal places: 5.847|3. The digit after the 3rd d.p. is 3 — round down. Answer: 5.847.",
+      "Part (b): First non-zero digit is 5 (1st s.f.), next is 4 (2nd s.f.). The digit after is 8 — round up the 4 to 5. Answer: 0.055."
+    ],
+    "final_answer": "(a) 5.847   (b) 0.055"
+  },
+  "common_mistakes": [
+    "Starting to count significant figures from a leading zero — zeros before the first non-zero digit are never significant.",
+    "Looking at the wrong digit when rounding — you look one digit beyond the last digit you want to keep, not at the digit you are keeping.",
+    "Dropping trailing zeros after rounding a decimal — e.g. rounding 3.996 to 2 d.p. gives 4.00, not just 4, if the question requires 2 d.p."
+  ]
+}

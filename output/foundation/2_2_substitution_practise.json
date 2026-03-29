@@ -1,0 +1,83 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Substitution",
+  "lesson_type": "practise",
+  "recap": "Replace each letter with its value using brackets, then calculate in the correct BIDMAS order — take special care with negative values and indices.",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Find the value of 4x - 3 when x = 5.",
+      "solution": {
+        "steps": [
+          "4(5) - 3 = 20 - 3."
+        ],
+        "final_answer": "17"
+      }
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Find the value of 2a squared + 3b when a = 4 and b = -2.",
+      "solution": {
+        "steps": [
+          "2(4) squared + 3(-2) = 2 x 16 + (-6).",
+          "= 32 - 6 = 26."
+        ],
+        "final_answer": "26"
+      }
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "The formula for the area of a trapezium is A = 1/2 x (a + b) x h. Find A when a = 5, b = 9, h = 6.",
+      "solution": {
+        "steps": [
+          "A = 1/2 x (5 + 9) x 6.",
+          "= 1/2 x 14 x 6.",
+          "= 1/2 x 84 = 42."
+        ],
+        "final_answer": "42 square units"
+      }
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Given f(x) = x squared - 5x + 3, find f(-2).",
+      "solution": {
+        "steps": [
+          "f(-2) = (-2) squared - 5(-2) + 3.",
+          "= 4 + 10 + 3.",
+          "= 17."
+        ],
+        "final_answer": "17"
+      }
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "The formula for kinetic energy is E = 1/2 x m x v squared, where m is mass (kg) and v is speed (m/s). A car of mass 1,200 kg travels at 25 m/s. A second car has mass 900 kg and the same kinetic energy. Find the speed of the second car, giving your answer to 1 decimal place.",
+      "solution": {
+        "steps": [
+          "Energy of first car: E = 0.5 x 1200 x 25 squared = 0.5 x 1200 x 625 = 375,000 J.",
+          "For second car: 375,000 = 0.5 x 900 x v squared.",
+          "375,000 = 450 v squared.",
+          "v squared = 375,000 / 450 = 833.33...",
+          "v = square root of 833.33 = 28.867... = 28.9 m/s (1 d.p.)."
+        ],
+        "final_answer": "28.9 m/s"
+      }
+    }
+  ],
+  "summary": [
+    "Substitution means replacing letters with numbers — always use brackets around negative values.",
+    "Follow BIDMAS after substituting: indices before multiplication, multiplication before addition.",
+    "(-3) squared = 9, not -9 — the brackets make the negative part of the base.",
+    "Formulas work exactly like expressions — substitute each given value and then calculate."
+  ]
+}
