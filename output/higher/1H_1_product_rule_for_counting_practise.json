@@ -1,0 +1,71 @@
+{
+  "topic": "Number (Higher)",
+  "subtopic": "Product Rule for Counting",
+  "lesson_type": "practise",
+  "recap": "Multiply the number of options at each independent stage. If no repetition, reduce by 1 at each step.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A coin is flipped and a dice is rolled. How many possible outcomes are there?",
+      "solution": {
+        "steps": ["2 coin outcomes x 6 dice outcomes = 12 outcomes."],
+        "final_answer": "12"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A menu has 3 soups, 5 mains and 4 desserts. How many different 3-course meals are possible?",
+      "solution": {
+        "steps": [
+          "Apply product rule: 3 x 5 x 4 = 60."
+        ],
+        "final_answer": "60 different meals"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A PIN code is 4 digits (0–9), with no digit repeated. How many possible PIN codes are there?",
+      "solution": {
+        "steps": [
+          "First digit: 10 choices. Second: 9. Third: 8. Fourth: 7.",
+          "Total = 10 x 9 x 8 x 7 = 5040."
+        ],
+        "final_answer": "5040"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "How many different 2-letter codes can be formed from the letters A, B, C, D, E if repetition is allowed? If repetition is not allowed?",
+      "solution": {
+        "steps": [
+          "With repetition: 5 x 5 = 25.",
+          "Without repetition: 5 x 4 = 20."
+        ],
+        "final_answer": "With repetition: 25. Without repetition: 20"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A team of 3 is chosen from 4 girls and 5 boys. The team must have at least 1 girl. How many different teams are possible? (Use ordered selections — treat positions as distinct.)",
+      "solution": {
+        "steps": [
+          "Total ordered teams of 3 from 9 people: 9 x 8 x 7 = 504.",
+          "Ordered teams with no girls (all boys from 5): 5 x 4 x 3 = 60.",
+          "Teams with at least 1 girl = 504 - 60 = 444."
+        ],
+        "final_answer": "444 ordered teams with at least 1 girl"
+      }
+    }
+  },
+  "summary": [
+    "Product rule: multiply the number of options at each stage for independent choices.",
+    "Repetition allowed: options stay the same at each stage.",
+    "No repetition: reduce options by 1 at each stage.",
+    "Use complement method for 'at least one' problems: total minus cases with none."
+  ]
+}

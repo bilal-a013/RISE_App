@@ -1,0 +1,72 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Direct Proportion",
+  "lesson_type": "practise",
+  "recap": "Direct proportion means y = kx (or y = kx squared, etc.). Find k using a known pair of values, then use the equation to find other values.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "y is directly proportional to x. When x = 5, y = 15. Find k.",
+      "solution": {
+        "steps": ["y = kx, so 15 = 5k → k = 3."],
+        "final_answer": "k = 3"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "8 identical books cost £28. How much do 5 identical books cost?",
+      "solution": {
+        "steps": [
+          "Cost per book = £28 / 8 = £3.50.",
+          "Cost of 5 books = 5 x £3.50 = £17.50."
+        ],
+        "final_answer": "£17.50"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "y is proportional to x. When x = 6, y = 24. Find y when x = 9.",
+      "solution": {
+        "steps": [
+          "y = kx. k = 24 / 6 = 4. So y = 4x.",
+          "When x = 9: y = 4 x 9 = 36."
+        ],
+        "final_answer": "y = 36"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "y is proportional to x squared. When x = 2, y = 12. Find y when x = 5.",
+      "solution": {
+        "steps": [
+          "y = kx squared. 12 = k x 4 → k = 3. So y = 3x squared.",
+          "When x = 5: y = 3 x 25 = 75."
+        ],
+        "final_answer": "y = 75"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "The time T seconds for a pendulum to swing is proportional to the square root of its length L cm. When L = 25, T = 10. Find T when L = 81, and find L when T = 14.",
+      "solution": {
+        "steps": [
+          "T = k x (square root of L). 10 = k x 5 → k = 2.",
+          "When L = 81: T = 2 x square root of 81 = 2 x 9 = 18 seconds.",
+          "When T = 14: 14 = 2 x square root of L → square root of L = 7 → L = 49 cm."
+        ],
+        "final_answer": "T = 18 s when L = 81 cm; L = 49 cm when T = 14 s"
+      }
+    }
+  },
+  "summary": [
+    "Direct proportion means y = kx (or y = kx squared, etc.) — find k from a known pair of values.",
+    "The graph of direct proportion (y = kx) is a straight line through the origin.",
+    "Use the unitary method as an alternative: find the value for 1 unit, then multiply.",
+    "For y proportional to x squared, the equation is y = kx squared; substitute and solve for k first."
+  ]
+}

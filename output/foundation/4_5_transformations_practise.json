@@ -1,0 +1,75 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Transformations",
+  "lesson_type": "practise",
+  "recap": "Translation = column vector. Reflection = mirror line equation. Rotation = angle, direction, centre. Enlargement = scale factor and centre.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A shape is translated by the vector (3 on top, -2 on bottom). Describe this movement in words.",
+      "solution": {
+        "steps": ["Top number 3 means 3 units right. Bottom number -2 means 2 units down."],
+        "final_answer": "3 units right and 2 units down"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Point P is at (4, 6). It is reflected in the line y = 2. What are the coordinates of P'?",
+      "solution": {
+        "steps": [
+          "P is 4 units above the line y = 2 (since 6 - 2 = 4).",
+          "The reflection is 4 units below the line: y = 2 - 4 = -2.",
+          "x stays the same: P' = (4, -2)."
+        ],
+        "final_answer": "(4, -2)"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Shape A has vertices at (1, 1), (3, 1), (3, 4). It is enlarged by scale factor 2, centre (0, 0). Find the vertices of the image.",
+      "solution": {
+        "steps": [
+          "Multiply each coordinate by scale factor 2 (since centre is origin).",
+          "(1,1) → (2,2). (3,1) → (6,2). (3,4) → (6,8)."
+        ],
+        "final_answer": "(2, 2), (6, 2), (6, 8)"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Describe fully the single transformation that maps shape P with vertices (1, 2), (3, 2), (3, 5) to shape Q with vertices (-2, 1), (-2, 3), (-5, 3).",
+      "solution": {
+        "steps": [
+          "Check: (1,2) → (-2,1). This is not a simple translation.",
+          "Try rotation 90 degrees anticlockwise about origin: (x,y) → (-y, x). (1,2) → (-2,1). (3,2) → (-2,3). (3,5) → (-5,3). All match.",
+          "Rotation of 90 degrees anticlockwise about the origin."
+        ],
+        "final_answer": "Rotation of 90 degrees anticlockwise about the origin (0, 0)"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Triangle T has vertices (2, 1), (4, 1), (4, 5). It is enlarged by scale factor -2, centre (1, 1). Find the image vertices and describe what a negative scale factor means geometrically.",
+      "solution": {
+        "steps": [
+          "For each vertex, measure the vector from centre (1,1): (2,1)-(1,1)=(1,0); (4,1)-(1,1)=(3,0); (4,5)-(1,1)=(3,4).",
+          "Multiply each by -2: (1,0)→(-2,0); (3,0)→(-6,0); (3,4)→(-6,-8).",
+          "Add back centre: (-2+1, 0+1)=(-1,1); (-6+1,0+1)=(-5,1); (-6+1,-8+1)=(-5,-7).",
+          "Negative scale factor means the shape is enlarged and rotated by 180 degrees (placed on the opposite side of the centre)."
+        ],
+        "final_answer": "Image vertices: (-1, 1), (-5, 1), (-5, -7). Negative scale factor enlarges and rotates 180 degrees."
+      }
+    }
+  },
+  "summary": [
+    "Translation: described by a column vector (right/left, up/down).",
+    "Reflection: described by the equation of the mirror line.",
+    "Rotation: requires angle, direction (CW or ACW), and centre of rotation.",
+    "Enlargement: scale factor and centre of enlargement; negative scale factor also rotates 180 degrees."
+  ]
+}

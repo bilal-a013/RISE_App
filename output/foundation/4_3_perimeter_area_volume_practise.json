@@ -1,0 +1,73 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Perimeter, Area & Volume",
+  "lesson_type": "practise",
+  "recap": "Area of triangle = half x base x height. Circumference = 2 x pi x r. Volume of prism = cross-section area x length. Always use perpendicular height.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Find the area of a triangle with base 10 cm and perpendicular height 6 cm.",
+      "solution": {
+        "steps": ["Area = (1/2) x base x height = 0.5 x 10 x 6 = 30 cm squared."],
+        "final_answer": "30 cm squared"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Find the area of a trapezium with parallel sides 8 cm and 14 cm, and a perpendicular height of 5 cm.",
+      "solution": {
+        "steps": [
+          "Area = (1/2) x (a + b) x h = 0.5 x (8 + 14) x 5.",
+          "= 0.5 x 22 x 5 = 55 cm squared."
+        ],
+        "final_answer": "55 cm squared"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A cylinder has radius 4 cm and height 10 cm. Find its volume and curved surface area. Give answers in terms of pi.",
+      "solution": {
+        "steps": [
+          "Volume = pi x r squared x h = pi x 16 x 10 = 160 pi cm cubed.",
+          "Curved surface area = 2 x pi x r x h = 2 x pi x 4 x 10 = 80 pi cm squared."
+        ],
+        "final_answer": "Volume = 160 pi cm cubed, Curved surface area = 80 pi cm squared"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A sector has radius 6 cm and angle 120 degrees. Find the arc length and area. Give answers to 2 d.p.",
+      "solution": {
+        "steps": [
+          "Arc length = (120/360) x 2 x pi x 6 = (1/3) x 12pi = 4pi ≈ 12.57 cm.",
+          "Sector area = (120/360) x pi x 6 squared = (1/3) x 36pi = 12pi ≈ 37.70 cm squared."
+        ],
+        "final_answer": "Arc length ≈ 12.57 cm, Sector area ≈ 37.70 cm squared"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A solid cone has radius 5 cm and perpendicular height 12 cm. Find the volume and total surface area. Use slant height = 13 cm. Give answers to 1 d.p.",
+      "solution": {
+        "steps": [
+          "Volume = (1/3) x pi x r squared x h = (1/3) x pi x 25 x 12 = 100pi ≈ 314.2 cm cubed.",
+          "Curved surface area = pi x r x l = pi x 5 x 13 = 65pi cm squared.",
+          "Base area = pi x r squared = 25pi cm squared.",
+          "Total surface area = 65pi + 25pi = 90pi ≈ 282.7 cm squared."
+        ],
+        "final_answer": "Volume ≈ 314.2 cm cubed, Total surface area ≈ 282.7 cm squared"
+      }
+    }
+  },
+  "summary": [
+    "Area formulas: triangle = (1/2)bh; trapezium = (1/2)(a+b)h; circle = pi r squared.",
+    "Volume of a prism = area of cross-section x length; cylinder = pi r squared h; cone = (1/3) pi r squared h.",
+    "Arc length = (angle/360) x 2 pi r; sector area = (angle/360) x pi r squared.",
+    "For compound shapes, split into simpler parts and add or subtract their areas or volumes."
+  ]
+}

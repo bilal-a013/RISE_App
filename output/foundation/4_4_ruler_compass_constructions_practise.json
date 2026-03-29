@@ -1,0 +1,76 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Ruler & Compass Constructions",
+  "lesson_type": "practise",
+  "recap": "Keep construction arcs visible. Perpendicular bisector: arcs from both ends of a line. Angle bisector: arc from vertex, then arcs from where it meets the arms.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "What tool is used (alongside a ruler) to perform accurate geometric constructions?",
+      "solution": {
+        "steps": ["A compass is used to draw arcs and circles of a precise radius."],
+        "final_answer": "A compass"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A treasure is equidistant from two trees A and B. Describe the locus of the treasure.",
+      "solution": {
+        "steps": [
+          "Points equidistant from two fixed points lie on the perpendicular bisector of the line joining those points.",
+          "Construct the perpendicular bisector of line segment AB."
+        ],
+        "final_answer": "The perpendicular bisector of AB"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A goat is tied to a fence post by a 4 m rope. Describe and sketch the locus of the goat's reach. What is the area the goat can reach?",
+      "solution": {
+        "steps": [
+          "The goat can reach all points within 4 m of the post.",
+          "Locus: a circle of radius 4 m centred on the post.",
+          "Area = pi x r squared = pi x 16 = 16 pi ≈ 50.3 m squared."
+        ],
+        "final_answer": "Circle of radius 4 m; area = 16 pi ≈ 50.3 m squared"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Describe the steps to bisect an angle ABC using a compass and ruler.",
+      "solution": {
+        "steps": [
+          "1. Place compass on vertex B, draw an arc that crosses both arms BA and BC. Label intersections D and E.",
+          "2. Place compass on D, draw an arc inside the angle.",
+          "3. Keep the same radius, place compass on E, draw another arc crossing the first inside the angle.",
+          "4. Draw a straight line from B through the crossing point. This bisects angle ABC."
+        ],
+        "final_answer": "Line from B through the intersection of the two interior arcs bisects angle ABC"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A point P must be: (a) less than 5 cm from a fixed point O, and (b) closer to line L1 than to line L2, where L1 and L2 meet at a point. Describe the two constructions and how to identify the valid region.",
+      "solution": {
+        "steps": [
+          "For condition (a): draw a circle of radius 5 cm centred on O. P must be inside this circle.",
+          "For condition (b): construct the angle bisector of the angle between L1 and L2. P must be on the same side as L1 (closer to L1 than L2).",
+          "The valid region is the area inside the circle AND on the L1 side of the angle bisector.",
+          "Shade the overlapping region."
+        ],
+        "final_answer": "Inside the circle of radius 5 cm AND on the L1 side of the angle bisector of L1 and L2"
+      }
+    }
+  },
+  "summary": [
+    "Always leave construction arcs visible — do not erase them.",
+    "Perpendicular bisector: keep the same compass radius when drawing arcs from both endpoints.",
+    "Angle bisector: draw an arc from the vertex, then arcs from where that arc crosses the arms.",
+    "Locus of equidistant points from a line is two parallel lines; from a point is a circle."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Ratio & Dividing into a Ratio",
+  "lesson_type": "practise",
+  "recap": "To divide in a ratio: find total shares, divide the amount by total shares to find one share, then multiply each part by one share.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Simplify the ratio 15:25.",
+      "solution": {
+        "steps": ["HCF of 15 and 25 is 5. Divide both by 5: 15/5 = 3, 25/5 = 5."],
+        "final_answer": "3:5"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Divide £40 in the ratio 3:5.",
+      "solution": {
+        "steps": [
+          "Total shares = 3 + 5 = 8.",
+          "One share = £40 / 8 = £5.",
+          "First part = 3 x £5 = £15. Second part = 5 x £5 = £25."
+        ],
+        "final_answer": "£15 and £25"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Alex, Beth and Carl share a prize in the ratio 2:3:5. The total prize is £200. How much does each person receive?",
+      "solution": {
+        "steps": [
+          "Total shares = 2 + 3 + 5 = 10.",
+          "One share = £200 / 10 = £20.",
+          "Alex = 2 x £20 = £40. Beth = 3 x £20 = £60. Carl = 5 x £20 = £100."
+        ],
+        "final_answer": "Alex: £40, Beth: £60, Carl: £100"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Mortar is made by mixing sand and cement in the ratio 5:1. A builder uses 15 kg of cement. How much sand does he need?",
+      "solution": {
+        "steps": [
+          "Cement is 1 part = 15 kg.",
+          "So one share = 15 kg.",
+          "Sand = 5 x 15 = 75 kg."
+        ],
+        "final_answer": "75 kg of sand"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Two numbers are in the ratio 4:9. The larger number is 27 more than the smaller. Find both numbers.",
+      "solution": {
+        "steps": [
+          "Let smaller = 4k and larger = 9k.",
+          "Difference: 9k - 4k = 5k = 27, so k = 27/5 = 5.4.",
+          "Smaller = 4 x 5.4 = 21.6. Larger = 9 x 5.4 = 48.6.",
+          "Check: 48.6 - 21.6 = 27. Correct."
+        ],
+        "final_answer": "Smaller number: 21.6, Larger number: 48.6"
+      }
+    }
+  },
+  "summary": [
+    "Simplify a ratio by dividing all parts by their highest common factor.",
+    "To divide an amount in a ratio: total shares = sum of ratio parts; one share = amount / total shares.",
+    "If you know one part already, work out one share and scale the other parts.",
+    "Always check: the parts should sum back to the original total."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "topic": "Probability",
+  "subtopic": "Basic Probability",
+  "lesson_type": "learn",
+  "intro": "Probability measures how likely an event is to occur. All probabilities are values between 0 (impossible) and 1 (certain), and can be written as fractions, decimals or percentages.",
+  "explanation": "Key vocabulary:\n- Outcome: a possible result of an experiment.\n- Event: one or more outcomes grouped together.\n- Sample space: all possible outcomes.\n\nTheoretical probability:\nP(event) = number of favourable outcomes / total number of equally likely outcomes.\n\nExample: Rolling a fair dice. P(even) = 3/6 = 1/2.\n\nComplement:\nP(event does NOT happen) = 1 - P(event happens).\nExample: P(not rolling a 6) = 1 - 1/6 = 5/6.\n\nMutually exclusive events:\nEvents that cannot happen at the same time.\nP(A or B) = P(A) + P(B) (only for mutually exclusive events).\n\nExperimental probability (relative frequency):\nP(event) ≈ number of times event occurred / total number of trials.\nAs the number of trials increases, experimental probability gets closer to theoretical probability.\n\nExpected frequency:\nExpected number of times = probability x number of trials.\nExample: Probability of heads = 0.5. In 200 flips: expected heads = 0.5 x 200 = 100.\n\nListing outcomes:\nFor multiple events, list all combinations systematically (sample space diagram or list).",
+  "worked_example": {
+    "question": "A bag contains 5 red, 3 blue and 2 green counters. A counter is taken at random. Find: (a) P(red)  (b) P(not green)  (c) P(red or blue)",
+    "steps": [
+      "Total counters = 5 + 3 + 2 = 10.",
+      "P(red) = 5/10 = 1/2.",
+      "P(not green) = 1 - P(green) = 1 - 2/10 = 8/10 = 4/5.",
+      "P(red or blue) = P(red) + P(blue) = 5/10 + 3/10 = 8/10 = 4/5 (mutually exclusive)."
+    ],
+    "final_answer": "(a) 1/2   (b) 4/5   (c) 4/5"
+  },
+  "common_mistakes": [
+    "Adding probabilities for events that are not mutually exclusive — only use P(A) + P(B) when events cannot both happen at once.",
+    "Writing probability greater than 1 — all probabilities must be between 0 and 1 inclusive.",
+    "Forgetting to simplify the fraction — always simplify your probability to its lowest terms."
+  ]
+}

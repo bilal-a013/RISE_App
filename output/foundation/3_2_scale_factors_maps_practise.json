@@ -1,0 +1,75 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Scale Factors & Maps",
+  "lesson_type": "practise",
+  "recap": "Map distance x scale = real distance. Scale factor k means lengths multiply by k, areas multiply by k squared, volumes by k cubed.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A map has scale 1:10000. A road is 3 cm on the map. How long is the road in metres?",
+      "solution": {
+        "steps": ["Real distance = 3 x 10000 = 30000 cm = 300 m."],
+        "final_answer": "300 m"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A shape is enlarged by scale factor 4. The original perimeter is 15 cm. What is the new perimeter?",
+      "solution": {
+        "steps": [
+          "Perimeter scales linearly by the scale factor.",
+          "New perimeter = 15 x 4 = 60 cm."
+        ],
+        "final_answer": "60 cm"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A map scale is 1:25000. Two forests are 12.4 cm apart on the map. What is the real distance in km?",
+      "solution": {
+        "steps": [
+          "Real distance = 12.4 x 25000 = 310000 cm.",
+          "Convert: 310000 cm / 100 = 3100 m.",
+          "3100 / 1000 = 3.1 km."
+        ],
+        "final_answer": "3.1 km"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Two similar triangles have corresponding sides of length 5 cm and 20 cm. The area of the smaller triangle is 12 cm squared. Find the area of the larger triangle.",
+      "solution": {
+        "steps": [
+          "Linear scale factor = 20 / 5 = 4.",
+          "Area scale factor = 4 squared = 16.",
+          "Area of larger triangle = 12 x 16 = 192 cm squared."
+        ],
+        "final_answer": "192 cm squared"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Two similar cylinders have volumes 27 cm cubed and 216 cm cubed. The surface area of the smaller cylinder is 54 cm squared. Find the surface area of the larger cylinder.",
+      "solution": {
+        "steps": [
+          "Volume scale factor = 216 / 27 = 8.",
+          "Linear scale factor k: k cubed = 8, so k = 2.",
+          "Area scale factor = k squared = 4.",
+          "Surface area of larger = 54 x 4 = 216 cm squared."
+        ],
+        "final_answer": "216 cm squared"
+      }
+    }
+  },
+  "summary": [
+    "Map scale 1:n means multiply map distance by n to get real distance; divide real distance by n to get map distance.",
+    "Always convert to consistent units (cm to m to km) when answering map questions.",
+    "For similar shapes: length scale factor k; area scale factor k squared; volume scale factor k cubed.",
+    "Find the linear scale factor from areas by square rooting; from volumes by cube rooting."
+  ]
+}

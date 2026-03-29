@@ -1,0 +1,75 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Expanding Brackets",
+  "lesson_type": "practise",
+  "recap": "Multiply every term inside the bracket by the term outside; for double brackets use FOIL then collect like terms.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Expand: 5(2x + 3).",
+      "solution": {
+        "steps": ["5 x 2x = 10x. 5 x 3 = 15."],
+        "final_answer": "10x + 15"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Expand and simplify: 3(2x + 1) + 2(x - 4).",
+      "solution": {
+        "steps": [
+          "Expand: 3(2x + 1) = 6x + 3.",
+          "Expand: 2(x - 4) = 2x - 8.",
+          "Add: 6x + 3 + 2x - 8 = 8x - 5."
+        ],
+        "final_answer": "8x - 5"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Expand and simplify: (x + 4)(x + 9).",
+      "solution": {
+        "steps": [
+          "First: x x x = x squared.",
+          "Outer + Inner: 9x + 4x = 13x.",
+          "Last: 4 x 9 = 36."
+        ],
+        "final_answer": "x squared + 13x + 36"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Expand and simplify: (2x - 3)(x + 5).",
+      "solution": {
+        "steps": [
+          "First: 2x x x = 2x squared.",
+          "Outer: 2x x 5 = 10x. Inner: -3 x x = -3x. Combined: 7x.",
+          "Last: -3 x 5 = -15."
+        ],
+        "final_answer": "2x squared + 7x - 15"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Expand and simplify: (3x - 2) squared - (x + 1)(x - 5).",
+      "solution": {
+        "steps": [
+          "Expand (3x - 2) squared = (3x - 2)(3x - 2) = 9x squared - 6x - 6x + 4 = 9x squared - 12x + 4.",
+          "Expand (x + 1)(x - 5) = x squared - 5x + x - 5 = x squared - 4x - 5.",
+          "Subtract: (9x squared - 12x + 4) - (x squared - 4x - 5) = 8x squared - 8x + 9."
+        ],
+        "final_answer": "8x squared - 8x + 9"
+      }
+    }
+  },
+  "summary": [
+    "For a single bracket, multiply the outside term by every term inside.",
+    "For double brackets, use FOIL: First, Outer, Inner, Last, then collect like terms.",
+    "When squaring a bracket, write it out as two brackets before expanding — do not just square each term.",
+    "Take extra care with negative signs, especially in products like -3(x - 4)."
+  ]
+}

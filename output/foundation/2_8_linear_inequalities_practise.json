@@ -1,0 +1,76 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Linear Inequalities",
+  "lesson_type": "practise",
+  "recap": "Solve inequalities like equations but remember to flip the inequality sign whenever you multiply or divide by a negative number.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Solve: 4x - 3 > 9.",
+      "solution": {
+        "steps": ["Add 3: 4x > 12.", "Divide by 4: x > 3."],
+        "final_answer": "x > 3"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Solve: -3x <= 12. Write down the integers that satisfy this inequality and are also greater than -5.",
+      "solution": {
+        "steps": [
+          "Divide by -3 (flip sign): x >= -4.",
+          "Integers >= -4 and > -5: -4, -3, -2, -1, 0, ... (all integers >= -4)."
+        ],
+        "final_answer": "x >= -4. Integers greater than -5 satisfying this: -4, -3, -2, -1, 0, ..."
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Solve: 3 < 2x + 1 <= 11. List the integer values of x.",
+      "solution": {
+        "steps": [
+          "Subtract 1 throughout: 2 < 2x <= 10.",
+          "Divide by 2: 1 < x <= 5.",
+          "Integer values: 2, 3, 4, 5."
+        ],
+        "final_answer": "1 < x <= 5. Integer values: 2, 3, 4, 5"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Solve: 5(x - 2) < 3x + 4.",
+      "solution": {
+        "steps": [
+          "Expand: 5x - 10 < 3x + 4.",
+          "Subtract 3x: 2x - 10 < 4.",
+          "Add 10: 2x < 14.",
+          "Divide by 2: x < 7."
+        ],
+        "final_answer": "x < 7"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Find the integer values satisfied by both: 2x + 3 > 7  and  3x <= 18.",
+      "solution": {
+        "steps": [
+          "Solve first inequality: 2x + 3 > 7 → 2x > 4 → x > 2.",
+          "Solve second inequality: 3x <= 18 → x <= 6.",
+          "Combined: 2 < x <= 6.",
+          "Integer values: 3, 4, 5, 6."
+        ],
+        "final_answer": "Integer values: 3, 4, 5, 6"
+      }
+    }
+  },
+  "summary": [
+    "Solve inequalities using the same inverse operations as equations.",
+    "Reverse the inequality sign when multiplying or dividing by a negative number.",
+    "Use an open circle for strict inequalities and a filled circle for >= or <= on a number line.",
+    "When asked for integers, list only whole numbers that satisfy the inequality."
+  ]
+}

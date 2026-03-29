@@ -1,0 +1,21 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Transformations",
+  "lesson_type": "learn",
+  "intro": "Transformations move or change a shape. The four types are translation, reflection, rotation and enlargement. You need to be able to describe and perform each one fully.",
+  "explanation": "Translation:\n- Moves a shape in a direction without rotating or flipping it.\n- Described by a column vector: the top number is movement right (+) or left (-); the bottom number is up (+) or down (-).\n- Shape and size do not change.\n\nReflection:\n- Flips a shape in a mirror line.\n- Described by giving the equation of the mirror line (e.g. y = x, x = 2, y = -1).\n- Every point is the same distance from the mirror line on the opposite side.\n\nRotation:\n- Turns a shape about a centre of rotation.\n- Described by: angle, direction (clockwise or anticlockwise), and centre of rotation.\n- The shape and size do not change.\n- Use tracing paper to help rotate a shape.\n\nEnlargement:\n- Changes the size of a shape.\n- Described by: scale factor and centre of enlargement.\n- Multiply all distances from the centre by the scale factor.\n- Scale factor > 1: shape gets bigger. 0 < scale factor < 1: shape gets smaller. Negative scale factor: shape also flips (rotates 180 degrees).\n\nCongruent shapes: same shape and size (from translations, reflections, rotations).\nSimilar shapes: same shape, different size (from enlargements).",
+  "worked_example": {
+    "question": "Triangle ABC has vertices A(1, 1), B(3, 1), C(1, 4). Describe fully the transformation that maps triangle ABC to its image A'(5, 1), B'(7, 1), C'(5, 4).",
+    "steps": [
+      "Compare corresponding vertices: A(1,1) to A'(5,1) — moves 4 right, 0 up.",
+      "B(3,1) to B'(7,1) — moves 4 right, 0 up. Confirmed consistent.",
+      "This is a translation by column vector (4 on top, 0 on bottom)."
+    ],
+    "final_answer": "Translation by column vector (4, 0)"
+  },
+  "common_mistakes": [
+    "Not giving a full description — a rotation needs angle, direction AND centre; an enlargement needs scale factor AND centre.",
+    "Getting the column vector direction wrong — top number = horizontal (right positive), bottom = vertical (up positive).",
+    "Enlarging from the wrong point — always measure distances from the centre of enlargement when enlarging."
+  ]
+}

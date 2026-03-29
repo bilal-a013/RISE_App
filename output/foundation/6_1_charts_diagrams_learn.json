@@ -1,0 +1,24 @@
+{
+  "topic": "Statistics",
+  "subtopic": "Charts & Diagrams",
+  "lesson_type": "learn",
+  "intro": "Charts and diagrams display data visually. Knowing how to read, interpret and draw them accurately is fundamental to the statistics section of your GCSE examination.",
+  "explanation": "Bar charts and pie charts:\n- Bar chart: height (or length) of each bar represents frequency. Bars have equal width and equal gaps.\n- Pie chart: each sector's angle represents its proportion. Use: angle = (frequency / total) x 360.\n\nFrequency polygons:\n- Plot the midpoint of each class interval against frequency, then join the points with straight lines.\n- Used for continuous grouped data.\n\nScatter graphs and correlation:\n- Plot one variable on x-axis and another on y-axis.\n- Correlation describes the relationship:\n  - Positive correlation: as x increases, y increases.\n  - Negative correlation: as x increases, y decreases.\n  - No correlation: no clear pattern.\n- Line of best fit: a straight line through the middle of the scatter of points. Draw it so roughly equal numbers of points are above and below.\n- Use the line of best fit to estimate values: interpolation (within the data range) is reliable; extrapolation (outside the data range) is unreliable.\n\nStem-and-leaf diagrams:\n- Data is split into stems (tens) and leaves (units).\n- Back-to-back stem-and-leaf diagrams compare two data sets.\n- Always write leaves in order and include a key.\n\nTwo-way tables:\n- Show data for two categories simultaneously.\n- Fill in any missing values using row and column totals.",
+  "worked_example": {
+    "question": "A survey finds: 15 students prefer sport, 9 prefer art, 6 prefer music, and 30 prefer drama. Calculate the angle for each sector in a pie chart.",
+    "steps": [
+      "Total = 15 + 9 + 6 + 30 = 60 students.",
+      "Sport: (15/60) x 360 = 90 degrees.",
+      "Art: (9/60) x 360 = 54 degrees.",
+      "Music: (6/60) x 360 = 36 degrees.",
+      "Drama: (30/60) x 360 = 180 degrees.",
+      "Check: 90 + 54 + 36 + 180 = 360 degrees. Correct."
+    ],
+    "final_answer": "Sport: 90 degrees, Art: 54 degrees, Music: 36 degrees, Drama: 180 degrees"
+  },
+  "common_mistakes": [
+    "Plotting bar charts with unequal bar widths — all bars in a standard bar chart must have the same width.",
+    "Drawing a line of best fit that only passes through the first and last point — it should reflect the overall trend with similar numbers of points on each side.",
+    "Forgetting to include a key on a stem-and-leaf diagram — examiners require a key like '5 | 3 means 53'."
+  ]
+}

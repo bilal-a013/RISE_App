@@ -1,0 +1,70 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Compound Units (Speed, Density, Pressure)",
+  "lesson_type": "practise",
+  "recap": "Speed = Distance / Time. Density = Mass / Volume. Pressure = Force / Area. Always use consistent units before substituting.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A car travels 180 km in 3 hours. What is its average speed?",
+      "solution": {
+        "steps": ["Speed = Distance / Time = 180 / 3 = 60 km/h."],
+        "final_answer": "60 km/h"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A metal block has a mass of 240 g and a volume of 30 cm cubed. Calculate its density.",
+      "solution": {
+        "steps": [
+          "Density = Mass / Volume = 240 / 30 = 8 g/cm cubed."
+        ],
+        "final_answer": "8 g/cm cubed"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A cyclist travels at an average speed of 15 km/h for 2 hours 20 minutes. How far do they travel?",
+      "solution": {
+        "steps": [
+          "Convert time: 2 hours 20 minutes = 2 + 20/60 = 2.333... hours.",
+          "Distance = Speed x Time = 15 x 7/3 = 35 km."
+        ],
+        "final_answer": "35 km"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A force of 50 N is applied to a surface of area 0.25 m squared. Calculate the pressure.",
+      "solution": {
+        "steps": [
+          "Pressure = Force / Area = 50 / 0.25 = 200 N/m squared (Pascals)."
+        ],
+        "final_answer": "200 Pa"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A stone has a density of 2.5 g/cm cubed and a mass of 200 g. It is placed in a rectangular tank that is 10 cm long and 5 cm wide. By how much does the water level rise?",
+      "solution": {
+        "steps": [
+          "Find volume of stone: Volume = Mass / Density = 200 / 2.5 = 80 cm cubed.",
+          "Area of base of tank = 10 x 5 = 50 cm squared.",
+          "Rise in water level = Volume / Area = 80 / 50 = 1.6 cm."
+        ],
+        "final_answer": "Water level rises by 1.6 cm"
+      }
+    }
+  },
+  "summary": [
+    "Speed, distance and time: S = D/T. Cover the quantity you want with your thumb in the triangle D|ST.",
+    "Density, mass and volume: D = M/V. Use the triangle M|DV.",
+    "Pressure, force and area: P = F/A. Use the triangle F|PA.",
+    "Always convert units to be consistent all the way through — especially minutes to hours in time calculations."
+  ]
+}

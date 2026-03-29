@@ -1,0 +1,23 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Composite & Inverse Functions",
+  "lesson_type": "learn",
+  "intro": "Functions are rules that take an input and give an output. In this lesson you will learn how to combine two functions together (composite functions) and how to reverse a function to find its inverse.",
+  "explanation": "A function f(x) is a rule applied to x. For example, f(x) = 2x + 1 means double x then add 1.\n\nComposite functions:\nfg(x) means apply g first, then apply f to the result. It is read as 'f of g of x'.\nFor example, if f(x) = 2x + 1 and g(x) = x squared, then fg(x) = f(g(x)) = f(x squared) = 2(x squared) + 1.\nNote: fg(x) and gf(x) are usually different — the order matters.\n\nInverse functions:\nThe inverse function, written f to the power of -1, reverses the effect of f.\nIf f(x) = 5, then f inverse of 5 gives back x.\n\nTo find the inverse:\nStep 1: Write y = f(x).\nStep 2: Rearrange to make x the subject.\nStep 3: Replace x with f inverse(y), or swap x and y at the end.\n\nExample: Find the inverse of f(x) = 3x - 7.\nWrite y = 3x - 7. Rearrange: y + 7 = 3x, so x = (y + 7) / 3.\nTherefore f inverse(x) = (x + 7) / 3.\n\nYou can check: f(f inverse(x)) should equal x. f((x + 7)/3) = 3 x (x + 7)/3 - 7 = x + 7 - 7 = x. Correct.",
+  "worked_example": {
+    "question": "f(x) = 4x + 3 and g(x) = x squared - 1. Find (a) fg(2) and (b) f inverse(x).",
+    "steps": [
+      "Part (a): Find fg(2). Apply g first: g(2) = 2 squared - 1 = 3.",
+      "Now apply f: f(3) = 4(3) + 3 = 15. So fg(2) = 15.",
+      "Part (b): Find f inverse(x). Write y = 4x + 3.",
+      "Rearrange: y - 3 = 4x, so x = (y - 3) / 4.",
+      "Therefore f inverse(x) = (x - 3) / 4."
+    ],
+    "final_answer": "fg(2) = 15 and f inverse(x) = (x - 3) / 4"
+  },
+  "common_mistakes": [
+    "Applying functions in the wrong order for composite functions: fg(x) means do g first, then f — not the other way round.",
+    "Forgetting to check the inverse by substituting back in — always verify f(f inverse(x)) = x.",
+    "Making arithmetic errors when rearranging to find the inverse — take it step by step and treat it as solving an equation."
+  ]
+}

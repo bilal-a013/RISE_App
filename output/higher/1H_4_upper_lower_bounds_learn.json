@@ -1,0 +1,21 @@
+{
+  "topic": "Number (Higher)",
+  "subtopic": "Upper & Lower Bounds",
+  "lesson_type": "learn",
+  "intro": "When a measurement is rounded, the true value lies in a range. The upper and lower bounds define that range. This is essential for error interval calculations and checking accuracy in real-world measurements.",
+  "explanation": "Finding bounds:\nIf a value x has been rounded to the nearest n, the bounds are:\n- Lower bound = x - n/2\n- Upper bound = x + n/2\n\nThe true value satisfies: lower bound <= true value < upper bound.\n\nExamples:\n- 7.4 (rounded to 1 d.p.): lower bound = 7.35, upper bound = 7.45.\n- 300 (rounded to the nearest 10): lower bound = 295, upper bound = 305.\n- 3.6 (rounded to 2 s.f.): each final significant figure represents 0.05, lower bound = 3.55, upper bound = 3.65.\n\nBounds in calculations:\nWhen combining measurements, use the appropriate bounds to find the maximum or minimum possible result:\n- Maximum sum/product: use upper bounds.\n- Minimum sum/product: use lower bounds.\n- Maximum difference: use upper bound for first value, lower bound for second.\n- Minimum difference: use lower bound for first value, upper bound for second.\n- Maximum quotient (a/b): use upper bound for a and lower bound for b.\n- Minimum quotient (a/b): use lower bound for a and upper bound for b.",
+  "worked_example": {
+    "question": "A rectangle has length l = 12.4 cm and width w = 7.8 cm, both measured to 1 decimal place. Find the upper bound for the area of the rectangle.",
+    "steps": [
+      "Upper bound of l = 12.45 cm. Upper bound of w = 7.85 cm.",
+      "Maximum area = upper bound of l x upper bound of w = 12.45 x 7.85.",
+      "12.45 x 7.85 = 97.7325 cm squared."
+    ],
+    "final_answer": "Upper bound of area = 97.7325 cm squared"
+  },
+  "common_mistakes": [
+    "Using the upper bound for both values when finding the minimum of a quotient — for a/b minimum, use lower bound for a and upper bound for b.",
+    "Treating the upper bound as strictly included — the true value can equal the lower bound but is strictly less than the upper bound.",
+    "Rounding the bounds unnecessarily — leave them as exact values for calculations."
+  ]
+}

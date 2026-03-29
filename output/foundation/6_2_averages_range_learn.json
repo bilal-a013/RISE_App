@@ -1,0 +1,23 @@
+{
+  "topic": "Statistics",
+  "subtopic": "Averages & Range",
+  "lesson_type": "learn",
+  "intro": "Averages summarise data with a single representative value. The range describes how spread out the data is. You need to calculate and interpret the mean, median, mode and range for both listed data and frequency tables.",
+  "explanation": "Mean:\nSum of all values / number of values.\nFor frequency tables: mean = sum of (value x frequency) / sum of frequencies.\n\nMedian:\nThe middle value when data is in order. If there are n values:\n- Odd n: median is the ((n+1)/2)th value.\n- Even n: median is the mean of the (n/2)th and (n/2 + 1)th values.\n\nMode:\nThe value that appears most often. There can be no mode, one mode or more than one mode.\n\nRange:\nLargest value - smallest value. A measure of spread.\n\nFor grouped data (estimated mean):\n1. Find the midpoint of each class interval.\n2. Multiply each midpoint by its frequency.\n3. Divide the total by the total frequency.\n\nComparing distributions:\nWhen comparing two data sets, comment on both an average (mean or median) AND a measure of spread (range or interquartile range).\n\nOutliers:\nValues much higher or lower than the rest of the data. The mean is affected by outliers; the median is more resistant to them.",
+  "worked_example": {
+    "question": "The ages of 7 children are: 4, 7, 5, 9, 7, 6, 7. Find the mean, median, mode and range.",
+    "steps": [
+      "Arrange in order: 4, 5, 6, 7, 7, 7, 9.",
+      "Mean = (4 + 5 + 6 + 7 + 7 + 7 + 9) / 7 = 45 / 7 ≈ 6.43.",
+      "Median = 4th value = 7.",
+      "Mode = 7 (appears 3 times).",
+      "Range = 9 - 4 = 5."
+    ],
+    "final_answer": "Mean ≈ 6.43, Median = 7, Mode = 7, Range = 5"
+  },
+  "common_mistakes": [
+    "Forgetting to sort data before finding the median — if the list is unordered, the middle value will be wrong.",
+    "Dividing by the number of class intervals instead of the total frequency in grouped data — always use the total frequency.",
+    "Confusing range with interquartile range — range is simply max minus min; the interquartile range requires quartiles."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Angle Facts & Parallel Lines",
+  "lesson_type": "learn",
+  "intro": "Angle facts and parallel line rules are the building blocks of geometry. They allow you to find unknown angles in diagrams without measuring — using logic and known properties.",
+  "explanation": "Basic angle facts:\n- Angles on a straight line add up to 180 degrees.\n- Angles around a point add up to 360 degrees.\n- Vertically opposite angles are equal (formed by two crossing lines).\n\nAngles in shapes:\n- Angles in a triangle add up to 180 degrees.\n- Angles in a quadrilateral add up to 360 degrees.\n- Interior angles of a regular polygon: (n - 2) x 180 / n, where n is the number of sides.\n- Exterior angles of any polygon add up to 360 degrees.\n\nParallel line angle rules:\nWhen a straight line (transversal) crosses two parallel lines:\n- Alternate angles are equal (Z-angles). They are on opposite sides of the transversal.\n- Corresponding angles are equal (F-angles). They are in matching positions on each parallel line.\n- Co-interior (allied) angles add up to 180 degrees (C-angles). They are on the same side of the transversal, between the parallel lines.\n\nYou must name the rule you use when giving reasons in geometry proofs.",
+  "worked_example": {
+    "question": "Two parallel lines are cut by a transversal. One angle formed is 65 degrees. Find the alternate angle, the corresponding angle, and the co-interior angle.",
+    "steps": [
+      "Alternate angle = 65 degrees (alternate angles are equal — Z-angle).",
+      "Corresponding angle = 65 degrees (corresponding angles are equal — F-angle).",
+      "Co-interior angle = 180 - 65 = 115 degrees (co-interior angles add up to 180 degrees — C-angle)."
+    ],
+    "final_answer": "Alternate: 65 degrees, Corresponding: 65 degrees, Co-interior: 115 degrees"
+  },
+  "common_mistakes": [
+    "Confusing alternate and co-interior angles — alternate angles are equal, co-interior angles add up to 180 degrees.",
+    "Not giving reasons when asked — angle problems in exams often require you to state the rule (e.g. 'alternate angles in parallel lines').",
+    "Assuming lines are parallel without it being stated — only use parallel line rules when parallel lines are clearly indicated with arrows."
+  ]
+}

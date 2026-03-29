@@ -1,0 +1,74 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Trigonometry (sin, cos, tan)",
+  "lesson_type": "practise",
+  "recap": "SOH CAH TOA: sin = O/H, cos = A/H, tan = O/A. Label sides relative to the angle. Use inverse trig to find an angle.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "In a right-angled triangle, the opposite side is 5 cm and the hypotenuse is 13 cm. Write the ratio for sin of the angle and find the angle.",
+      "solution": {
+        "steps": ["sin(angle) = O/H = 5/13. Angle = sin to the power -1 (5/13) ≈ 22.6 degrees."],
+        "final_answer": "Angle ≈ 22.6 degrees"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "In a right-angled triangle, angle = 40 degrees and the hypotenuse = 12 cm. Find the side adjacent to the 40 degree angle.",
+      "solution": {
+        "steps": [
+          "cos(40) = Adjacent / Hypotenuse = A / 12.",
+          "A = 12 x cos(40) ≈ 12 x 0.766 ≈ 9.19 cm."
+        ],
+        "final_answer": "Adjacent ≈ 9.19 cm"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A ramp rises 3 m vertically over a horizontal distance of 7 m. Calculate the angle of elevation of the ramp from the horizontal.",
+      "solution": {
+        "steps": [
+          "Opposite = 3 m (vertical). Adjacent = 7 m (horizontal).",
+          "tan(angle) = 3 / 7.",
+          "Angle = tan to the power -1 (3/7) ≈ 23.2 degrees."
+        ],
+        "final_answer": "Angle ≈ 23.2 degrees"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A ship travels 15 km on a bearing that results in 12 km of horizontal (east) movement. Find the angle the path makes with east and the northward distance travelled.",
+      "solution": {
+        "steps": [
+          "cos(angle) = 12 / 15. Angle = cos to the power -1 (12/15) ≈ 36.9 degrees.",
+          "Northward distance: sin(36.9) x 15 = 12 x (3/5) ... using Pythagoras: northward = square root of (15 squared - 12 squared) = square root of (225 - 144) = square root of 81 = 9 km."
+        ],
+        "final_answer": "Angle ≈ 36.9 degrees. Northward distance = 9 km"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "From the top of a cliff 80 m high, the angle of depression to a boat is 32 degrees. Calculate the horizontal distance from the base of the cliff to the boat.",
+      "solution": {
+        "steps": [
+          "Angle of depression = 32 degrees. The angle inside the right-angled triangle (at the top) = 32 degrees.",
+          "Opposite = 80 m (cliff height). Adjacent = horizontal distance d.",
+          "tan(32) = 80 / d.",
+          "d = 80 / tan(32) ≈ 80 / 0.6249 ≈ 128.0 m."
+        ],
+        "final_answer": "Horizontal distance ≈ 128.0 m"
+      }
+    }
+  },
+  "summary": [
+    "SOH: sin = Opposite / Hypotenuse. CAH: cos = Adjacent / Hypotenuse. TOA: tan = Opposite / Adjacent.",
+    "Always label O, A, H relative to the angle you are working with — not the right angle.",
+    "To find an angle from two sides, use the inverse function (sin to the power -1, cos to the power -1, or tan to the power -1).",
+    "Angle of elevation is measured up from horizontal; angle of depression is measured down from horizontal."
+  ]
+}

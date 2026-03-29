@@ -1,0 +1,22 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Direct Proportion",
+  "lesson_type": "learn",
+  "intro": "Two quantities are in direct proportion if they increase and decrease at the same rate. When one doubles, the other doubles — their ratio stays constant.",
+  "explanation": "Recognising direct proportion:\nIf y is directly proportional to x, then y / x = constant (k) for all values.\nThe graph of y against x is a straight line through the origin.\n\nWriting a proportionality equation:\ny is proportional to x is written as y = kx, where k is the constant of proportionality.\n\nFinding k:\nUse a known pair of values to find k.\nExample: y = 12 when x = 4. k = y / x = 12 / 4 = 3. So y = 3x.\n\nUsing the equation:\nOnce k is found, substitute any x to find y, or any y to find x.\n\nOther proportional relationships:\ny is proportional to x squared: y = kx squared.\ny is proportional to the square root of x: y = k x square root of x.\ny is proportional to x cubed: y = kx cubed.\n\nExample: y is proportional to x squared. y = 20 when x = 2. k = 20 / 4 = 5. So y = 5x squared. When x = 3, y = 5 x 9 = 45.\n\nUnitary method:\nAlternative approach — find the value when x = 1, then scale.\n5 items cost £12. Cost of 1 item = £12 / 5 = £2.40. Cost of 8 items = 8 x £2.40 = £19.20.",
+  "worked_example": {
+    "question": "y is directly proportional to x squared. When x = 3, y = 36. Find y when x = 5, and find x when y = 16.",
+    "steps": [
+      "Write equation: y = kx squared.",
+      "Find k: 36 = k x 9 → k = 4. So y = 4x squared.",
+      "When x = 5: y = 4 x 25 = 100.",
+      "When y = 16: 16 = 4x squared → x squared = 4 → x = 2 (taking positive root)."
+    ],
+    "final_answer": "y = 100 when x = 5; x = 2 when y = 16"
+  },
+  "common_mistakes": [
+    "Assuming all proportional relationships are y = kx — check whether it is x, x squared, or the square root of x before writing the equation.",
+    "Forgetting the graph of direct proportion passes through the origin — if it does not, it is not direct proportion.",
+    "Finding k correctly but then using the wrong equation — always write the full equation before substituting."
+  ]
+}

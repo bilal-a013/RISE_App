@@ -1,0 +1,22 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Ruler & Compass Constructions",
+  "lesson_type": "learn",
+  "intro": "Accurate constructions using only a ruler, compass and pencil are a key part of geometry. You must leave all construction arcs and marks visible — do not erase them.",
+  "explanation": "Essential constructions:\n\n1. Perpendicular bisector of a line segment AB:\n- Open compass to more than half the length of AB.\n- Place compass on A, draw arcs above and below the line.\n- Keep the same radius, place compass on B, draw arcs crossing the first ones.\n- Draw a straight line through the two intersection points. This line bisects AB at 90 degrees.\n\n2. Angle bisector of angle ABC:\n- Place compass on the vertex B, draw an arc that crosses both arms.\n- Place compass on each intersection point (same radius), draw two arcs inside the angle that cross each other.\n- Draw a straight line from B through the crossing point. This bisects the angle.\n\n3. Constructing a 60 degree angle:\n- Draw a straight line. Mark point A.\n- Draw a large arc centred on A that crosses the line at B.\n- Keep the same radius, place compass on B and draw an arc crossing the first.\n- Draw a line from A through the intersection point. Angle is 60 degrees.\n\n4. Constructing a perpendicular from a point to a line:\n- From the point, draw arcs cutting the line in two places.\n- From each intersection, draw arcs of the same radius on the other side of the line.\n- Join the original point to where the arcs cross.\n\nLoci:\nA locus is a set of all points that satisfy a given condition.\n- Fixed distance from a point: circle.\n- Fixed distance from a line: parallel lines (with semicircles at ends).\n- Equal distance from two points: perpendicular bisector.\n- Equal distance from two lines: angle bisector.",
+  "worked_example": {
+    "question": "Describe the steps to construct the perpendicular bisector of a line segment PQ.",
+    "steps": [
+      "Open the compass to a radius greater than half of PQ.",
+      "Place compass point on P and draw arcs above and below the line segment.",
+      "Without changing the compass radius, place compass point on Q and draw arcs that cross the first arcs.",
+      "Use a ruler to draw a straight line through the two points where the arcs cross. This is the perpendicular bisector."
+    ],
+    "final_answer": "The straight line through the two arc intersections is the perpendicular bisector of PQ."
+  },
+  "common_mistakes": [
+    "Changing the compass radius between the two arc-drawing steps — you must keep the same radius throughout a construction.",
+    "Erasing construction arcs — these must remain visible to show your method in an exam.",
+    "Drawing the angle bisector without first marking where the initial arc meets both arms of the angle."
+  ]
+}

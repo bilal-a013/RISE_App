@@ -1,0 +1,21 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Compound Units (Speed, Density, Pressure)",
+  "lesson_type": "learn",
+  "intro": "Compound units measure one quantity that involves two different units — like speed (distance per time) or density (mass per volume). Triangle diagrams help you recall and rearrange these formulas.",
+  "explanation": "Speed, Distance and Time:\nFormula: Speed = Distance / Time.\nRearranged: Distance = Speed x Time. Time = Distance / Speed.\nUnits: speed in m/s or km/h, distance in m or km, time in seconds or hours.\n\nConverting speed:\n1 m/s = 3.6 km/h.\nMultiply m/s by 3.6 to get km/h. Divide km/h by 3.6 to get m/s.\n\nExample: A car travels 150 km in 2.5 hours. Speed = 150 / 2.5 = 60 km/h.\n\nDensity, Mass and Volume:\nFormula: Density = Mass / Volume.\nRearranged: Mass = Density x Volume. Volume = Mass / Density.\nUnits: density in g/cm cubed or kg/m cubed.\n\nExample: An object has mass 80 g and volume 10 cm cubed. Density = 80 / 10 = 8 g/cm cubed.\n\nPressure, Force and Area:\nFormula: Pressure = Force / Area.\nRearranged: Force = Pressure x Area. Area = Force / Pressure.\nUnits: pressure in N/m squared (Pascals), force in Newtons, area in m squared.\n\nExample: A force of 120 N acts on an area of 0.4 m squared. Pressure = 120 / 0.4 = 300 Pa.",
+  "worked_example": {
+    "question": "A train travels at 90 km/h for 1 hour 30 minutes. How far does it travel? Give your answer in km.",
+    "steps": [
+      "Convert time: 1 hour 30 minutes = 1.5 hours.",
+      "Use Distance = Speed x Time.",
+      "Distance = 90 x 1.5 = 135 km."
+    ],
+    "final_answer": "135 km"
+  },
+  "common_mistakes": [
+    "Using inconsistent units — if speed is in km/h, time must be in hours and distance in km; do not mix units.",
+    "Dividing when you should multiply (or vice versa) — write the formula triangle and use it to rearrange before substituting.",
+    "Converting time wrongly — 1 hour 20 minutes is 1.333... hours (not 1.20 hours); divide minutes by 60 to get the decimal."
+  ]
+}

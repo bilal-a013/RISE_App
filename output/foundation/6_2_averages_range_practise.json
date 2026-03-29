@@ -1,0 +1,76 @@
+{
+  "topic": "Statistics",
+  "subtopic": "Averages & Range",
+  "lesson_type": "practise",
+  "recap": "Mean = sum / count. Median = middle value in ordered list. Mode = most frequent. Range = max - min. For grouped data use midpoints to estimate the mean.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Find the mode of: 3, 7, 4, 7, 2, 8, 7, 1.",
+      "solution": {
+        "steps": ["7 appears 3 times — more than any other value."],
+        "final_answer": "Mode = 7"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Find the median and range of: 12, 5, 19, 8, 14.",
+      "solution": {
+        "steps": [
+          "Sorted: 5, 8, 12, 14, 19.",
+          "Median = 3rd value = 12.",
+          "Range = 19 - 5 = 14."
+        ],
+        "final_answer": "Median = 12, Range = 14"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "The frequency table shows scores: Score 2 (freq 3), Score 4 (freq 5), Score 6 (freq 2), Score 8 (freq 4), Score 10 (freq 1). Calculate the mean.",
+      "solution": {
+        "steps": [
+          "Sum of (score x frequency): 2x3 + 4x5 + 6x2 + 8x4 + 10x1 = 6 + 20 + 12 + 32 + 10 = 80.",
+          "Total frequency = 3 + 5 + 2 + 4 + 1 = 15.",
+          "Mean = 80 / 15 = 16/3 ≈ 5.33."
+        ],
+        "final_answer": "Mean ≈ 5.33"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "The grouped frequency table shows heights: 140-149 (freq 4), 150-159 (freq 11), 160-169 (freq 9), 170-179 (freq 6). Estimate the mean height.",
+      "solution": {
+        "steps": [
+          "Midpoints: 144.5, 154.5, 164.5, 174.5.",
+          "Sum of (midpoint x freq): 144.5x4 + 154.5x11 + 164.5x9 + 174.5x6 = 578 + 1699.5 + 1480.5 + 1047 = 4805.",
+          "Total freq = 30. Mean = 4805 / 30 ≈ 160.2 cm."
+        ],
+        "final_answer": "Estimated mean ≈ 160.2 cm"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Class A has a mean score of 64 and 20 students. Class B has a mean of 71 and 15 students. Find the combined mean of all 35 students.",
+      "solution": {
+        "steps": [
+          "Total score for A = 64 x 20 = 1280.",
+          "Total score for B = 71 x 15 = 1065.",
+          "Combined total = 1280 + 1065 = 2345.",
+          "Combined mean = 2345 / 35 = 67."
+        ],
+        "final_answer": "Combined mean = 67"
+      }
+    }
+  },
+  "summary": [
+    "Mean = total sum / number of values; for frequency tables use sum of (value x frequency) / total frequency.",
+    "Always sort data before finding the median; for an even number of values average the two middle ones.",
+    "For grouped data, use class midpoints to estimate the mean.",
+    "When comparing two distributions, comment on both an average and the spread."
+  ]
+}

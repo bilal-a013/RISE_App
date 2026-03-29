@@ -1,0 +1,73 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Angle Facts & Parallel Lines",
+  "lesson_type": "practise",
+  "recap": "Angles on a line = 180, around a point = 360, in a triangle = 180. Alternate angles are equal; corresponding angles are equal; co-interior angles add to 180.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Angles on a straight line are 3x and 2x + 10. Find x.",
+      "solution": {
+        "steps": ["3x + 2x + 10 = 180. 5x = 170. x = 34."],
+        "final_answer": "x = 34"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Two parallel lines are cut by a transversal. An angle of 70 degrees is formed. Find the co-interior angle on the same side, giving a reason.",
+      "solution": {
+        "steps": [
+          "Co-interior angles add up to 180 degrees (co-interior angles in parallel lines).",
+          "Co-interior angle = 180 - 70 = 110 degrees."
+        ],
+        "final_answer": "110 degrees (co-interior angles in parallel lines add to 180)"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A triangle has angles x, 2x - 15, and 3x + 9. Find all three angles.",
+      "solution": {
+        "steps": [
+          "Angles in a triangle sum to 180: x + 2x - 15 + 3x + 9 = 180.",
+          "6x - 6 = 180 → 6x = 186 → x = 31.",
+          "Angles: 31, 2(31) - 15 = 47, 3(31) + 9 = 102."
+        ],
+        "final_answer": "31 degrees, 47 degrees, 102 degrees"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Find the size of each interior angle of a regular hexagon.",
+      "solution": {
+        "steps": [
+          "Number of sides n = 6.",
+          "Sum of interior angles = (6 - 2) x 180 = 4 x 180 = 720 degrees.",
+          "Each interior angle = 720 / 6 = 120 degrees."
+        ],
+        "final_answer": "120 degrees"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "AB and CD are parallel lines. A transversal crosses them, making angle p with AB and angle q with CD (on the same side). Another transversal makes alternate angle r with AB. If p = 55 degrees, find q and r, giving reasons for each answer.",
+      "solution": {
+        "steps": [
+          "q: p and q are co-interior angles (same-side interior angles between parallel lines), so p + q = 180. q = 180 - 55 = 125 degrees. Reason: co-interior angles in parallel lines.",
+          "r: p and r are alternate angles (on opposite sides of the transversal, between parallel lines), so r = p = 55 degrees. Reason: alternate angles in parallel lines are equal."
+        ],
+        "final_answer": "q = 125 degrees (co-interior angles); r = 55 degrees (alternate angles)"
+      }
+    }
+  },
+  "summary": [
+    "Angles on a straight line sum to 180; angles at a point sum to 360; vertically opposite angles are equal.",
+    "In parallel lines: alternate angles are equal (Z); corresponding angles are equal (F); co-interior angles add to 180 (C).",
+    "Interior angle sum of a polygon = (n - 2) x 180; exterior angles always sum to 360.",
+    "Always state your reason in geometry — e.g. 'alternate angles in parallel lines'."
+  ]
+}

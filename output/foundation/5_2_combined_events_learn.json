@@ -1,0 +1,22 @@
+{
+  "topic": "Probability",
+  "subtopic": "Combined Events",
+  "lesson_type": "learn",
+  "intro": "Combined events involve two or more actions happening together or in sequence. Sample space diagrams and the multiplication rule help you find the probability of combined outcomes.",
+  "explanation": "Sample space diagrams:\nA table showing all possible outcomes of two events.\nExample: Rolling two dice. Draw a grid with values 1-6 on each axis and list all 36 possible outcome pairs.\n\nIndependent events:\nTwo events are independent if the outcome of one does not affect the other.\nP(A and B) = P(A) x P(B).\nExample: P(heads) x P(roll a 6) = 1/2 x 1/6 = 1/12.\n\nP(A or B) for non-mutually exclusive events:\nP(A or B) = P(A) + P(B) - P(A and B).\n\nOrdered outcomes:\nSometimes order matters — use a sample space diagram or systematic list.\nExample: Two coins. Sample space: HH, HT, TH, TT. P(at least one head) = 3/4.\n\nConditional hint for combined events:\nWhen events are NOT independent (without replacement), the probability of the second event depends on the first. Use tree diagrams for these (see Tree Diagrams topic).",
+  "worked_example": {
+    "question": "Two fair dice are rolled. Using a sample space diagram, find: (a) P(sum = 7)  (b) P(both show the same number)  (c) P(at least one 4)",
+    "steps": [
+      "Total outcomes = 6 x 6 = 36.",
+      "(a) Pairs that sum to 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) — 6 pairs. P(sum = 7) = 6/36 = 1/6.",
+      "(b) Same number: (1,1),(2,2),(3,3),(4,4),(5,5),(6,6) — 6 pairs. P = 6/36 = 1/6.",
+      "(c) At least one 4: 6 with first die + 6 with second die - 1 (both 4) = 11. P = 11/36."
+    ],
+    "final_answer": "(a) 1/6   (b) 1/6   (c) 11/36"
+  },
+  "common_mistakes": [
+    "Forgetting to subtract overlapping outcomes in P(A or B) for non-mutually exclusive events — failing to subtract P(A and B) leads to double-counting.",
+    "Counting the sample space incorrectly — draw the full grid or list to be sure of the total number of outcomes.",
+    "Applying P(A and B) = P(A) x P(B) to events that are not independent — only use the multiplication rule when events are independent."
+  ]
+}

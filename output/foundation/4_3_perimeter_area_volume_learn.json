@@ -1,0 +1,20 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Perimeter, Area & Volume",
+  "lesson_type": "learn",
+  "intro": "Perimeter, area and volume are fundamental measurements in geometry. Being confident with formulas for different shapes — and knowing when to apply them — is essential for both everyday problems and exam questions.",
+  "explanation": "Perimeter: the total distance around the outside of a shape. Add all side lengths.\n\nArea formulas:\n- Rectangle: length x width.\n- Triangle: half x base x height (where height is perpendicular to the base).\n- Parallelogram: base x perpendicular height.\n- Trapezium: half x (a + b) x h, where a and b are the parallel sides and h is the perpendicular height.\n- Circle: pi x r squared.\n\nCircumference of a circle: 2 x pi x r (or pi x diameter).\n\nArc length: (angle / 360) x 2 x pi x r.\nSector area: (angle / 360) x pi x r squared.\n\nVolume formulas:\n- Cuboid: length x width x height.\n- Prism (any cross-section): area of cross-section x length.\n- Cylinder: pi x r squared x h.\n- Pyramid: (1/3) x base area x height.\n- Cone: (1/3) x pi x r squared x h.\n- Sphere: (4/3) x pi x r cubed.\n\nSurface area:\n- Cuboid: 2(lw + lh + wh).\n- Cylinder: 2 x pi x r squared + 2 x pi x r x h (two circles + curved surface).\n\nCompound shapes:\nSplit the shape into simple parts, find each area or volume, then add (or subtract) as needed.",
+  "worked_example": {
+    "question": "Find the area and circumference of a circle with radius 7 cm. Give answers to 1 decimal place.",
+    "steps": [
+      "Area = pi x r squared = pi x 7 squared = 49pi = 153.9 cm squared (1 d.p.).",
+      "Circumference = 2 x pi x r = 2 x pi x 7 = 14pi = 44.0 cm (1 d.p.)."
+    ],
+    "final_answer": "Area = 153.9 cm squared, Circumference = 44.0 cm"
+  },
+  "common_mistakes": [
+    "Using the slant height instead of the perpendicular height in area and volume formulas — always use the right-angle height.",
+    "Forgetting to halve when finding the area of a triangle — area = (1/2) x base x height.",
+    "Confusing area and volume formulas for cylinders — area involves pi r squared once; volume is pi r squared x h."
+  ]
+}

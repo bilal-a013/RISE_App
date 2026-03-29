@@ -1,0 +1,23 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Perpendicular Lines",
+  "lesson_type": "learn",
+  "intro": "Two lines are perpendicular when they meet at a right angle. There is a simple rule linking the gradients of perpendicular lines that lets you find equations of perpendicular lines quickly.",
+  "explanation": "Key rule: If two lines are perpendicular, their gradients multiply to give -1.\nIf line 1 has gradient m, then the perpendicular line has gradient -1/m.\nThis is called the negative reciprocal.\n\nExamples of perpendicular gradient pairs:\n- Gradient 2 and gradient -1/2 (2 x -1/2 = -1).\n- Gradient 3 and gradient -1/3.\n- Gradient -4 and gradient 1/4.\n\nFinding the equation of a perpendicular line:\nStep 1: Find the gradient of the original line.\nStep 2: Calculate the negative reciprocal for the perpendicular gradient.\nStep 3: Use y = mx + c or y - y1 = m(x - x1) with the given point.\n\nExample: Find the equation of the line perpendicular to y = 2x + 5 passing through (4, 1).\nOriginal gradient = 2. Perpendicular gradient = -1/2.\nUsing y - y1 = m(x - x1): y - 1 = -1/2 (x - 4).\nExpand: y - 1 = -1/2 x + 2. So y = -1/2 x + 3.\n\nYou can also check: do the gradients multiply to -1? 2 x -1/2 = -1. Yes.",
+  "worked_example": {
+    "question": "Line L has equation 3x + y = 10. Find the equation of the line perpendicular to L that passes through the point (3, -1).",
+    "steps": [
+      "Rearrange L into y = mx + c form: y = -3x + 10. Gradient of L = -3.",
+      "Perpendicular gradient = -1 / (-3) = 1/3.",
+      "Use y - y1 = m(x - x1) with m = 1/3 and point (3, -1).",
+      "y - (-1) = 1/3 (x - 3). So y + 1 = 1/3 x - 1.",
+      "y = 1/3 x - 2."
+    ],
+    "final_answer": "y = 1/3 x - 2"
+  },
+  "common_mistakes": [
+    "Forgetting to take the negative reciprocal — the perpendicular gradient is -1/m, NOT just 1/m.",
+    "Not rearranging the equation into y = mx + c before reading off the gradient, especially when given ax + by = c.",
+    "Substituting back into the wrong equation to find c — always use the perpendicular gradient, not the original."
+  ]
+}

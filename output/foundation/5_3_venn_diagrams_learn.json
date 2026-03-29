@@ -1,0 +1,23 @@
+{
+  "topic": "Probability",
+  "subtopic": "Venn Diagrams",
+  "lesson_type": "learn",
+  "intro": "Venn diagrams display the relationships between sets or events using overlapping circles. They are a powerful tool for organising data and calculating probabilities involving 'and' and 'or'.",
+  "explanation": "Venn diagram structure:\n- The rectangle (universal set) contains everything.\n- Each circle represents a set or event.\n- The overlapping region (intersection) contains elements in both sets.\n- Regions outside a circle but inside the rectangle represent elements in neither.\n\nKey notation:\n- A union B (A or B): everything in A or B or both — the combined area of both circles.\n- A intersect B (A and B): only what is in both circles — the overlap.\n- A complement (not A): everything outside A's circle.\n- n(A) means the number of elements in set A.\n\nFilling in a Venn diagram:\n1. Start with the intersection — the 'and' value.\n2. Subtract to find the rest of each circle.\n3. Find any leftover elements outside both circles.\n\nExample: 30 students; 18 like Maths, 15 like Science, 8 like both.\n- Both: 8.\n- Only Maths: 18 - 8 = 10.\n- Only Science: 15 - 8 = 7.\n- Neither: 30 - 10 - 8 - 7 = 5.\n\nProbability from Venn diagrams:\nP(A) = n(A) / total. P(A and B) = n(intersection) / total. P(A or B) = n(A union B) / total.",
+  "worked_example": {
+    "question": "In a class of 40, 22 own a dog, 14 own a cat, and 6 own both. Complete the Venn diagram and find P(owns a dog but not a cat).",
+    "steps": [
+      "Both (intersection): 6.",
+      "Only dog: 22 - 6 = 16.",
+      "Only cat: 14 - 6 = 8.",
+      "Neither: 40 - 16 - 6 - 8 = 10.",
+      "P(owns a dog but not a cat) = 16/40 = 2/5."
+    ],
+    "final_answer": "P(dog but not cat) = 2/5"
+  },
+  "common_mistakes": [
+    "Placing the total for a set in a circle without subtracting the intersection — the circle regions should add to the correct set total, not include the overlap count twice.",
+    "Forgetting the neither region — always check all counts add up to the total.",
+    "Confusing union and intersection — union means everything in either set (or both); intersection means only what is in both."
+  ]
+}

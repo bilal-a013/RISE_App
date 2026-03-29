@@ -1,0 +1,22 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Expanding Brackets",
+  "lesson_type": "learn",
+  "intro": "Expanding brackets means multiplying every term inside the bracket by the term outside. This removes the brackets so you can simplify or solve the expression.",
+  "explanation": "Single bracket expansion:\nMultiply the term outside by each term inside.\na(b + c) = ab + ac\n\nExample: 3(2x + 5) = 3 x 2x + 3 x 5 = 6x + 15.\nExample: -2(3x - 4) = -6x + 8 (careful with negatives).\n\nDouble bracket expansion (FOIL):\n(a + b)(c + d) = ac + ad + bc + bd\nMultiply:\n- First terms: a x c\n- Outer terms: a x d\n- Inner terms: b x c\n- Last terms: b x d\nThen collect like terms.\n\nExample: (x + 3)(x + 5) = x squared + 5x + 3x + 15 = x squared + 8x + 15.\nExample: (x - 2)(x + 7) = x squared + 7x - 2x - 14 = x squared + 5x - 14.\n\nSquaring a bracket:\n(x + 4) squared = (x + 4)(x + 4) = x squared + 4x + 4x + 16 = x squared + 8x + 16.\n\nDifference of two squares:\n(a + b)(a - b) = a squared - b squared.\nExample: (x + 3)(x - 3) = x squared - 9.",
+  "worked_example": {
+    "question": "Expand and simplify: (a) 4(3x - 2) + 5x   (b) (x + 6)(x - 4)",
+    "steps": [
+      "Part (a): Expand 4(3x - 2). 4 x 3x = 12x. 4 x -2 = -8. So 4(3x - 2) = 12x - 8.",
+      "Add 5x: 12x - 8 + 5x = 17x - 8.",
+      "Part (b): Expand (x + 6)(x - 4) using FOIL. First: x x x = x squared. Outer: x x -4 = -4x. Inner: 6 x x = 6x. Last: 6 x -4 = -24.",
+      "Combine: x squared + (-4x + 6x) - 24 = x squared + 2x - 24."
+    ],
+    "final_answer": "(a) 17x - 8   (b) x squared + 2x - 24"
+  },
+  "common_mistakes": [
+    "Only multiplying the first term in the bracket — every term inside must be multiplied by the term outside.",
+    "Losing the negative sign when expanding negative brackets — for -3(x - 4), the answer is -3x + 12, not -3x - 12.",
+    "Forgetting to collect like terms after expanding double brackets — x squared + 5x + 3x + 15 must be simplified to x squared + 8x + 15."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Properties of 2D Shapes",
+  "lesson_type": "practise",
+  "recap": "Triangles and quadrilaterals each have specific side, angle and symmetry properties. Use these to find unknown angles or identify shapes.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "An isosceles triangle has one angle of 50 degrees at the apex. Find the size of each base angle.",
+      "solution": {
+        "steps": ["Base angles are equal. Base angles = (180 - 50) / 2 = 130 / 2 = 65 degrees."],
+        "final_answer": "65 degrees each"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "How many lines of symmetry does a regular pentagon have? What is its order of rotational symmetry?",
+      "solution": {
+        "steps": [
+          "A regular pentagon has 5 equal sides and 5 equal angles.",
+          "Lines of symmetry = 5. Order of rotational symmetry = 5."
+        ],
+        "final_answer": "5 lines of symmetry, rotational symmetry order 5"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "ABCD is a trapezium with AB parallel to CD. Angle A = 115 degrees, angle B = 72 degrees. Find angles C and D.",
+      "solution": {
+        "steps": [
+          "AB is parallel to CD. A and D are co-interior angles: angle D = 180 - 115 = 65 degrees.",
+          "B and C are co-interior angles: angle C = 180 - 72 = 108 degrees.",
+          "Check: 115 + 72 + 108 + 65 = 360. Correct."
+        ],
+        "final_answer": "Angle C = 108 degrees, Angle D = 65 degrees"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A kite has one pair of opposite angles of 110 degrees each. The other two angles are equal. Find the size of the equal angles.",
+      "solution": {
+        "steps": [
+          "Sum of angles in a quadrilateral = 360 degrees.",
+          "Two angles of 110 degrees: 2 x 110 = 220 degrees used.",
+          "Remaining: 360 - 220 = 140 degrees shared equally.",
+          "Each equal angle = 140 / 2 = 70 degrees."
+        ],
+        "final_answer": "70 degrees each"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A parallelogram PQRS has one angle P = (3x + 20) degrees and angle Q = (5x - 8) degrees. Find x, then find all four angles.",
+      "solution": {
+        "steps": [
+          "Adjacent angles in a parallelogram are co-interior (add to 180): (3x + 20) + (5x - 8) = 180.",
+          "8x + 12 = 180 → 8x = 168 → x = 21.",
+          "Angle P = 3(21) + 20 = 83 degrees. Angle Q = 5(21) - 8 = 97 degrees.",
+          "Angle R = Angle P = 83 degrees (opposite). Angle S = Angle Q = 97 degrees (opposite)."
+        ],
+        "final_answer": "x = 21. Angles: P = 83 degrees, Q = 97 degrees, R = 83 degrees, S = 97 degrees"
+      }
+    }
+  },
+  "summary": [
+    "Equilateral triangle: all sides and angles equal (60 degrees each).",
+    "Isosceles triangle: two equal sides, two equal base angles.",
+    "In a parallelogram: opposite sides and angles are equal; adjacent angles are supplementary.",
+    "Quadrilateral angle sum = 360 degrees; use this with known angles to find unknowns."
+  ]
+}

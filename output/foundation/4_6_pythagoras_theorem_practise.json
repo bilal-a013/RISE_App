@@ -1,0 +1,71 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Pythagoras' Theorem",
+  "lesson_type": "practise",
+  "recap": "a squared + b squared = c squared for a right-angled triangle, where c is the hypotenuse. Rearrange to find missing sides.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Find the hypotenuse of a right-angled triangle with shorter sides 6 cm and 8 cm.",
+      "solution": {
+        "steps": ["c squared = 6 squared + 8 squared = 36 + 64 = 100. c = square root of 100 = 10 cm."],
+        "final_answer": "10 cm"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "In a right-angled triangle, the hypotenuse is 17 cm and one shorter side is 8 cm. Find the other shorter side.",
+      "solution": {
+        "steps": [
+          "a squared = c squared - b squared = 17 squared - 8 squared = 289 - 64 = 225.",
+          "a = square root of 225 = 15 cm."
+        ],
+        "final_answer": "15 cm"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Point A is at (1, 2) and point B is at (7, 10). Calculate the length AB.",
+      "solution": {
+        "steps": [
+          "Horizontal distance = 7 - 1 = 6. Vertical distance = 10 - 2 = 8.",
+          "AB = square root of (6 squared + 8 squared) = square root of (36 + 64) = square root of 100 = 10."
+        ],
+        "final_answer": "10 units"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A rectangular garden is 12 m long and 5 m wide. What is the length of the diagonal path across the garden?",
+      "solution": {
+        "steps": [
+          "Diagonal squared = 12 squared + 5 squared = 144 + 25 = 169.",
+          "Diagonal = square root of 169 = 13 m."
+        ],
+        "final_answer": "13 m"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A cuboid has length 8 cm, width 6 cm and height 5 cm. Find the length of the space diagonal.",
+      "solution": {
+        "steps": [
+          "Find diagonal of base: d = square root of (8 squared + 6 squared) = square root of (64 + 36) = square root of 100 = 10 cm.",
+          "Space diagonal D = square root of (10 squared + 5 squared) = square root of (100 + 25) = square root of 125 = 5 x square root of 5 ≈ 11.18 cm."
+        ],
+        "final_answer": "5 root 5 ≈ 11.18 cm"
+      }
+    }
+  },
+  "summary": [
+    "For a right-angled triangle: a squared + b squared = c squared, where c is the hypotenuse.",
+    "To find the hypotenuse: square root of (a squared + b squared).",
+    "To find a shorter side: square root of (c squared - b squared).",
+    "In 3D, apply Pythagoras twice — first on a flat face, then use that diagonal with the height."
+  ]
+}

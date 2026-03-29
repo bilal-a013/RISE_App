@@ -1,0 +1,22 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Factorising (including x squared + bx + c)",
+  "lesson_type": "learn",
+  "intro": "Factorising is the reverse of expanding — you write an expression as a product of factors. It is a key skill for solving quadratic equations and simplifying expressions.",
+  "explanation": "Factorising by taking out a common factor:\nFind the highest common factor (HCF) of all terms and place it outside a bracket.\nExample: 6x + 9 = 3(2x + 3).  HCF is 3.\nExample: 12x squared - 8x = 4x(3x - 2).  HCF is 4x.\n\nFactorising quadratics of the form x squared + bx + c:\nFind two numbers that multiply to c and add to b.\n(x + p)(x + q) where p x q = c and p + q = b.\n\nExample: x squared + 7x + 12. Need two numbers that multiply to 12 and add to 7 → 3 and 4.\nAnswer: (x + 3)(x + 4).\n\nExample: x squared - 5x + 6. Need multiply to +6, add to -5 → -2 and -3.\nAnswer: (x - 2)(x - 3).\n\nExample: x squared + 2x - 15. Need multiply to -15, add to +2 → +5 and -3.\nAnswer: (x + 5)(x - 3).\n\nDifference of two squares:\na squared - b squared = (a + b)(a - b).\nExample: x squared - 49 = (x + 7)(x - 7).\nExample: 4x squared - 25 = (2x + 5)(2x - 5).",
+  "worked_example": {
+    "question": "Factorise fully: (a) 15x squared + 10x   (b) x squared - 3x - 28",
+    "steps": [
+      "Part (a): Find HCF of 15x squared and 10x. HCF is 5x. Divide each term: 15x squared / 5x = 3x, 10x / 5x = 2.",
+      "Answer: 5x(3x + 2).",
+      "Part (b): Need two numbers that multiply to -28 and add to -3. Test pairs: 4 and -7 multiply to -28, add to -3. Yes.",
+      "Answer: (x + 4)(x - 7)."
+    ],
+    "final_answer": "(a) 5x(3x + 2)   (b) (x + 4)(x - 7)"
+  },
+  "common_mistakes": [
+    "Not taking out the full HCF — factorising 12x squared - 8x as 2(6x squared - 4x) is partially factorised; the full answer is 4x(3x - 2).",
+    "Confusing the signs in quadratic factorisation — always check that your two numbers both multiply and add to give the correct values.",
+    "Trying to apply difference of two squares when both terms are not perfect squares — make sure each term really is a squared expression."
+  ]
+}

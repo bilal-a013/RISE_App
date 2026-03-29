@@ -1,0 +1,22 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Straight Line Graphs (y = mx + c)",
+  "lesson_type": "learn",
+  "intro": "Straight line graphs are described by the equation y = mx + c, where m is the gradient and c is the y-intercept. Understanding this form lets you sketch any straight line and find its equation.",
+  "explanation": "The equation y = mx + c:\n - m = gradient (steepness of the line). Positive m slopes upward left to right; negative m slopes downward.\n - c = y-intercept (where the line crosses the y-axis).\n\nCalculating the gradient:\nGradient = change in y / change in x = (y2 - y1) / (x2 - x1).\nUse two points on the line.\n\nDrawing a straight line from y = mx + c:\n1. Plot the y-intercept (0, c).\n2. Use the gradient to find another point — rise over run.\n3. Draw the line through the two points.\n\nExample: y = 2x + 3.\n - y-intercept: (0, 3).\n - Gradient 2 means go right 1 unit, up 2 units → next point: (1, 5).\n\nFinding the equation from a graph:\n1. Read off the y-intercept c.\n2. Calculate the gradient m using two points.\n3. Write y = mx + c.\n\nParallel lines have the same gradient.\nFor example, y = 3x + 1 and y = 3x - 4 are parallel (both have m = 3).\n\nMidpoint of a line segment:\nMidpoint = ((x1 + x2)/2, (y1 + y2)/2).",
+  "worked_example": {
+    "question": "A straight line passes through (1, 5) and (4, 11). Find the equation of the line.",
+    "steps": [
+      "Step 1: Calculate gradient. m = (11 - 5) / (4 - 1) = 6 / 3 = 2.",
+      "Step 2: Use y = mx + c with one point, say (1, 5). 5 = 2(1) + c → c = 3.",
+      "Step 3: Write the equation: y = 2x + 3.",
+      "Check with (4, 11): y = 2(4) + 3 = 11. Correct."
+    ],
+    "final_answer": "y = 2x + 3"
+  },
+  "common_mistakes": [
+    "Calculating gradient as rise / run but using the wrong order — always do (y2 - y1) / (x2 - x1), keeping the x and y differences in the same pair.",
+    "Misreading the y-intercept from a graph — if the scale is not 1 per square, read coordinates carefully.",
+    "Confusing parallel and perpendicular lines — parallel lines have equal gradients, while perpendicular lines have gradients that multiply to -1."
+  ]
+}

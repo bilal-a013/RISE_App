@@ -1,0 +1,72 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Inverse Proportion",
+  "lesson_type": "practise",
+  "recap": "Inverse proportion: y = k/x (or y = k/x squared). As one quantity increases, the other decreases. Find k from a known pair.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "y is inversely proportional to x. When x = 3, y = 8. Find k.",
+      "solution": {
+        "steps": ["y = k/x, so k = y x x = 8 x 3 = 24."],
+        "final_answer": "k = 24"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "4 workers take 12 days to complete a job. How long would 6 workers take?",
+      "solution": {
+        "steps": [
+          "Total worker-days = 4 x 12 = 48.",
+          "6 workers: time = 48 / 6 = 8 days."
+        ],
+        "final_answer": "8 days"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "y is inversely proportional to x. When x = 5, y = 6. Find y when x = 15.",
+      "solution": {
+        "steps": [
+          "y = k/x. k = 5 x 6 = 30. So y = 30/x.",
+          "When x = 15: y = 30/15 = 2."
+        ],
+        "final_answer": "y = 2"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "y is inversely proportional to x squared. When x = 2, y = 25. Find y when x = 5.",
+      "solution": {
+        "steps": [
+          "y = k / x squared. 25 = k / 4 → k = 100.",
+          "When x = 5: y = 100 / 25 = 4."
+        ],
+        "final_answer": "y = 4"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "The pressure P in a gas is inversely proportional to its volume V. When V = 10 litres, P = 6 atmospheres. Find P when V = 4 litres. Also find V when P = 20 atmospheres.",
+      "solution": {
+        "steps": [
+          "P = k/V. k = 6 x 10 = 60. So P = 60/V.",
+          "When V = 4: P = 60/4 = 15 atmospheres.",
+          "When P = 20: 20 = 60/V → V = 60/20 = 3 litres."
+        ],
+        "final_answer": "P = 15 atm when V = 4 L; V = 3 L when P = 20 atm"
+      }
+    }
+  },
+  "summary": [
+    "Inverse proportion: y = k/x — as x increases, y decreases proportionally.",
+    "Find k by multiplying a known x and y pair (for y = k/x).",
+    "For inverse proportion to x squared: y = k/x squared — find k by multiplying y by x squared.",
+    "A quick check: if one quantity doubles and the other halves, they are in inverse proportion."
+  ]
+}

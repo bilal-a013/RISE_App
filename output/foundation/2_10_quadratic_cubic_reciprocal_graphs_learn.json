@@ -1,0 +1,22 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Quadratic, Cubic & Reciprocal Graphs",
+  "lesson_type": "learn",
+  "intro": "Not all graphs are straight lines. Quadratic, cubic and reciprocal graphs have distinctive curved shapes that you must be able to recognise, sketch and plot from a table of values.",
+  "explanation": "Quadratic graphs (y = ax squared + bx + c):\n- Shape: a U-shape (parabola) if a > 0, or n-shape if a < 0.\n- Always symmetrical about a vertical line through the turning point.\n- The curve crosses the x-axis where y = 0 (the roots).\n- The vertex is the minimum point (for a > 0) or maximum point (for a < 0).\n\nCubic graphs (y = ax cubed + bx squared + cx + d):\n- Shape: an S-shape that goes from bottom-left to top-right if a > 0.\n- If a < 0, the curve goes from top-left to bottom-right.\n- Can have up to two turning points.\n\nReciprocal graphs (y = k/x):\n- The graph has two branches, one in the first and third quadrant (if k > 0), or in the second and fourth quadrant (if k < 0).\n- The axes are asymptotes — the curve gets close but never touches them.\n- Do not join the two branches: there is a gap where x = 0.\n\nPlotting from a table of values:\n1. Choose a range of x values (e.g. x = -3 to 3).\n2. Calculate y for each x.\n3. Plot points and join with a smooth curve.\n\nKey x values to try include 0 and a selection of positive and negative values.",
+  "worked_example": {
+    "question": "Complete a table of values and sketch y = x squared - 2x - 3 for x from -2 to 4.",
+    "steps": [
+      "Calculate y for each x: x = -2: 4 + 4 - 3 = 5. x = -1: 1 + 2 - 3 = 0. x = 0: 0 - 0 - 3 = -3. x = 1: 1 - 2 - 3 = -4. x = 2: 4 - 4 - 3 = -3. x = 3: 9 - 6 - 3 = 0. x = 4: 16 - 8 - 3 = 5.",
+      "Table: x | -2, -1, 0, 1, 2, 3, 4 and y | 5, 0, -3, -4, -3, 0, 5.",
+      "Plot the points and draw a smooth U-shaped curve through them.",
+      "The curve crosses the x-axis at x = -1 and x = 3. The minimum is at (1, -4)."
+    ],
+    "final_answer": "Parabola crossing x-axis at x = -1 and x = 3, minimum at (1, -4)."
+  },
+  "common_mistakes": [
+    "Joining the two branches of a reciprocal graph — always leave a gap at x = 0 since the function is undefined there.",
+    "Drawing quadratic graphs with a pointed vertex or straight sides — the curve must be smooth and symmetrical.",
+    "Making sign errors when substituting negative x values — for y = x squared, x = -3 gives (-3) squared = 9, not -9."
+  ]
+}

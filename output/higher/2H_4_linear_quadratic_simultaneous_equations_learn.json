@@ -1,0 +1,23 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Linear & Quadratic Simultaneous Equations",
+  "lesson_type": "learn",
+  "intro": "At Higher tier you may need to solve simultaneous equations where one equation is linear and one is quadratic. This produces up to two solutions, which you find by substituting and solving the resulting quadratic.",
+  "explanation": "To solve linear and quadratic simultaneous equations:\n\nStep 1: Rearrange the linear equation to make one variable the subject (e.g. y = ...).\nStep 2: Substitute this expression into the quadratic equation.\nStep 3: Expand and simplify to form a quadratic equation equal to zero.\nStep 4: Solve the quadratic (factorise, complete the square, or use the formula).\nStep 5: Substitute each value back into the linear equation to find the corresponding other value.\nStep 6: Write both pairs of solutions clearly.\n\nExample setup: Solve y = 2x + 1 and y = x squared simultaneously.\nSubstitute y = 2x + 1 into y = x squared:\nx squared = 2x + 1.\nx squared - 2x - 1 = 0.\nUsing the quadratic formula: x = (2 plus or minus root(4 + 4)) / 2 = 1 plus or minus root 2.\nThen find y for each x value.\n\nIf the discriminant (b squared - 4ac) equals zero, the line is tangent to the curve (one solution).\nIf the discriminant is negative, there are no real solutions (they don't intersect).",
+  "worked_example": {
+    "question": "Solve simultaneously: y = x + 3 and y = x squared - 3.",
+    "steps": [
+      "Set the two expressions for y equal: x + 3 = x squared - 3.",
+      "Rearrange to zero: x squared - x - 6 = 0.",
+      "Factorise: (x - 3)(x + 2) = 0. So x = 3 or x = -2.",
+      "For x = 3: y = 3 + 3 = 6. Solution: (3, 6).",
+      "For x = -2: y = -2 + 3 = 1. Solution: (-2, 1)."
+    ],
+    "final_answer": "(3, 6) and (-2, 1)"
+  },
+  "common_mistakes": [
+    "Finding x values but forgetting to calculate both y values — always pair each x with its y.",
+    "Rearranging the quadratic incorrectly before solving — take care with signs when moving all terms to one side.",
+    "Substituting x back into the quadratic instead of the simpler linear equation — use the linear equation to find y."
+  ]
+}

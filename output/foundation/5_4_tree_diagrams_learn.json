@@ -1,0 +1,22 @@
+{
+  "topic": "Probability",
+  "subtopic": "Tree Diagrams",
+  "lesson_type": "learn",
+  "intro": "Tree diagrams show all possible outcomes of two or more events in sequence. Each branch shows an outcome and its probability — multiply along branches and add between branches to find combined probabilities.",
+  "explanation": "Drawing a tree diagram:\n1. Draw branches for the first event, label each with its outcome and probability.\n2. From each branch, draw branches for the second event.\n3. All probabilities from any one split must add up to 1.\n\nFinding combined probabilities:\n- Multiply along the branches to get the probability of each full outcome.\n- Add probabilities of outcomes that satisfy the event you want.\n\nWith replacement:\nThe probabilities on each set of branches are the same at each step.\n\nWithout replacement:\nAfter taking one item out, there is one fewer item in the bag — the probabilities on the second set of branches change.\n\nExample (with replacement):\nBag with 3 red and 2 blue. Draw one counter, replace it, draw again.\nP(R then R) = 3/5 x 3/5 = 9/25.\n\nExample (without replacement):\nBag with 3 red and 2 blue. Draw two counters without replacement.\nP(R then R) = 3/5 x 2/4 = 6/20 = 3/10.\n\nAlways check: the sum of all end-branch probabilities equals 1.",
+  "worked_example": {
+    "question": "A bag has 4 red and 2 blue counters. Two counters are drawn without replacement. Find the probability of getting two different colours.",
+    "steps": [
+      "First draw: P(R) = 4/6 = 2/3, P(B) = 2/6 = 1/3.",
+      "If first is R: P(B second) = 2/5. Branch: R then B: 2/3 x 2/5 = 4/15.",
+      "If first is B: P(R second) = 4/5. Branch: B then R: 1/3 x 4/5 = 4/15.",
+      "P(two different colours) = 4/15 + 4/15 = 8/15."
+    ],
+    "final_answer": "P(two different colours) = 8/15"
+  },
+  "common_mistakes": [
+    "Not adjusting the denominator on the second branch when drawing without replacement — the total decreases by one after the first draw.",
+    "Adding when you should multiply (getting a combined outcome requires multiplication along branches).",
+    "Forgetting to add all the relevant end-branches — if there are several outcomes that satisfy the event, add all of their probabilities."
+  ]
+}

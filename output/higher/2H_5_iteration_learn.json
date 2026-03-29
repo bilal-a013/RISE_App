@@ -1,0 +1,24 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Iteration",
+  "lesson_type": "learn",
+  "intro": "Iteration is a method of finding approximate solutions to equations by repeatedly applying a formula. Each time you apply the formula, your answer gets closer to the actual solution.",
+  "explanation": "An iterative formula looks like: x(n+1) = f(x(n)).\nThis means: to find the next value, substitute the current value into the right-hand side.\n\nUsing an iterative formula:\nStep 1: Start with an initial value x(0) (often given).\nStep 2: Substitute into the formula to get x(1).\nStep 3: Substitute x(1) to get x(2), and so on.\nStep 4: Continue until consecutive values agree to the required number of decimal places.\n\nExample: Use x(n+1) = (x(n) + 3) / 2 with x(0) = 1 to find a root.\nx(1) = (1 + 3) / 2 = 2.\nx(2) = (2 + 3) / 2 = 2.5.\nx(3) = (2.5 + 3) / 2 = 2.75.\nx(4) = 2.875. The values are converging towards 3.\n\nShowing a root lies in an interval:\nTo show a root of f(x) = 0 lies between a and b, calculate f(a) and f(b). If one is positive and one is negative, there must be a root between them (sign change method).\nFor example, f(2) = -0.5 and f(3) = 1.2, opposite signs, so a root lies between x = 2 and x = 3.\n\nSome iterative formulas converge (get closer to an answer) and some diverge (get further away). If your values are getting bigger without settling, the formula is diverging for that starting point.",
+  "worked_example": {
+    "question": "Show that x cubed - x - 5 = 0 has a root between x = 1 and x = 2. Then use the iterative formula x(n+1) = cube root of (x(n) + 5) with x(0) = 2 to find the root to 2 decimal places.",
+    "steps": [
+      "Let f(x) = x cubed - x - 5.",
+      "f(1) = 1 - 1 - 5 = -5 (negative). f(2) = 8 - 2 - 5 = 1 (positive).",
+      "Sign change, so a root lies between x = 1 and x = 2.",
+      "x(1) = cube root of (2 + 5) = cube root of 7 ≈ 1.9129.",
+      "x(2) = cube root of (1.9129 + 5) = cube root of 6.9129 ≈ 1.9044.",
+      "x(3) ≈ cube root of 6.9044 ≈ 1.9039. Converging to 1.90 (2 d.p.)."
+    ],
+    "final_answer": "Root ≈ 1.90"
+  },
+  "common_mistakes": [
+    "Not giving enough iterations — continue until consecutive answers agree to the required number of decimal places.",
+    "Forgetting to show the sign change when proving a root lies in an interval — you must state f(a) < 0 and f(b) > 0 (or vice versa).",
+    "Rounding too early during iterations — carry extra decimal places through each step and only round at the end."
+  ]
+}

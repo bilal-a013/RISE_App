@@ -1,0 +1,21 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Pythagoras' Theorem",
+  "lesson_type": "learn",
+  "intro": "Pythagoras' theorem relates the three sides of a right-angled triangle. It is one of the most used theorems in mathematics and is essential for calculating lengths in 2D and 3D problems.",
+  "explanation": "The theorem:\nFor any right-angled triangle with hypotenuse c and shorter sides a and b:\na squared + b squared = c squared.\n\nThe hypotenuse is always the longest side, opposite the right angle.\n\nFinding the hypotenuse:\nc = square root of (a squared + b squared).\nExample: a = 3, b = 4. c = square root of (9 + 16) = square root of 25 = 5.\n\nFinding a shorter side:\na = square root of (c squared - b squared).\nExample: c = 13, b = 5. a = square root of (169 - 25) = square root of 144 = 12.\n\nPythagorean triples (common right-angled triangles with integer sides):\n3, 4, 5\n5, 12, 13\n8, 15, 17\n7, 24, 25\n(and multiples of these)\n\nIn 3D problems:\nFind a diagonal in a rectangular box (cuboid) by applying Pythagoras twice:\n1. Find the diagonal of the base: d = square root of (l squared + w squared).\n2. Find the space diagonal: D = square root of (d squared + h squared).\n\nAlways identify the right angle in the triangle before applying the formula.",
+  "worked_example": {
+    "question": "A ladder 10 m long leans against a vertical wall. The base of the ladder is 4 m from the wall. How high up the wall does the ladder reach?",
+    "steps": [
+      "Sketch: hypotenuse = 10 m (the ladder), base = 4 m, height = h (unknown).",
+      "Using Pythagoras: h squared = 10 squared - 4 squared = 100 - 16 = 84.",
+      "h = square root of 84 = 9.165... ≈ 9.17 m (2 d.p.)."
+    ],
+    "final_answer": "9.17 m (2 d.p.)"
+  },
+  "common_mistakes": [
+    "Adding the squares of all sides together instead of identifying which is the hypotenuse — the hypotenuse is the side opposite the right angle.",
+    "Forgetting to take the square root at the end — Pythagoras gives you c squared, not c.",
+    "Subtracting incorrectly when finding a shorter side — use c squared minus b squared (not plus) to find the missing shorter side."
+  ]
+}

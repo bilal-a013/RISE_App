@@ -1,0 +1,22 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Ratio & Dividing into a Ratio",
+  "lesson_type": "learn",
+  "intro": "A ratio compares two or more quantities. Ratios are used to share amounts, describe mixtures and compare values — they appear in cooking, maps, finance and design.",
+  "explanation": "Writing and simplifying ratios:\nA ratio like 4:10 can be simplified by dividing both parts by their HCF. HCF of 4 and 10 is 2, so 4:10 simplifies to 2:5.\n\nEquivalent ratios:\nLike fractions, ratios can be scaled up or down. 2:3 = 4:6 = 6:9.\n\nDividing a quantity in a given ratio:\n1. Add the parts of the ratio to find the total number of shares.\n2. Divide the amount by the total shares to find the value of one share.\n3. Multiply by each part of the ratio.\n\nExample: Share £60 in the ratio 2:3.\nTotal shares = 2 + 3 = 5.\nOne share = £60 / 5 = £12.\nFirst part = 2 x £12 = £24. Second part = 3 x £12 = £36.\nCheck: £24 + £36 = £60.\n\nRatio problems with one quantity known:\nIf you know one part's value, find the value of one share and scale up.\nExample: In ratio 3:5, the smaller amount is £18. Find the larger amount.\nOne share = £18 / 3 = £6. Larger amount = 5 x £6 = £30.\n\nUnitary method:\nFind the value of 1 part, then scale up or down as needed.",
+  "worked_example": {
+    "question": "A bag contains red and blue counters in the ratio 3:7. There are 60 counters altogether. How many are red?",
+    "steps": [
+      "Total shares = 3 + 7 = 10.",
+      "Value of one share = 60 / 10 = 6.",
+      "Red counters = 3 x 6 = 18.",
+      "Check: Blue = 7 x 6 = 42. Total = 18 + 42 = 60. Correct."
+    ],
+    "final_answer": "18 red counters"
+  },
+  "common_mistakes": [
+    "Forgetting to check the parts add up to the original total — always verify after dividing.",
+    "Simplifying a ratio by dividing one part only — both (or all) parts must be divided by the same number.",
+    "Confusing ratio with fraction — a ratio 2:3 means 2 parts to 3 parts (5 parts total), not 2 out of 3."
+  ]
+}

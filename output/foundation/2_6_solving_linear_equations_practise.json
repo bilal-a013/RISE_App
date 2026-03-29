@@ -1,0 +1,77 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Solving Linear Equations",
+  "lesson_type": "practise",
+  "recap": "Solve equations by doing the same operation to both sides until the unknown is isolated; always check by substituting your answer back.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Solve: 3x + 4 = 19.",
+      "solution": {
+        "steps": ["Subtract 4: 3x = 15.", "Divide by 3: x = 5."],
+        "final_answer": "x = 5"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Solve: 7x - 5 = 4x + 10.",
+      "solution": {
+        "steps": [
+          "Subtract 4x from both sides: 3x - 5 = 10.",
+          "Add 5 to both sides: 3x = 15.",
+          "Divide by 3: x = 5."
+        ],
+        "final_answer": "x = 5"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Solve: 4(3x - 1) = 44.",
+      "solution": {
+        "steps": [
+          "Expand: 12x - 4 = 44.",
+          "Add 4: 12x = 48.",
+          "Divide by 12: x = 4."
+        ],
+        "final_answer": "x = 4"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Solve: (5x + 3) / 4 = 7.",
+      "solution": {
+        "steps": [
+          "Multiply both sides by 4: 5x + 3 = 28.",
+          "Subtract 3: 5x = 25.",
+          "Divide by 5: x = 5."
+        ],
+        "final_answer": "x = 5"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Solve: 3(2x + 5) = 5(x - 1) + 4.",
+      "solution": {
+        "steps": [
+          "Expand left side: 6x + 15.",
+          "Expand right side: 5x - 5 + 4 = 5x - 1.",
+          "Equation: 6x + 15 = 5x - 1.",
+          "Subtract 5x: x + 15 = -1.",
+          "Subtract 15: x = -16."
+        ],
+        "final_answer": "x = -16"
+      }
+    }
+  },
+  "summary": [
+    "Perform the same operation on both sides to keep the equation balanced.",
+    "Always expand brackets before collecting terms or isolating the unknown.",
+    "When there are unknowns on both sides, move them all to one side first.",
+    "Check your answer by substituting back into the original equation."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "topic": "Statistics",
+  "subtopic": "Charts & Diagrams",
+  "lesson_type": "practise",
+  "recap": "Pie chart angle = (frequency / total) x 360. Line of best fit should be balanced with equal points either side. Stem-and-leaf needs a key.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "In a pie chart, a sector has an angle of 72 degrees and the total is 100 people. How many people does the sector represent?",
+      "solution": {
+        "steps": ["Frequency = (72 / 360) x 100 = 0.2 x 100 = 20."],
+        "final_answer": "20 people"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A scatter diagram shows the number of hours studied and test scores. As hours studied increase, test scores also increase. What type of correlation is this, and what does it suggest?",
+      "solution": {
+        "steps": [
+          "Both variables increase together — this is positive correlation.",
+          "It suggests that studying more is associated with higher test scores."
+        ],
+        "final_answer": "Positive correlation — more hours studied is associated with higher scores"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "20 students chose a favourite fruit: 8 apple, 5 banana, 4 orange, 3 other. Calculate the pie chart angle for each fruit and check the angles sum to 360 degrees.",
+      "solution": {
+        "steps": [
+          "Total = 20.",
+          "Apple: (8/20) x 360 = 144 degrees.",
+          "Banana: (5/20) x 360 = 90 degrees.",
+          "Orange: (4/20) x 360 = 72 degrees.",
+          "Other: (3/20) x 360 = 54 degrees.",
+          "Check: 144 + 90 + 72 + 54 = 360 degrees. Correct."
+        ],
+        "final_answer": "Apple: 144, Banana: 90, Orange: 72, Other: 54 degrees"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "The leaves for a stem-and-leaf diagram are: Stem 4 | leaves 1 3 7 8, Stem 5 | leaves 0 2 5 5 9, Stem 6 | leaves 1 4. Write the data in order from smallest to largest and find the median.",
+      "solution": {
+        "steps": [
+          "Ordered data: 41, 43, 47, 48, 50, 52, 55, 55, 59, 61, 64 — that is 11 values.",
+          "Median = 6th value = 52."
+        ],
+        "final_answer": "Median = 52"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A two-way table shows: Out of 50 students, 28 are girls. Of the girls, 18 like science. Of the boys, 10 like science. Complete the table and find the probability that a randomly chosen student is a boy who does not like science.",
+      "solution": {
+        "steps": [
+          "Girls = 28, Boys = 50 - 28 = 22.",
+          "Girls who like science = 18. Girls who don't = 28 - 18 = 10.",
+          "Boys who like science = 10. Boys who don't = 22 - 10 = 12.",
+          "P(boy who doesn't like science) = 12/50 = 6/25."
+        ],
+        "final_answer": "P(boy, doesn't like science) = 6/25"
+      }
+    }
+  },
+  "summary": [
+    "Pie chart angle = (frequency / total) x 360. Reverse to find frequency from angle.",
+    "Scatter graphs show correlation: positive, negative, or none — never describe as slope or gradient.",
+    "Line of best fit is balanced around the trend — not forced through any particular point.",
+    "Stem-and-leaf diagrams must have ordered leaves and a key."
+  ]
+}

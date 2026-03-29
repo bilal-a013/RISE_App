@@ -1,0 +1,74 @@
+{
+  "topic": "Number (Higher)",
+  "subtopic": "Upper & Lower Bounds",
+  "lesson_type": "practise",
+  "recap": "Lower bound = value - half the rounding unit. Upper bound = value + half the rounding unit. For maximum/minimum calculations, choose bounds carefully based on the operation.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A length is measured as 8.5 cm to the nearest 0.1 cm. Write the lower and upper bounds.",
+      "solution": {
+        "steps": ["Half the rounding unit = 0.05. Lower bound = 8.45 cm. Upper bound = 8.55 cm."],
+        "final_answer": "Lower bound = 8.45 cm, Upper bound = 8.55 cm"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A mass is rounded to the nearest kg as 54 kg. Write the error interval using inequality notation.",
+      "solution": {
+        "steps": [
+          "Lower bound = 53.5 kg. Upper bound = 54.5 kg.",
+          "Error interval: 53.5 <= m < 54.5."
+        ],
+        "final_answer": "53.5 <= m < 54.5"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Distance d = 340 m (to the nearest 10 m). Time t = 12.5 s (to 1 d.p.). Find the maximum possible speed, Speed = d / t.",
+      "solution": {
+        "steps": [
+          "Upper bound of d = 345 m. Lower bound of t = 12.45 s.",
+          "Maximum speed = 345 / 12.45 ≈ 27.71 m/s."
+        ],
+        "final_answer": "Maximum speed ≈ 27.71 m/s"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Two lengths: a = 9.3 cm and b = 4.7 cm (both to 1 d.p.). Find the lower bound of a - b.",
+      "solution": {
+        "steps": [
+          "For minimum difference: lower bound of a minus upper bound of b.",
+          "Lower bound of a = 9.25. Upper bound of b = 4.75.",
+          "Minimum a - b = 9.25 - 4.75 = 4.5 cm."
+        ],
+        "final_answer": "Lower bound of a - b = 4.5 cm"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A number p = 6.4 (to 1 d.p.) and q = 2.0 (to 1 d.p.). Find the upper and lower bounds of p/q. Give answers to 3 significant figures.",
+      "solution": {
+        "steps": [
+          "Upper bound of p = 6.45. Lower bound of p = 6.35.",
+          "Upper bound of q = 2.05. Lower bound of q = 1.95.",
+          "Maximum p/q = 6.45 / 1.95 ≈ 3.31 (3 s.f.).",
+          "Minimum p/q = 6.35 / 2.05 ≈ 3.10 (3 s.f.)."
+        ],
+        "final_answer": "Upper bound ≈ 3.31, Lower bound ≈ 3.10"
+      }
+    }
+  },
+  "summary": [
+    "Bounds = value ± half the rounding unit. The true value includes the lower bound but excludes the upper bound.",
+    "For maximum sum or product: use upper bounds. For minimum: use lower bounds.",
+    "For maximum difference or quotient: use upper bound of numerator/minuend and lower bound of denominator/subtrahend.",
+    "Leave bounds as exact values — do not round them during calculations."
+  ]
+}

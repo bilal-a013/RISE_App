@@ -1,0 +1,76 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Linear & Quadratic Simultaneous Equations",
+  "lesson_type": "practise",
+  "recap": "Substitute the linear expression into the quadratic, rearrange to zero, solve the quadratic, then find both y values using the linear equation.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Write down the first step for solving y = 3x - 1 and y = x squared simultaneously.",
+      "solution": {
+        "steps": ["Set 3x - 1 = x squared, giving x squared - 3x + 1 = 0."],
+        "final_answer": "Substitute to get x squared - 3x + 1 = 0"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Solve simultaneously: y = x + 2 and y = x squared.",
+      "solution": {
+        "steps": [
+          "x squared = x + 2. x squared - x - 2 = 0. (x - 2)(x + 1) = 0. x = 2 or x = -1.",
+          "y = 4 when x = 2; y = 1 when x = -1."
+        ],
+        "final_answer": "(2, 4) and (-1, 1)"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Solve simultaneously: y = 2x + 3 and x squared + y squared = 18.",
+      "solution": {
+        "steps": [
+          "Substitute y = 2x + 3 into x squared + y squared = 18.",
+          "x squared + (2x + 3) squared = 18. x squared + 4x squared + 12x + 9 = 18.",
+          "5x squared + 12x - 9 = 0. (5x - 3)(x + 3) = 0. x = 3/5 or x = -3.",
+          "y = 2(3/5) + 3 = 21/5 when x = 3/5. y = 2(-3) + 3 = -3 when x = -3."
+        ],
+        "final_answer": "(3/5, 21/5) and (-3, -3)"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Solve simultaneously: x + y = 5 and y = x squared - 7.",
+      "solution": {
+        "steps": [
+          "From linear: y = 5 - x. Substitute: 5 - x = x squared - 7.",
+          "x squared + x - 12 = 0. (x + 4)(x - 3) = 0. x = -4 or x = 3.",
+          "y = 9 when x = -4. y = 2 when x = 3."
+        ],
+        "final_answer": "(-4, 9) and (3, 2)"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Solve simultaneously: y = 3x - 5 and y = x squared - 2x + 1. Give answers in surd form if needed.",
+      "solution": {
+        "steps": [
+          "Set equal: 3x - 5 = x squared - 2x + 1.",
+          "x squared - 5x + 6 = 0. (x - 2)(x - 3) = 0. x = 2 or x = 3.",
+          "For x = 2: y = 3(2) - 5 = 1. For x = 3: y = 3(3) - 5 = 4.",
+          "Solutions: (2, 1) and (3, 4)."
+        ],
+        "final_answer": "(2, 1) and (3, 4)"
+      }
+    }
+  },
+  "summary": [
+    "Substitute the linear equation into the quadratic, then rearrange to get a quadratic equal to zero.",
+    "Factorise or use the quadratic formula to find x values. Then substitute each back into the linear equation for y.",
+    "Always pair up your solutions — write both (x, y) coordinates clearly.",
+    "If the discriminant is zero, the line is tangent to the curve. If negative, there are no real intersections."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "Number (Higher)",
+  "subtopic": "Product Rule for Counting",
+  "lesson_type": "learn",
+  "intro": "The product rule for counting is a quick way to find the total number of possible combinations when making a series of independent choices. Instead of listing every possibility, you simply multiply the number of options at each step.",
+  "explanation": "The rule:\nIf there are m ways to make a first choice and n ways to make a second choice, there are m x n ways to make both choices together.\nThis extends to three or more stages: multiply all the options together.\n\nExample 1: A restaurant offers 4 starters, 6 mains and 3 desserts. How many different 3-course meals are possible?\n4 x 6 x 3 = 72 different meals.\n\nExample 2: A password has 3 letters followed by 2 digits. Each letter can be any of 26; each digit any of 10. How many passwords are possible?\n26 x 26 x 26 x 10 x 10 = 676000 passwords.\n\nWhen choices are dependent (without repetition):\nIf items cannot be repeated, the number of options decreases at each step.\nExample: How many ways can 3 books be arranged from 5 different books?\nFirst position: 5 choices. Second: 4 choices. Third: 3 choices.\n5 x 4 x 3 = 60 arrangements.\n\nThis type of calculation is called a permutation.\n\nWhenever options are equally likely, the product rule gives the total number of outcomes — useful as the denominator in probability calculations.",
+  "worked_example": {
+    "question": "A lock has 3 dials. Each dial can be set to any digit from 0 to 9. How many different 3-digit codes are possible? How many have no repeated digit?",
+    "steps": [
+      "With repetition: each dial has 10 options independently. Total = 10 x 10 x 10 = 1000 codes.",
+      "Without repetition: first dial: 10 options. Second: 9 (one digit used). Third: 8 (two digits used).",
+      "Total without repetition = 10 x 9 x 8 = 720 codes."
+    ],
+    "final_answer": "With repetition: 1000 codes. Without repetition: 720 codes."
+  },
+  "common_mistakes": [
+    "Adding the options instead of multiplying — when choices are independent at each stage, multiply the number of options at each stage.",
+    "Not adjusting for no-repetition — if items cannot be reused, reduce the count by 1 at each step.",
+    "Forgetting that the product rule only applies when choices are independent (or when the dependency is correctly accounted for)."
+  ]
+}

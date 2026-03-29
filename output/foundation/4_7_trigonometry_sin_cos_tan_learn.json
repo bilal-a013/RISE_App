@@ -1,0 +1,21 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Trigonometry (sin, cos, tan)",
+  "lesson_type": "learn",
+  "intro": "Trigonometry uses ratios of the sides of a right-angled triangle to find unknown sides and angles. The three main ratios — sine, cosine and tangent — apply to any right-angled triangle.",
+  "explanation": "Naming the sides:\nFor a given angle (not the right angle):\n- Hypotenuse (H): the longest side, opposite the right angle.\n- Opposite (O): the side directly across from the angle you are working with.\n- Adjacent (A): the side next to the angle you are working with (not the hypotenuse).\n\nThe three ratios (SOH CAH TOA):\nsin(angle) = Opposite / Hypotenuse\ncos(angle) = Adjacent / Hypotenuse\ntan(angle) = Opposite / Adjacent\n\nFinding a side (given the angle and one side):\n1. Label O, A, H relative to the angle.\n2. Choose the correct ratio.\n3. Rearrange and calculate.\nExample: angle = 35 degrees, H = 10 cm, find O.\nsin(35) = O / 10 → O = 10 x sin(35) ≈ 5.74 cm.\n\nFinding an angle (given two sides):\n1. Write the ratio.\n2. Use inverse function (sin to the power -1, cos to the power -1, or tan to the power -1).\nExample: O = 6, H = 10. sin(angle) = 6/10 = 0.6. Angle = sin to the power -1 (0.6) ≈ 36.9 degrees.\n\nAngles of elevation and depression:\n- Angle of elevation: angle measured upward from horizontal.\n- Angle of depression: angle measured downward from horizontal.",
+  "worked_example": {
+    "question": "In triangle ABC, angle B = 90 degrees, angle A = 28 degrees, and AB = 15 cm. Find BC.",
+    "steps": [
+      "Relative to angle A: AB is the Adjacent side, BC is the Opposite side.",
+      "Use tan: tan(28) = Opposite / Adjacent = BC / 15.",
+      "BC = 15 x tan(28) = 15 x 0.5317... ≈ 7.98 cm."
+    ],
+    "final_answer": "BC ≈ 7.98 cm"
+  },
+  "common_mistakes": [
+    "Mislabelling the opposite and adjacent sides — always identify the angle you are working with first, then label the sides relative to that angle.",
+    "Using the wrong trig ratio — use SOH CAH TOA to select: Opposite+Hypotenuse is Sine, Adjacent+Hypotenuse is Cosine, Opposite+Adjacent is Tangent.",
+    "Forgetting to use the inverse function when finding an angle — sin(x) = 0.6 requires x = sin to the power -1 (0.6), not x = sin(0.6)."
+  ]
+}

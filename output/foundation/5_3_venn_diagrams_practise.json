@@ -1,0 +1,77 @@
+{
+  "topic": "Probability",
+  "subtopic": "Venn Diagrams",
+  "lesson_type": "practise",
+  "recap": "Fill Venn diagrams starting from the intersection. Union = total in either or both. Intersection = in both. Always verify all entries sum to the total.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "In a Venn diagram, the intersection of sets A and B has 4 elements, only A has 7, only B has 5, and outside both is 3. How many elements are in the universal set?",
+      "solution": {
+        "steps": ["Total = 7 + 4 + 5 + 3 = 19."],
+        "final_answer": "19"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "In a group of 50 people: 30 drink tea, 20 drink coffee, 10 drink both. How many drink neither?",
+      "solution": {
+        "steps": [
+          "Only tea = 30 - 10 = 20. Only coffee = 20 - 10 = 10.",
+          "Total accounted for = 20 + 10 + 10 = 40.",
+          "Neither = 50 - 40 = 10."
+        ],
+        "final_answer": "10 people drink neither"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "In a class of 35: 20 play football (F), 18 play tennis (T), 8 play both. Draw and fill the Venn diagram, then find P(plays only football).",
+      "solution": {
+        "steps": [
+          "Only F = 20 - 8 = 12. Only T = 18 - 8 = 10. Both = 8.",
+          "Neither = 35 - 12 - 8 - 10 = 5.",
+          "P(only football) = 12/35."
+        ],
+        "final_answer": "P(only football) = 12/35"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Using the Venn diagram from Q3, find P(F union T) and P(F intersect T).",
+      "solution": {
+        "steps": [
+          "F union T includes only F, only T, and both: 12 + 10 + 8 = 30.",
+          "P(F union T) = 30/35 = 6/7.",
+          "F intersect T = 8 students. P(F intersect T) = 8/35."
+        ],
+        "final_answer": "P(F union T) = 6/7, P(F intersect T) = 8/35"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A survey of 60 students found: 35 study French (F), 28 study Spanish (S), and 12 study both. A student is chosen at random. Find P(studies French but not Spanish), P(studies exactly one language), and P(studies neither).",
+      "solution": {
+        "steps": [
+          "Only F = 35 - 12 = 23. Only S = 28 - 12 = 16. Both = 12.",
+          "Neither = 60 - 23 - 12 - 16 = 9.",
+          "P(only French) = 23/60.",
+          "P(exactly one language) = (23 + 16)/60 = 39/60 = 13/20.",
+          "P(neither) = 9/60 = 3/20."
+        ],
+        "final_answer": "P(only French) = 23/60, P(exactly one) = 13/20, P(neither) = 3/20"
+      }
+    }
+  },
+  "summary": [
+    "Complete the intersection (both) value first, then work outward to fill each region.",
+    "Check: all regions must sum to the total number of elements.",
+    "P(A union B) = total in A or B or both, divided by total elements.",
+    "P(A intersect B) = number in the intersection only, divided by total elements."
+  ]
+}

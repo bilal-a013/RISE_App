@@ -1,0 +1,75 @@
+{
+  "topic": "Probability",
+  "subtopic": "Tree Diagrams",
+  "lesson_type": "practise",
+  "recap": "Multiply along branches for combined outcomes. Add the probabilities of all relevant branches. Without replacement: adjust the denominator on the second set of branches.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A fair coin is flipped twice. Using a tree diagram, find P(two heads).",
+      "solution": {
+        "steps": ["P(H) = 1/2 each flip. P(H then H) = 1/2 x 1/2 = 1/4."],
+        "final_answer": "1/4"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "P(raining on any day) = 0.3. What is the probability it rains on both Saturday and Sunday?",
+      "solution": {
+        "steps": [
+          "Days are independent. P(rain Saturday) = 0.3, P(rain Sunday) = 0.3.",
+          "P(both) = 0.3 x 0.3 = 0.09."
+        ],
+        "final_answer": "0.09"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A bag contains 5 red and 3 blue balls. Two balls are drawn with replacement. Find P(at least one red).",
+      "solution": {
+        "steps": [
+          "P(R) = 5/8, P(B) = 3/8 each time.",
+          "P(no red) = P(B then B) = 3/8 x 3/8 = 9/64.",
+          "P(at least one red) = 1 - 9/64 = 55/64."
+        ],
+        "final_answer": "55/64"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "A bag contains 4 white and 2 black counters. Two counters are drawn without replacement. Find P(both the same colour).",
+      "solution": {
+        "steps": [
+          "P(W then W) = 4/6 x 3/5 = 12/30 = 2/5.",
+          "P(B then B) = 2/6 x 1/5 = 2/30 = 1/15.",
+          "P(same) = 2/5 + 1/15 = 6/15 + 1/15 = 7/15."
+        ],
+        "final_answer": "7/15"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A box has 3 vanilla and 4 chocolate biscuits. Two biscuits are taken without replacement. Given that the first biscuit is vanilla, find the probability that the second is also vanilla. Then find the overall probability that both biscuits are vanilla.",
+      "solution": {
+        "steps": [
+          "After taking one vanilla, there are 2 vanilla and 4 chocolate left (6 total).",
+          "P(second vanilla | first vanilla) = 2/6 = 1/3.",
+          "P(first vanilla) = 3/7.",
+          "P(both vanilla) = 3/7 x 2/6 = 6/42 = 1/7."
+        ],
+        "final_answer": "P(second vanilla | first vanilla) = 1/3. P(both vanilla) = 1/7"
+      }
+    }
+  },
+  "summary": [
+    "Multiply probabilities along branches for combined outcomes (AND).",
+    "Add probabilities from separate branches for alternative outcomes (OR).",
+    "Without replacement: reduce the total by 1 and the relevant type by 1 after the first selection.",
+    "Check: all end-branch probabilities should sum to 1."
+  ]
+}

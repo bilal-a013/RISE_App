@@ -1,0 +1,75 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Composite & Inverse Functions",
+  "lesson_type": "practise",
+  "recap": "fg(x) means apply g first then f. The inverse function f inverse reverses f; find it by writing y = f(x) and rearranging to make x the subject.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "f(x) = x + 5 and g(x) = 2x. Find fg(3).",
+      "solution": {
+        "steps": ["g(3) = 6. f(6) = 6 + 5 = 11."],
+        "final_answer": "fg(3) = 11"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "f(x) = 5x - 2. Find f inverse(x).",
+      "solution": {
+        "steps": [
+          "Write y = 5x - 2. Add 2: y + 2 = 5x.",
+          "Divide by 5: x = (y + 2) / 5. So f inverse(x) = (x + 2) / 5."
+        ],
+        "final_answer": "f inverse(x) = (x + 2) / 5"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "f(x) = 2x + 1 and g(x) = x squared. Find gf(x) and simplify.",
+      "solution": {
+        "steps": [
+          "gf(x) means apply f first: f(x) = 2x + 1.",
+          "Now apply g: g(2x + 1) = (2x + 1) squared.",
+          "(2x + 1) squared = 4x squared + 4x + 1."
+        ],
+        "final_answer": "gf(x) = 4x squared + 4x + 1"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "f(x) = (x + 4) / 3. Find f inverse(x) and then find f inverse(7).",
+      "solution": {
+        "steps": [
+          "Write y = (x + 4) / 3. Multiply both sides by 3: 3y = x + 4.",
+          "Subtract 4: x = 3y - 4. So f inverse(x) = 3x - 4.",
+          "f inverse(7) = 3(7) - 4 = 21 - 4 = 17."
+        ],
+        "final_answer": "f inverse(x) = 3x - 4; f inverse(7) = 17"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "f(x) = 3x - 1 and g(x) = x squared + 2. Find fg(x) and solve fg(x) = 29.",
+      "solution": {
+        "steps": [
+          "fg(x): apply g first: g(x) = x squared + 2.",
+          "Apply f: f(x squared + 2) = 3(x squared + 2) - 1 = 3x squared + 6 - 1 = 3x squared + 5.",
+          "Solve 3x squared + 5 = 29: 3x squared = 24, x squared = 8.",
+          "x = square root of 8 = 2 root 2 (or x = plus or minus 2 root 2)."
+        ],
+        "final_answer": "fg(x) = 3x squared + 5; x = plus or minus 2 root 2"
+      }
+    }
+  },
+  "summary": [
+    "fg(x) means do g first, then f. The order matters — fg(x) and gf(x) are usually different.",
+    "To find an inverse: write y = f(x), rearrange to make x the subject, then replace y with x.",
+    "Always verify your inverse by checking f(f inverse(x)) = x.",
+    "Composite functions can be simplified by substituting and expanding — treat them like any algebraic expression."
+  ]
+}

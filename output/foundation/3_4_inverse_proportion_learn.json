@@ -1,0 +1,22 @@
+{
+  "topic": "Ratio & Proportion",
+  "subtopic": "Inverse Proportion",
+  "lesson_type": "learn",
+  "intro": "Two quantities are in inverse proportion when one increases as the other decreases at the same rate. More workers means less time to complete a job — a classic example of inverse proportion.",
+  "explanation": "Recognising inverse proportion:\nIf y is inversely proportional to x, then y x x = constant.\nAs x doubles, y halves.\nThe graph of y against x is a reciprocal curve (like y = k/x).\n\nWriting the equation:\ny is inversely proportional to x: y = k/x.\ny is inversely proportional to x squared: y = k/x squared.\n\nFinding k:\nUse a known pair of values: substitute and solve for k.\nExample: y = 6 when x = 4. k = y x x = 6 x 4 = 24. So y = 24/x.\n\nUsing the equation:\nOnce k is found, substitute x to find y, or substitute y to find x.\nExample (from above): Find y when x = 8. y = 24/8 = 3.\n\nComparing direct and inverse:\n- Direct: as x increases, y increases. y = kx. Graph is a straight line through origin.\n- Inverse: as x increases, y decreases. y = k/x. Graph is a reciprocal curve.",
+  "worked_example": {
+    "question": "y is inversely proportional to x squared. When x = 3, y = 4. Find y when x = 6, and find x when y = 1.",
+    "steps": [
+      "Write equation: y = k / x squared.",
+      "Find k: 4 = k / 9 → k = 36. So y = 36 / x squared.",
+      "When x = 6: y = 36 / 36 = 1.",
+      "When y = 1: 1 = 36 / x squared → x squared = 36 → x = 6."
+    ],
+    "final_answer": "y = 1 when x = 6; x = 6 when y = 1"
+  },
+  "common_mistakes": [
+    "Writing y = kx for inverse proportion instead of y = k/x — check whether quantities increase or decrease together before writing the equation.",
+    "Forgetting the graph of inverse proportion is a curve, not a straight line.",
+    "Calculating k as y/x instead of y x x for inverse proportion — always form the equation first, then substitute to find k."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Linear Inequalities",
+  "lesson_type": "learn",
+  "intro": "An inequality shows a range of values rather than one exact value. Solving a linear inequality follows the same steps as solving an equation, with one important exception.",
+  "explanation": "Inequality symbols:\n > means greater than\n < means less than\n >= means greater than or equal to\n <= means less than or equal to\n\nSolving a linear inequality:\nTreat it like an equation — add, subtract, multiply or divide both sides by the same amount.\n\nKey rule: if you multiply or divide both sides by a negative number, flip (reverse) the inequality sign.\n\nExample: 3x + 2 > 11 → subtract 2 → 3x > 9 → divide by 3 → x > 3.\nExample: -2x < 10 → divide by -2 (flip sign) → x > -5.\n\nDouble inequalities:\nSolve on both sides simultaneously.\nExample: 2 < 3x - 1 <= 14.\nAdd 1 throughout: 3 < 3x <= 15.\nDivide by 3: 1 < x <= 5.\n\nShowing inequalities on a number line:\n- Open circle (o) for strict inequalities (> or <).\n- Filled circle for (>= or <=).\n- Arrow shows the direction of the solution.\n\nInteger solutions:\nList all integers satisfying an inequality.\nFor -1 < x <= 4, the integers are: 0, 1, 2, 3, 4.",
+  "worked_example": {
+    "question": "Solve and show on a number line: (a) 2x - 5 >= 3   (b) -1 <= 2x + 3 < 9",
+    "steps": [
+      "Part (a): Add 5 to both sides: 2x >= 8.",
+      "Divide by 2: x >= 4.",
+      "On a number line: filled circle at 4, arrow pointing right.",
+      "Part (b): Subtract 3 throughout: -4 <= 2x < 6.",
+      "Divide by 2: -2 <= x < 3.",
+      "On a number line: filled circle at -2, open circle at 3, line between them."
+    ],
+    "final_answer": "(a) x >= 4   (b) -2 <= x < 3"
+  },
+  "common_mistakes": [
+    "Forgetting to flip the inequality sign when multiplying or dividing by a negative number — this is the most common error.",
+    "Using the wrong circle type on a number line — open circle for strict inequalities (<, >), filled circle for <= or >=.",
+    "Including non-integers when asked for integer solutions — read the question carefully."
+  ]
+}

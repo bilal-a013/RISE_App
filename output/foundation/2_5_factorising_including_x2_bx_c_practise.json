@@ -1,0 +1,75 @@
+{
+  "topic": "Algebra",
+  "subtopic": "Factorising (including x squared + bx + c)",
+  "lesson_type": "practise",
+  "recap": "Factorising reverses expanding — find two numbers that multiply to c and add to b for x squared + bx + c, or take out the HCF for simpler expressions.",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "Factorise: 8x + 12.",
+      "solution": {
+        "steps": ["HCF of 8 and 12 is 4. 8x / 4 = 2x. 12 / 4 = 3."],
+        "final_answer": "4(2x + 3)"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Factorise fully: 6x squared + 9x.",
+      "solution": {
+        "steps": [
+          "HCF of 6x squared and 9x is 3x.",
+          "6x squared / 3x = 2x. 9x / 3x = 3."
+        ],
+        "final_answer": "3x(2x + 3)"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Factorise: x squared + 9x + 20.",
+      "solution": {
+        "steps": [
+          "Need two numbers that multiply to 20 and add to 9.",
+          "4 x 5 = 20 and 4 + 5 = 9. Correct pair: 4 and 5.",
+          "Factorise: (x + 4)(x + 5)."
+        ],
+        "final_answer": "(x + 4)(x + 5)"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Factorise: x squared - 4x - 21.",
+      "solution": {
+        "steps": [
+          "Need two numbers that multiply to -21 and add to -4.",
+          "-7 x 3 = -21 and -7 + 3 = -4. Correct pair: -7 and 3.",
+          "Factorise: (x - 7)(x + 3)."
+        ],
+        "final_answer": "(x - 7)(x + 3)"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "Factorise fully: (a) x squared - 64   (b) 3x squared - 27.",
+      "solution": {
+        "steps": [
+          "Part (a): Difference of two squares. x squared - 64 = x squared - 8 squared.",
+          "Answer: (x + 8)(x - 8).",
+          "Part (b): First take out HCF: 3x squared - 27 = 3(x squared - 9).",
+          "Then apply difference of two squares: 3(x + 3)(x - 3)."
+        ],
+        "final_answer": "(a) (x + 8)(x - 8)   (b) 3(x + 3)(x - 3)"
+      }
+    }
+  },
+  "summary": [
+    "Always look for a common factor first when factorising any expression.",
+    "For x squared + bx + c, find two numbers with product c and sum b.",
+    "Use the difference of two squares rule: a squared - b squared = (a + b)(a - b).",
+    "Check your factorisation by expanding the brackets to confirm you get the original expression."
+  ]
+}

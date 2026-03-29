@@ -1,0 +1,74 @@
+{
+  "topic": "Probability",
+  "subtopic": "Combined Events",
+  "lesson_type": "practise",
+  "recap": "For independent events: P(A and B) = P(A) x P(B). List all outcomes in a sample space diagram. For P(A or B): P(A) + P(B) - P(A and B).",
+  "questions": {
+    "Q1": {
+      "difficulty": "easy",
+      "marks": 1,
+      "question": "A fair coin is flipped and a fair dice is rolled. How many outcomes are in the sample space?",
+      "solution": {
+        "steps": ["2 coin outcomes x 6 dice outcomes = 12 total outcomes."],
+        "final_answer": "12"
+      }
+    },
+    "Q2": {
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A fair coin is flipped twice. List all outcomes and find P(exactly one tail).",
+      "solution": {
+        "steps": [
+          "Sample space: HH, HT, TH, TT — 4 outcomes.",
+          "Exactly one tail: HT, TH — 2 outcomes. P = 2/4 = 1/2."
+        ],
+        "final_answer": "P(exactly one tail) = 1/2"
+      }
+    },
+    "Q3": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "Two fair dice are rolled. Find P(product is greater than 20).",
+      "solution": {
+        "steps": [
+          "Total outcomes = 36.",
+          "Products > 20: 4x6=24, 5x5=25, 5x6=30, 6x4=24, 6x5=30, 6x6=36. That is 6 outcomes.",
+          "P = 6/36 = 1/6."
+        ],
+        "final_answer": "1/6"
+      }
+    },
+    "Q4": {
+      "difficulty": "medium",
+      "marks": 3,
+      "question": "P(A) = 0.4, P(B) = 0.5, and A and B are independent. Find P(A and B) and P(A or B).",
+      "solution": {
+        "steps": [
+          "P(A and B) = P(A) x P(B) = 0.4 x 0.5 = 0.2.",
+          "P(A or B) = P(A) + P(B) - P(A and B) = 0.4 + 0.5 - 0.2 = 0.7."
+        ],
+        "final_answer": "P(A and B) = 0.2, P(A or B) = 0.7"
+      }
+    },
+    "Q5": {
+      "difficulty": "hard",
+      "marks": 4,
+      "question": "A spinner with sections 1, 2, 3, 4 (equally likely) is spun twice. Find P(first spin shows an even number AND second spin shows a number greater than 2).",
+      "solution": {
+        "steps": [
+          "P(first is even) = P(2 or 4) = 2/4 = 1/2.",
+          "P(second > 2) = P(3 or 4) = 2/4 = 1/2.",
+          "Events are independent (different spins).",
+          "P(both) = 1/2 x 1/2 = 1/4."
+        ],
+        "final_answer": "1/4"
+      }
+    }
+  },
+  "summary": [
+    "Draw a sample space diagram (table) to list all outcomes for two events.",
+    "For independent events: P(A and B) = P(A) x P(B).",
+    "P(A or B) = P(A) + P(B) - P(A and B) to avoid double-counting overlapping outcomes.",
+    "Count total outcomes first before calculating any probabilities from a sample space."
+  ]
+}

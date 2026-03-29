@@ -1,0 +1,22 @@
+{
+  "topic": "Geometry & Measures",
+  "subtopic": "Properties of 2D Shapes",
+  "lesson_type": "learn",
+  "intro": "Knowing the properties of 2D shapes lets you solve angle, symmetry and area problems efficiently. Each type of triangle and quadrilateral has its own set of properties to learn.",
+  "explanation": "Triangles:\n- Equilateral: all sides equal, all angles 60 degrees, 3 lines of symmetry.\n- Isosceles: 2 equal sides, 2 equal base angles, 1 line of symmetry.\n- Scalene: no equal sides or angles, no lines of symmetry.\n- Right-angled: one angle of 90 degrees.\n\nQuadrilaterals:\n- Square: 4 equal sides, 4 right angles, 4 lines of symmetry, rotational symmetry order 4.\n- Rectangle: opposite sides equal, 4 right angles, 2 lines of symmetry, rotational symmetry order 2.\n- Parallelogram: opposite sides equal and parallel, opposite angles equal, rotational symmetry order 2, no lines of symmetry.\n- Rhombus: 4 equal sides, opposite angles equal, diagonals bisect at right angles, 2 lines of symmetry.\n- Trapezium: one pair of parallel sides.\n- Kite: 2 pairs of adjacent equal sides, 1 line of symmetry, one pair of equal opposite angles.\n\nCircles:\n- Radius: centre to edge.\n- Diameter: across the full circle (= 2 x radius).\n- Circumference: perimeter of a circle.\n- Chord: a straight line from one point on the circumference to another.\n- Arc: part of the circumference.\n- Sector: a pie-slice region.\n- Tangent: a line that touches the circle at exactly one point.",
+  "worked_example": {
+    "question": "ABCD is a parallelogram. Angle A = 72 degrees. Find angles B, C and D.",
+    "steps": [
+      "In a parallelogram, co-interior angles between parallel sides are supplementary (add to 180).",
+      "Angle B = 180 - 72 = 108 degrees.",
+      "Opposite angles in a parallelogram are equal.",
+      "Angle C = Angle A = 72 degrees. Angle D = Angle B = 108 degrees."
+    ],
+    "final_answer": "A = 72 degrees, B = 108 degrees, C = 72 degrees, D = 108 degrees"
+  },
+  "common_mistakes": [
+    "Confusing a rhombus and a square — a rhombus has equal sides but angles are not necessarily 90 degrees.",
+    "Assuming isosceles triangle has a right angle — it does not unless stated; it just has two equal sides and base angles.",
+    "Mixing up rotational and line symmetry — a parallelogram has rotational symmetry of order 2 but no lines of symmetry."
+  ]
+}

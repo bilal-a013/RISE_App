@@ -1,0 +1,24 @@
+{
+  "topic": "Algebra (Higher)",
+  "subtopic": "Factorising ax squared + bx + c",
+  "lesson_type": "learn",
+  "intro": "When the coefficient of x squared is greater than 1, factorising requires more careful work. This lesson covers factorising expressions of the form ax squared + bx + c where a is not equal to 1.",
+  "explanation": "To factorise ax squared + bx + c, use the method of splitting the middle term.\n\nStep 1: Find the product ac.\nStep 2: Find two numbers that multiply to give ac and add to give b.\nStep 3: Rewrite the middle term (bx) using those two numbers.\nStep 4: Factorise by grouping.\n\nExample outline: Factorise 6x squared + 11x + 4.\nac = 6 x 4 = 24. Find two numbers that multiply to 24 and add to 11: those are 3 and 8.\nRewrite: 6x squared + 3x + 8x + 4.\nGroup: 3x(2x + 1) + 4(2x + 1).\nFactorise: (3x + 4)(2x + 1).\n\nYou can also use inspection (try factor pairs that give the right answer). This gets faster with practice.\n\nAlways check your answer by expanding. For (3x + 4)(2x + 1): 6x squared + 3x + 8x + 4 = 6x squared + 11x + 4. Correct.\n\nIf there is a common factor, take it out first before factorising. For example, 4x squared + 8x + 4 = 4(x squared + 2x + 1) = 4(x + 1) squared.",
+  "worked_example": {
+    "question": "Factorise 2x squared + 7x + 3.",
+    "steps": [
+      "Find ac: 2 x 3 = 6.",
+      "Find two numbers that multiply to 6 and add to 7: those are 1 and 6.",
+      "Rewrite: 2x squared + 1x + 6x + 3.",
+      "Group: x(2x + 1) + 3(2x + 1).",
+      "Factorise: (x + 3)(2x + 1).",
+      "Check by expanding: 2x squared + x + 6x + 3 = 2x squared + 7x + 3. Correct."
+    ],
+    "final_answer": "(x + 3)(2x + 1)"
+  },
+  "common_mistakes": [
+    "Forgetting to check your factorisation by expanding — always multiply out to verify.",
+    "Not taking out a common factor first, which makes the remaining expression harder to factorise.",
+    "Mixing up signs: when the constant term is negative, one bracket must have a minus sign — be systematic about checking which combination works."
+  ]
+}

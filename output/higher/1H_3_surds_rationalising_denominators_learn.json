@@ -1,0 +1,22 @@
+{
+  "topic": "Number (Higher)",
+  "subtopic": "Surds & Rationalising Denominators",
+  "lesson_type": "learn",
+  "intro": "Surds are square roots (or other roots) that cannot be simplified to a rational number. They appear in exact answers for many geometry and algebra problems at higher GCSE.",
+  "explanation": "Simplifying surds:\nFind the largest perfect-square factor.\nExample: square root of 48 = square root of (16 x 3) = 4 x square root of 3.\nExample: square root of 75 = square root of (25 x 3) = 5 x square root of 3.\n\nAdding and subtracting surds:\nOnly combine like surds (same root expression).\n3 x square root of 2 + 5 x square root of 2 = 8 x square root of 2.\n3 x square root of 2 + square root of 3 cannot be simplified.\n\nMultiplying surds:\nsquare root of a x square root of b = square root of (ab).\nExample: square root of 3 x square root of 12 = square root of 36 = 6.\n(a + square root of b)(a - square root of b) = a squared - b (difference of squares — the result is rational).\n\nRationalising the denominator:\nA fraction with a surd in the denominator is not in its simplest form. To rationalise:\n- For 1 / square root of a: multiply top and bottom by square root of a.\n  1 / square root of 5 = square root of 5 / 5.\n\n- For 1 / (a + square root of b): multiply top and bottom by the conjugate (a - square root of b).\n  1 / (3 + square root of 2) = (3 - square root of 2) / ((3 + square root of 2)(3 - square root of 2)) = (3 - square root of 2) / (9 - 2) = (3 - square root of 2) / 7.",
+  "worked_example": {
+    "question": "Simplify: (a) square root of 72 + square root of 50   (b) Rationalise the denominator of 6 / (2 + square root of 2)",
+    "steps": [
+      "Part (a): square root of 72 = square root of (36 x 2) = 6 x square root of 2. square root of 50 = square root of (25 x 2) = 5 x square root of 2.",
+      "Sum = 6 x square root of 2 + 5 x square root of 2 = 11 x square root of 2.",
+      "Part (b): Conjugate of (2 + square root of 2) is (2 - square root of 2).",
+      "6 / (2 + square root of 2) x (2 - square root of 2) / (2 - square root of 2) = 6(2 - square root of 2) / (4 - 2) = 6(2 - square root of 2) / 2 = 3(2 - square root of 2) = 6 - 3 x square root of 2."
+    ],
+    "final_answer": "(a) 11 root 2   (b) 6 - 3 root 2"
+  },
+  "common_mistakes": [
+    "Writing square root of (a + b) as square root of a + square root of b — this is incorrect; surds do not distribute over addition.",
+    "Not fully simplifying before adding surds — make sure each surd is in its simplest form first.",
+    "Using the wrong conjugate — to rationalise (a + square root of b), multiply by (a - square root of b), not (-a + square root of b)."
+  ]
+}
